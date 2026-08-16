@@ -1,0 +1,300 @@
+<style>
+/* ===== Modern Placement Page Design =====
+   Background colours are intentionally NOT applied to the page/body.
+   Existing commented HTML has been preserved.
+*/
+#local-doc-table,
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 0 18px;
+}
+
+h4 {
+    position: relative;
+    margin: 38px 0 18px;
+    padding: 0 0 10px 14px;
+    color: #083761;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    border-left: 4px solid #38b247;
+}
+
+#local-doc-table {
+    margin-bottom: 35px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 14px rgba(0,0,0,.08);
+}
+
+.table-responsive table,
+body > table,
+.container table {
+    width: 100% !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+th {
+    padding: 16px 14px !important;
+    text-align: center !important;
+    vertical-align: middle;
+    font-weight: 700;
+    background-color: #fff !important;
+    color: #083761 !important;
+    font-size: 17px !important;
+    border: 1px solid #dfe6eb !important;
+}
+
+td {
+    padding: 13px 14px !important;
+    text-align: center !important;
+    vertical-align: middle;
+    font-weight: 500 !important;
+    background-color: #fff !important;
+    color: #333 !important;
+    font-size: 16px !important;
+    border: 1px solid #e4e9ed !important;
+    transition: all .2s ease;
+}
+
+tr:hover td {
+    color: #083761 !important;
+    box-shadow: inset 0 0 0 999px rgba(56,178,71,.035);
+}
+
+p[align="center"] {
+    max-width: 1200px;
+    margin: 10px auto 20px;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.card {
+    border-radius: 12px !important;
+    border: 1px solid #e3e8ec;
+    box-shadow: 0 4px 16px rgba(0,0,0,.07) !important;
+    overflow: hidden;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0,0,0,.11) !important;
+}
+
+.custom-card-head {
+    padding: 18px 22px 5px !important;
+}
+
+.card-title {
+    color: #083761 !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+}
+
+.card-content {
+    padding: 12px 22px 20px !important;
+}
+
+.recruiterLogo {
+    max-height: 85px !important;
+    max-width: 150px;
+    padding: 12px !important;
+    object-fit: contain;
+}
+
+.chip {
+    color: #083761 !important;
+    font-size: 15px !important;
+    height: auto !important;
+    padding: 9px 14px !important;
+    margin: 5px 0 !important;
+    border: 1px solid #dce5eb;
+    border-radius: 20px;
+}
+
+.chip a {
+    color: #083761 !important;
+    font-weight: 600;
+}
+
+.material-icons {
+    float: left;
+    padding-right: 5px;
+    font-size: 21px !important;
+    line-height: 25px !important;
+}
+
+.para {
+    margin: 7px 0 !important;
+    line-height: 1.55;
+}
+
+@media (max-width: 767px) {
+    h4 {
+        font-size: 21px;
+        margin-top: 28px;
+    }
+
+    th {
+        font-size: 15px !important;
+        padding: 12px 10px !important;
+    }
+
+    td {
+        font-size: 14px !important;
+        padding: 11px 10px !important;
+    }
+
+    .table-responsive table {
+        min-width: 650px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}
+</style>
+
+<style>
+    .recruiterLogo{max-height:100px;padding:10px;}
+    .custom-card-head{padding:15px 24px 0 24px;}
+    .card{border-radius:4px}
+    .chip{color:rgb(8, 55, 97);font-size:16px;height:50px;padding:10px 20px 10px 0;margin:0 10px 0 0;background:transparent}
+    .material-icons{float:left; padding-right:4px; font-size: 24px;line-height: 32px;}
+</style>
+<div id="topControl"></div>
+<br>
+
+
+<style type="text/css">table, th, td {
+
+
+border: 1px solid #ddd;
+border-collapse: collapse;
+}
+th {
+text-align: center;
+}
+th {
+text-align: left;justify;
+text-align: center;
+font-weight: bold;
+background-color:#FFFFFF;
+color: rgb(56,178,71);
+font-size: 22px;
+/*font-weight: bold;*/
+}
+
+td {
+text-align: left;justify;
+text-align: center;
+font-weight: bold;
+background-color:#FFFFFF;
+color: black;
+font-size: 19px;
+/*font-weight: bold;*/
+}
+.css-serial {
+counter-reset: serial-number; /* Set the serial number counter to 0 */
+}
+.css-serial td:first-child:before {
+counter-increment: serial-number; /* Increment the serial number counter */
+content: counter(serial-number); /* Display the counter */
+}
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 15px;
+}
+
+.table-responsive table {
+    min-width: 700px;   /* Adjust according to your table width */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .table-responsive table {
+        min-width: 100%;
+    }
+}
+</style>
+<p align="center">* Source of Information:-As informed by IIIT Kottayam students placement committee</p>
+<div id="local-doc-table">
+<div class="table-responsive">
+<table align="center" style="width: 80%;">
+  <tr>
+    
+    <th>IIITKottayam Placements 2021-22</th>
+    <th>IIITKottayam Placements 2022-23<br><small>(as on 08-03-2023)</small></th>
+    <th>IIITKottayam Placements 2023-24</th>
+    <th>IIITKottayam Placements 2024-25</th>
+    <th>IIITKottayam Placements 2025-26</th>
+  </tr>
+  
+
+    <tr>
+      
+      <td>Highest CTC-42 LPA</td>
+      <td>Highest CTC-58.93 LPA</td>
+      <td>Highest CTC-45 LPA</td>
+      <td>Highest CTC-50 LPA</td>
+      <td>Highest CTC-60 LPA</td>
+      </tr>
+      <tr>
+        
+        <td>Average-10.45 LPA</td>
+        <td>Average-14.32 LPA</td>
+        <td>Average-12.70 LPA</td>
+        <td>Average-11.91 LPA</td>
+        <td>Average-14.32 LPA</td>
+      </tr>
+      <tr>
+        
+        <td>Individual Placements- 67</td>
+        <td>Individual Placements- 84</td>
+        <td>Individual Placements- 128</td>
+        <td>Individual Placements- 178</td>
+        <td>Individual Placements- 250</td>
+      </tr>
+      <tr>
+        
+        <td>No.of Offers-212</td>
+        <td>No.of Offers-144</td>
+        <td>No.of Offers-171</td>
+        <td>No.of Offers-219</td>
+        <td>No.of Offers-297</td>
+      </tr>
+
+  </table>
+    </div></div>
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h4>Our Internship Sponsors/Recruiters</h4>
+        </div>

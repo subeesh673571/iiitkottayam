@@ -1,0 +1,323 @@
+{
+  "$schema": "./_schema/technical.json",
+  "_help": [
+    "Staff listing for the technical page.",
+    "Each person: name, designation, optional area (research interests),",
+    "contact (email/phone/room) and photo (file name under /data/images/)."
+  ],
+  "items": [
+    {
+      "name": "Mr. Siju K. S.",
+      "photo": "siju.jpg",
+      "designation": [
+        "Technical Officer",
+        ""
+      ],
+      "contact": {
+        "email": "sijuks at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202121"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Jithin K C",
+      "photo": "jithin.jpg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "jithin at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202113"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Titus J Sam",
+      "photo": "titusjsam.jpeg",
+      "designation": [
+        "Sr. Computer Programmer"
+      ],
+      "contact": {
+        "email": "titusjsam at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202252"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Anjaly Subash",
+      "photo": "anjaly.jpeg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "anjalysubash at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202114 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Vinaya Balakrishnan",
+      "photo": "vinayab.jpg",
+      "designation": [
+        "Junior Technician(Electronics)"
+      ],
+      "contact": {
+        "email": "vinayab at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202345 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Drishya Prasad",
+      "photo": "drishya.jpg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "drishyaprasad at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202115 "
+        ]
+      }
+    },
+    {
+      "name": "Mr. Srutheesh B",
+      "photo": "srutheesh.jpeg",
+      "designation": [
+        "Junior Engineer(Electrical)"
+      ],
+      "contact": {
+        "email": "je at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202108 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Rosamma Varkey",
+      "photo": "rosamma.jpeg",
+      "designation": [
+        "Technical Assistant"
+      ],
+      "contact": {
+        "email": "rosamma at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202120"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Manisha A.M.",
+      "photo": "manisha.jpg",
+      "designation": [
+        "Technical Assistant"
+      ],
+      "contact": {
+        "email": "manisha at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202149"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Rejitha R.S",
+      "photo": "rejitha.jpg",
+      "designation": [
+        "Technical Assistant"
+      ],
+      "contact": {
+        "email": "academics2 at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202137"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Anju S",
+      "photo": "anjus.jpeg",
+      "designation": [
+        "Technical Assistant"
+      ],
+      "contact": {
+        "email": "anjus at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202117"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Bijo Baby",
+      "photo": "bijobaby.jpeg",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "bijobaby at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202113"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Praveenkumar K.P",
+      "photo": "praveen.JPG",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "praveenkumar at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Sumesh C",
+      "photo": "sumesh.jpg",
+      "designation": [
+        "MTS"
+      ],
+      "contact": {
+        "email": "sumesh at iiitkottayam dot ac.in",
+        "phone": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "Ms. Lekshmi M Nair",
+      "photo": "LekshmiMNair.jpeg",
+      "designation": [
+        "Junior Technical Superintendent(ECE)"
+      ],
+      "contact": {
+        "email": "lekshmimnair at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202346"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Shanaf P M",
+      "photo": "shanaf.jpg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "shanaf at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Afsar V P",
+      "photo": "afsar.jpg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "afsar at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Deepu S R",
+      "photo": "deepu.jpeg",
+      "designation": [
+        "Junior Technician"
+      ],
+      "contact": {
+        "email": "deepu at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Robin Philip",
+      "photo": "robinphilip.jpeg",
+      "designation": [
+        "MTS"
+      ],
+      "contact": {
+        "email": "robinphilip at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202112"
+        ]
+      }
+    },
+    {
+      "name": "Mr.Praveen L V",
+      "photo": "praveen L V.jpeg",
+      "designation": [
+        "MTS"
+      ],
+      "contact": {
+        "email": "",
+        "phone": [
+          "+91 0482-2202265"
+        ]
+      }
+    },
+    {
+      "name": "Mr.Sreehari P",
+      "photo": "sreehari p.jpeg",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "sreehari at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202345"
+        ]
+      }
+    },
+    {
+      "name": "Ms.Dihna Sayim Faslal",
+      "photo": "default.jpg",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "dihna at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr.Adarsh M T",
+      "photo": "Adarsh M T.jpeg",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "adarshmt at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    },
+    {
+      "name": "Mr.AJAY KUMAR V .R.",
+      "photo": "ajaykumar.jpeg",
+      "designation": [
+        "Technician"
+      ],
+      "contact": {
+        "email": "ajaykumar at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202116"
+        ]
+      }
+    }
+  ]
+}

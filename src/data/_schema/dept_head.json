@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/dept_head.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "h5": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name, as it should appear on the card."
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": "string",
+                "description": "Written as \"name at iiitkottayam dot ac.in\" so spam robots cannot collect it."
+              },
+              "room": {
+                "type": "string",
+                "description": "Room number, e.g. AC 301."
+              },
+              "phone": {
+                "type": "string",
+                "description": "One number, or a list of them."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Phone, room and email shown at the bottom of the card."
+          },
+          "photo": {
+            "type": "string",
+            "description": "Portrait file name, uploaded to public/data/images/."
+          },
+          "more": {
+            "type": "object",
+            "properties": {},
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

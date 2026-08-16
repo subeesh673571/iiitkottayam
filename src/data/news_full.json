@@ -1,0 +1,2110 @@
+{
+  "$schema": "./_schema/news_full.json",
+  "_help": [
+    "Source: the \"news\" list on the old news page."
+  ],
+  "items": [
+    {
+      "title": " Updates of Staff Recruitment  against Advt. No. IIITK/01/12/2025/2323  Dtd : November 21, 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/recruitment_staff_2025"
+        }
+      ]
+    },
+    {
+      "title": " List of candidates provisionally selected for the Ph.D. admission August 2026",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/August 2026_Results for Publication.pdf"
+        }
+      ]
+    },
+    {
+      "title": " List of Candidates Selected for the post of Junior Research Fellow -ANRF",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/ANRF_Selection list_website.pdf"
+        }
+      ]
+    },
+    {
+      "title": " List of provisionally selected candidates for e-M.Tech August 2026 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/recommendationList_to_publish (1).pdf"
+        }
+      ]
+    },
+    {
+      "title": " Notice: Recruitment of Non-Teaching Staff against Institute Advertisement No.IIITK/01/12/2025/2323 dated 21.11.2025.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/NOTICE-Website.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Fee Notification, ODD Semester 2026( July to Dec 2026 )",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice Odd Sem 2026-27 signed final.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for the Post of Project Research Scientist-I (Non-Medical) in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Project-Research Scientist -IIITK-Dr. Ebin.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice inviting offers for hiring of buildings for IIIT K",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Notice inviting offers for hiring of buildings.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Upcoming FDP/Workshop",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/fdp"
+        }
+      ]
+    },
+    {
+      "title": "Shortlisted candidates of Ph.D. August 2026 for Interview",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Ph.D._Admission_August_2026_Shortlisted_Interview_Website.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of provisionally selected candidates for admission test - e-M.Tech August 2026 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Provisional_SelectionList-Aug_2026_Phase_I.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for the Post of a Junior Research Fellow in Sponsored Project(BEL-Bangalore)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Manpower-BEL-24.4.2026.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for the Post of a Junior Research Fellow in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-application-JRF-ANRF-Dr. Dhakshayani.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Shortlisted candidates of Ph.D. August 2026 written test",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Website Shortlisted Candidate Ph.D. August 2026_4.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of Candidates PROVISIONALLY SELECTED for appointment - Assistant Professor Gr. II (CSE/IT)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-Final-Selected-AP-2-CSE-IT.pdf"
+        }
+      ]
+    },
+    {
+      "title": "THE 7th INTERNATIONAL CONFERENCE ON INNOVATIVE TRENDS IN INFORMATION TECHNOLOGY (ICITIIT’26)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://icitiit26.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "International Workshop on Artificial Intelligence and High-Performance Computing Solutions for Climate Resilience and Coastal Sustainability",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/WORKSHOP BROCHURE (2).pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for Even Semester (UG)2025-26",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice EVEN SEM 2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for Faculty Recruitment (Assistant Professor Gr-II)  Advt. No. IIITK/01/12/2025/2324  Dated 21.11.2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://recruitf.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Recruitment Notification for Non-Teaching Staff  Advt. No. IIITK/01/12/2025/2323  Dated 21.11.2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://recruitstaff.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates called for admission test – e-MTech -Jan 2026 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/TestCallList-Jan2026.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally shortlisted for the Interview (Online)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/List of shortlisted candidates for interview  (for publication).pdf"
+        }
+      ]
+    },
+    {
+      "title": "Admission to e-M.Tech – January 2026",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://emtech.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Result of Contract Faculty - Computer Science & Engineering Advt. No. IIITK/01/12/2025/1978 dated 17.10.2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Contract Faculty-CSE-October2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of Candidates Selected for the post of Project Associate- UAV Security- Sponsored Project- C3iHub- IIT Kanpur- reg.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-PA-UAV-C3iHUB.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Recruitment of Contract Faculty - Computer Science & Engineering dated 17.10.2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-2025-2-Contract_Faculty-CSE.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Result of Mess Manager(On Contract) against the Advt. No.IIITK/01/12/2025/1925 dated 29.09.2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Mess Manager.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Recruitment for the post of Mess Manager (On Contract)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Mess Manager-Sept2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Result of Technician(On Contract)against the Advt. No.IIITK/01/12/2025/1848 dated 08.09.2025 ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Technician.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Result  of Psychologist(On Contract) against the Advt. No.IIITK/01/12/2025/1849 dated 08.09.2025 ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Psychologist.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for the post of Project Associate in sponsored project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Project Associate-C3iHub-Dr. Ragesh.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Empanelment / Recruitment of Technician(On Contract) Last date:- 17/09/2025, 5.00 PM",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Technician-Sept2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Empanelment  of Psychologist(On Contract)Walk-in-Interview on 16/09/2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Psychologist-Sept2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Result of Ph.D Programme under Visvesvaraya Ph.D Scheme (2025) for Electronics and IT: Phase-II @ IIIT KOTTAYAM",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result_Visvesvaraya_06Aug25_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "title": "UG Admission 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/admission25"
+        }
+      ]
+    },
+    {
+      "title": "List of provisionally selected candidates for admission - e.M.Tech August 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/SelectionList-Aug 2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for PhD Semester Aug- Dec 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice PhD.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for iMTech Semester 2 & 4",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee notice.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates selected for the post of Contract faculty for the department of CSE, Cyber Security & Mathematics",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Contract Faculty-CSE-Cyber-Maths-June2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Inviting for applications under the National Scholarship for Higher Education of ST Students (formerly Top-Class Scheme) for the year 2025-2026",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/national scholarship.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Important Notice: Semester fee payment details and Registration instructions for UG students (Batch: 2022, 2023 & 2024)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice Odd Sem 2025-26 final.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission August 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Ph.D. Admission August -2025 - Result For Publication.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Selection list of Junior Research Fellow for the KSCSTE-sponsored project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Selection list_website.pdf"
+        }
+      ]
+    },
+    {
+      "title": "FDP - 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/fdp"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates selected for the position of Postdoctoral Research Fellow under the project sponsored by ASEAN-India S&T Cooperation / ANRF",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/ASEAN-SELECTION-WEBSITE.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for Contract Faculty(CSE, Cyber Security & Mathematics) positions",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://adhocrecruit.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Application for the Post of a Postdoctoral Research Fellow in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-PostDoctoral Fellow-April2025-Dr. Ragesh.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Application for the Post of a Postdoctoral Research Fellow in ANRF/ ASEAN-India STI Cooperation Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Postdoc -ANRF-Project-Dr. Ragesh-May2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "AICTE QIP-PG Certification Programme",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/IIITKTYM QIP Brochure.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Shortlisted Candidates for Interview - PhD Admission August 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result for Publication_List of Candidates provisionally selected for Online Interview_PhD Admission August 2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Application for the Post of a Junior Research Fellow in KSCSTE Funded project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/jrf_advt"
+        }
+      ]
+    },
+    {
+      "title": "Applications are invited for the admission to the PhD programme starting from August 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://phd.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Applications invited to the FACTS-H Lab Summer Internship Programme 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Green Floral Background Flyer.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5 Day BOOTCAMP on Responsible Computing",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Bootcamp Flyer (11).pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates selected for the post of Contract Faculty in CSE",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result - Contract Faculty-CSE-Feb2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Selection list of the Integrated M.Tech. (with BCA-MCA) in AI & Data Science for Working Professionals [Adm Feb 2025]",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Final_Selection list for iMTech Adm Feb 2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "10 days Online FDP on Medical Image Analysis And its Advancements Through Explainable AI and Security",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/EL_ICT FDP on Medical Image Analysis.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for Semester Jan-May 2025 - iMTech",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice iMTech.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for Contract Faculty(CSE & Cyber Security) positions",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://adhocrecruit.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Last date has been extended till 31st December, 2024 - Appointment of Directors of Indian Institutes of Information Technology established in Public- Private Partnership mode (IIIT-PPP) at Nagpur, Sri City (Chittoor), Kota, Lucknow, Kottayam, Tiruchirappalli and Guwahati",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advertisement for 7 IIITs.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission January 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Admission January-2025 - Result For Publication-1.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates recommended for admission - MTech for Working Professionals-Jan 25 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/RecommendedList-Dec2024-Publish.pdf"
+        }
+      ]
+    },
+    {
+      "title": "TEDX IIIT Kottayam presents you  NEXUS OF PERSPECTIVES",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/TEDx 2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice (Revised) regarding registration for MWP Semester Jan- May 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PG MWP Fee Notice Jan- May 2025 final.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for PhD Even Semester 2024-25",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Fee Notice Even Sem 2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for UG Even Semester 2024-25",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/UG Fee Notice Even Sem 2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Shortlisted Candidates for Interview - PhD Admission January 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Shortlisted Candidates for interview- Admission January 2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates called for admission test – MTech for Working Professionals – Jan 2025",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/MWP-TestCall list Jan 2025.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for the Post of a Project Fellow in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-ApplForm-Sanksrit-Project Fellow-.pdf"
+        }
+      ]
+    },
+    {
+      "title": "NOTICE for hiring of buildings for the Off-Campus Center at TVM",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-hiring of building-Off Campus-TVM-2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for Visvesvaraya PhD Scheme(2024) for Electronics and IT",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/VIS-Results 24.07.2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates selected for the post of Ad-hoc faculty for the department of CSE/Cyber Security",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-Ad-hoc Faculty-CY-CSE-July24.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of Candidates Selected for the post of Junior Research Fellow (JRF) in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-JRF-UAV-C3iHUB.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates recommended for admission - MTech for Working Professionals-Aug 2024 batch ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/RecommendedList-Aug2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Notice regarding registration for iM Tech Semester II (Adm Feb 2024) ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice iMtech Sem 2 (1).pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission August 2024 ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Admission August-2024 - Result For Publication.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Admissions to Ph.D Programmes under Visvesvaraya PhD Scheme(2024) for Electronics and IT ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Visvesvaraya_Ph.D_Admission_24-25_August.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for Ad-hoc Faculty(CSE & Cyber Security) positions",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://adhocrecruit.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates called for admission test - MTech for Working Professionals-Aug 2024 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/TestCallList-Aug2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission August 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Admission August-2024 - Result For Publication.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Register for Webinar series, MINDS'24 (Math in artificial Intelligence and Data Science)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/MINDS2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates selected for the post of Ad-hoc faculty for the department of CSE/Cyber Security",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-Ad-hoc Faculty-CY-CSE-July2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "ACM India ROCS-2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/acm-rocs/"
+        }
+      ]
+    },
+    {
+      "title": "Application for the post of Junior Research Fellow (JRF) in Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/jrf_advt"
+        }
+      ]
+    },
+    {
+      "title": "Advertisement for Ad-hoc Faculty(CSE & Cyber Security) positions",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://adhocrecruit.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Five day online workshop on CyberSecML: Exploring the FUSION OF SECURITY AND MACHINE LEARNING",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/CyberSecML.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Five-day FDP cum workshop on “Harnessing NLP and ML techniques for social media data analysis explicitly for Indian Languages”",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/1-Flyer-Social Media Data Analysis.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Applications are invited for Research Assistant (RA) in the Indo-German Sponsored Project in the broad area of Hardware Acceleration of Deep Learning",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-IGSTC_RA -June 2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5 days FDP cum Workshop (Hybrid), FUZZYMAT 2024: Unleash the power of Fuzzy Logic and Hands-on Explorations with MATLAB Fuzzy Toolbox",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/FUZZYMAT 2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Registration for ODD Semester BTech/MTech & PhD 2024-2025(Aug-Dec)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Fee Notice 2024-25 ODD Sem Revised.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Applications for the admission to the PhD programme is extended to 10-06-2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "/data/pdf/PhD_Advertisement_Aug2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Two-day Workshop cum FDP on Computational Math and AI",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/CoMMath_Brochure.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5-Day Online Crash Course on LATEX",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Brochure for Crash Course on Latex-8.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5-day FDP cum Hands-on Workshop on Wireless Communication Technologies for Beyond 5G Systems",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Brochure-fdp_workshop.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5 Day FDP cum WORKSHOP on Image Processing Using Python Programming",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Flyer_IMAGE PROCESSING.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5-day Workshop cum FDP on Digital Forensics",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/DF FDP cum workshop IIITK.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5-day workshop cum FDP on Amplifying AI: Advanced Optimization Strategies for Enhanced Performance(hybrid mode)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advanced AI Optimization (1).pdf"
+        }
+      ]
+    },
+    {
+      "title": "NOTICE-Hiring of building for IIIT Kottayam",
+      "status": 0,
+      "link": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "data/pdf/Notice-Hiring of Building-April 2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5 Days FDP cum WORKSHOP on Contemporary Image Processing and Cybersecurity Applications",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/CIPCSA Flyer-Final.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5-day FDP on Theoretical Machine Learning",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/TML_FDP_Poster-1.pdf"
+        }
+      ]
+    },
+    {
+      "title": "FDP-and-Workshop on Advanced Computer Vision for Image & Video Analysis for Image & Video Analysis and Applications",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Workshop on Advanced Computer Vision.pdf"
+        }
+      ]
+    },
+    {
+      "title": "SIKER 2024: School on Interdisciplinary Knowledge  and Engineering Research, from May 20-22, 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/SIKER2024-Flyer-1.pdf"
+        }
+      ]
+    },
+    {
+      "title": "5 Days Online FDP & WORKSHOP on Deep Learning Techniques for Text and Image Data",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Five Days Online FDP & Workshop.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Training Programme on Data Science Using Python",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/trainingProgram.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Call for Internship 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/instituteInternship"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Development Programmes",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/fdp"
+        }
+      ]
+    },
+    {
+      "title": "2 Day Workshop-N-Large : N LP and Large Language Models",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/fdpNLP-Large.pdf"
+        }
+      ]
+    },
+    {
+      "title": "India’s Techade- Chips for Viksit Bharat events on 13-03-2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/TechadePoster.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the appointment- Ad-hoc faculty recruitment-CSE",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/List-Provisionlly Selected-Adhoc-CSE.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the Integrated M.Tech in AI & Data Science for Working Professional admission February 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/imtech list-itsupport.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Recruitment (Mathematics)-Updates",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/recruitment_faculty_mathematics"
+        }
+      ]
+    },
+    {
+      "title": "Short-term Cyber Security course for Kerala Police Cyber Operations Divisions",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/STTP_flyer.pdf"
+        }
+      ]
+    },
+    {
+      "title": "THE 5th INTERNATIONAL CONFERENCE ON INNOVATIVE TRENDS IN INFORMATION TECHNOLOGY (ICITIIT'24)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icitiit24.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "4 day Winter Hackathon",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Winter Hacks Invitation.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Internship Program on Fog Computing, AI/ML, and Digital Twin",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/SERB Internship.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission January 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Admission - JAN 2024 - Result For Publication(1)(1).pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of provisionally selected candidates for admission in MTech for Working Professionals-Jan 2024 batch",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/SelectionList-Jan 2024.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Registration for EVEN Semester BTech/MTech & PhD 2023-2024(Jan-April)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Notice-Semester registration.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Recruitment (CSE/IT/ECE)-Updates",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/recruitment_faculty"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Recruitment (Management-HR and English)-Updates",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/recruitment_faculty_hr_eng"
+        }
+      ]
+    },
+    {
+      "title": "Recruitment of Non-Teaching staff- Merit List-Click here",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-Staff Recruitment.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Online applications are invited for the Adhoc Faculty position in CSE,Last Date : 15/01/2024,5.00PM",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://adhocrecruit.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Notification dated 01.12.2023 regarding M.Tech. for Working Professionals-Jan 2024 Admission",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Website Notification-Signed.pdf"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally shortlisted for the Interview (Online)-Admission(PhD)-January 2024",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Shortlisted Candidates for interview- Admission January 2024-For Publication.docx.pdf"
+        }
+      ]
+    },
+    {
+      "title": " List of candidates provisionally selected for Ph. D Programmes under Visvesvaraya PhD Scheme(2023) for Electronics and IT ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Visveswaraya Ph.D Admission - Result for publication.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Admissions to Ph. D Programmes under Visvesvaraya PhD Scheme(2023) for Electronics and IT ",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Visvesvaraya_Ph.D Admission_23-24.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Applications are invited for the Post of Research Assistant in Indo-German Sponsored Project",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Advt-Research_Assistant_IGSTC_IIITK_2023.pdf"
+        }
+      ]
+    },
+    {
+      "title": "IIIT Kottayam organizes a workshop on Xilinx FPGA Board from 13th to 15th October 2023",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/data/pdf/fdFPGA%20Workshop-Brochure.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Development Programmes",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/fdp"
+        }
+      ]
+    },
+    {
+      "title": "Batch-2023 user credentials are available on the admission portal",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://admission.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Result of Ad-hoc Faculty Recruitment against the Advt. No. IIITK/01/12/2023/1673 dated 29.07.2023.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/Result-Ad-hoc Faculty-CY-CSE-August2023.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Reporting Instructions for JoSAA/CSAB/DASA Admission 2023",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!/admission23"
+        }
+      ]
+    },
+    {
+      "title": "Staff Recruitment 2022-Announcements",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/#!/recruitment_staff"
+        }
+      ]
+    },
+    {
+      "title": "List of candidates provisionally selected for the PhD admission August 2023.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/PhD Admission August 2023- Result.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Rolling advertisement for various faculty positions-Click here to apply",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://recruitf.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Registration for ODD Semester BTech/MTech & PhD 2023-2024(Aug-Nov)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/oddsem_registration2023-24.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Result of Ad-hoc Faculty Recruitment against the Advt. No. IIITK/01/18/2022-23/258 dated 08.10.2022",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/adhoc_20_10.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Reporting Instructions for JoSAA/CSAB/DASA Admission 2023",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/reporting.pdf"
+        }
+      ]
+    },
+    {
+      "title": "The 4th International Conference On Innovative Trends In Information Technology (ICITIIT '23)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icitiit23.iiitkottayam.ac.in"
+        }
+      ]
+    },
+    {
+      "title": "Online applications are invited for admission to the Doctor of Philosophy (PhD) programme starting in  August- 2022",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://phdr.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the ODD Semester 2022-2023(Semester VII -  Batch 2019)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/oddbatch1922.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the Even Semester 2021-2022(Sem-II Batch 2021)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/reg_even_21_22.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Selected list for admission PhD(2020)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!phd20select"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the Odd Semester 2020(August-December)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/pdf/regodd20.pdf"
+        }
+      ]
+    },
+    {
+      "title": "IIIT Kottayam observed Yoga Day",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!idy2020"
+        }
+      ]
+    },
+    {
+      "title": "Webinar Series On Entrepreneurship, Technology & Socially Relevant Topics",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!webinar"
+        }
+      ]
+    },
+    {
+      "title": "PhD-2020, Intimation on the IInd round interview have been sent to  the registered mail ID of the candidates.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!phdII"
+        }
+      ]
+    },
+    {
+      "title": "M.Tech (2020-August) -Intimation on the online test/interview has been sent to  the registered mail ID of the candidates.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!mtech20aug"
+        }
+      ]
+    },
+    {
+      "title": "Executive M.Tech-2020(Short List-Provisional)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "views/mtechse.html"
+        }
+      ]
+    },
+    {
+      "title": "Executive M.Tech Programme - 2020 Last Date: 24/12/19",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://iiitkottayam.ac.in/mtech"
+        }
+      ]
+    },
+    {
+      "title": "2019 ACM-ICPC ASIA CHENNAI REGIONAL CONTEST WINNERS",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!contest"
+        }
+      ]
+    },
+    {
+      "title": "IIIT Kottayam has been adjudged as the premium college by TCS",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "iDEX Roadshow Event on 5th December , 3PM to 5PM",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Paper Submission Deadline to IEEE based International Conference on Innovative Trends in Information Technology (ICITIIT 20) is EXTENDED to 28.Nov.2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icitiit20.iiitkottayam.ac.in"
+        }
+      ]
+    },
+    {
+      "title": "Revised Curriculum July 2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/revisedcurriculum/Curriculum"
+        }
+      ]
+    },
+    {
+      "title": "Technical Assistant-Walk in Interview on 25/09/2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/technical1/Interview"
+        }
+      ]
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview on 05/09/2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Adhocfaculty1/Interview"
+        }
+      ]
+    },
+    {
+      "title": "Congratulations Mannem Srinivas (2016 batch) - Chosen among the top 50 candidates for ZS Data Science Challenge.",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "data/images/mannam.png"
+        }
+      ]
+    },
+    {
+      "title": "IIITK Annual Magazine 2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Nirhaar2k19/Nirhaar 2k19 - The Annual Magazine of IIIT Kottayam"
+        }
+      ]
+    },
+    {
+      "title": "Summer course on IoT Cloud from 17 June to 1 July for students/academia/industry -- Registrations are open",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in/summercourse19.html"
+        }
+      ]
+    },
+    {
+      "title": "Walk-in Interview for Industrial Experts at AIC-IIITKottayam Foundation (Sec.8 Company) on 12 June 2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/aic/Interview"
+        }
+      ]
+    },
+    {
+      "title": "PhD Programme - August 2019 Apply Online",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://iiitkottayam.ac.in/phd"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the ODD Semester 2019 (July-December)",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/notice/Registration"
+        }
+      ]
+    },
+    {
+      "title": "Direct Admission of Students Abroad (DASA) 2019",
+      "status": 0,
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/dasa19/DASA"
+        }
+      ]
+    },
+    {
+      "title": "JoSAA 2018 - Last Rank Details (Institution Wise).",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://josaa.nic.in/webinfocms/Public/View.aspx?page=71"
+        }
+      ]
+    },
+    {
+      "title": "Dr. SHAJULIN BENEDICT has attracted a funded project from NITIAayog-Govt.of India to establish an incubation centre on IoT Cloud to the tune of 3.56 crores).",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in"
+        }
+      ]
+    },
+    {
+      "title": "Applications Invited for Industry & Research Oriented Summer Course on IoT Cloud based Innovative Product Development",
+      "description": "Industry & Research Oriented Summer Course on IoT Cloud based Innovative Product Development",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in/summercourse19.html"
+        }
+      ]
+    },
+    {
+      "title": "Applications Invited for Summer Internship Program 2019",
+      "description": "Summer Internship Program 2019",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Internship2019/Internship"
+        }
+      ]
+    },
+    {
+      "title": "ENLACE-2019",
+      "description": "ENLACE-2019 Photos",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "http://s1174.photobucket.com/user/IIIT_Kottayam/slideshow/Enlace%202019"
+        }
+      ]
+    },
+    {
+      "title": "Dr. Rajiv Vasantarao Dharaskar has taken over the charge as Director, IIIT Kottayam."
+    },
+    {
+      "title": "Womens day Celebration-2019",
+      "description": "Womens day Celebration-2019 Photos",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "http://s1174.photobucket.com/user/IIIT_Kottayam/slideshow/Womens%20Day%20Celebration"
+        }
+      ]
+    },
+    {
+      "title": "IIITKottayam Permanent Campus Inaugurated by Honourable Human Resource Minister Shri. Prakash Javadekar,on 20th February 2019",
+      "description": "Inauguration of IIIT Kottayam Permanent Campus",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "http://s1174.photobucket.com/user/IIIT_Kottayam/slideshow/Inaguration"
+        }
+      ]
+    },
+    {
+      "title": "Republic Day Celebrations 2019",
+      "description": "70th Republic day Celebrations-2019",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "http://s1174.photobucket.com/user/IIIT_Kottayam/slideshow/Republic%20day-2019"
+        }
+      ]
+    },
+    {
+      "title": "Permanent Campus-Academic session started from Ist January 2019",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "http://s1174.photobucket.com/user/IIIT_Kottayam/slideshow/Permanent%20Campus"
+        }
+      ]
+    },
+    {
+      "title": "Research Publication-\"Image Restoration via Discrete Orthogonal Stockwell Transform and Total Variation Regularization\" - Dr.Bini A A",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://digital-library.theiet.org/content/journals/10.1049/iet-ipr.2018.5504"
+        }
+      ]
+    },
+    {
+      "title": "CFP to IF Journal - \"IoT Cloud Solutions for societal Applications\"",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://scpe.org/index.php/scpe/Call-issue-3-2019"
+        }
+      ]
+    },
+    {
+      "title": "Indo-Austrian (BMWF) - DST funded project",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in/energycompiler.html"
+        }
+      ]
+    },
+    {
+      "title": "Training & Placement Officer (on short term contract basis– full time/part time)",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Walk in Interview4/Walk in Interview"
+        }
+      ]
+    },
+    {
+      "title": "Hackicav 2018",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in/hackicav18.html"
+        }
+      ]
+    },
+    {
+      "title": "DST-NIMAT Entrepreneurship Program",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://icentre.iiitkottayam.ac.in/hackicav18.html"
+        }
+      ]
+    },
+    {
+      "title": "Walk in Interview-\"Physical Education Instructor\"",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Walk in Interview3/Walk in Interview"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the Even Semester 2019 (Jan-April)",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/feedetails/Registration for the Even Semester 2019 (Jan-April)"
+        }
+      ]
+    },
+    {
+      "title": "Walk in Interview-\"Psychologist, psychiatrist\"",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Walk in Interview2/Walk in Interview"
+        }
+      ]
+    },
+    {
+      "title": "Walk in Interview-\"Psychologist, psychiatrist and Lady Medical Officer\"",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/home/Walk in Interview1/Walk in Interview"
+        }
+      ]
+    },
+    {
+      "title": "The Vigilance Awareness Week - 2018 will be observed from 29th Oct to 3rd Nov 2018",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://www.iiitkottayam.ac.in/oldwebsite/vigilance_week_2018.php"
+        }
+      ]
+    },
+    {
+      "title": "Thathva 2018",
+      "description": "1st prize in event Amazed at Thathva<br>&nbsp;&nbsp;<small>2017BCS0021    GONDU SHIVAKRISHNA<br>&nbsp;&nbsp;2017BCS0017   DHARAVATHU NEEHARI NAIK</small><br><br>3rd prize in The Board Room event at Thathva<br>&nbsp;&nbsp;<small>2017BCS0026    JAINEEL FENAL DHARIA<br>&nbsp;&nbsp;2017BCS0056    SHUBHAM MISHRA<br>&nbsp;&nbsp;2017BCS0024    GUNJAN ASIT BAGDE<br>&nbsp;&nbsp;2017BCS0030    KONIDANA SAI MANOJ</small>"
+    },
+    {
+      "title": "Orientation Programme 2018",
+      "description": "The orientation for the freshmen of the academic year 2018 was organized to welcome them to the institute.",
+      "date": "",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "/events"
+        }
+      ]
+    },
+    {
+      "title": "Orientation Programme Reschedule",
+      "description": "The orientation program scheduled to be held on 02/08/2018 for the newly joined students has been postponed",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/news/003/Orientation Rescheduled"
+        }
+      ]
+    },
+    {
+      "title": "PI Reporting of the Candidates",
+      "description": "The PI reporting of the candidates has been extended",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://www.iiitkottayam.ac.in/2018admission.php"
+        }
+      ]
+    },
+    {
+      "title": "Orientation Programme for Newly Joined Students",
+      "description": "Orientation programme for the freshmen",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/news/001/Orientation 2018"
+        }
+      ]
+    },
+    {
+      "title": "Admission Schedule And Payment Of Fees",
+      "description": "Admission Schedule And Payment Of Fees - Special Round I & Round II - 2018 (B.Tech CSE)",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://www.iiitkottayam.ac.in/2018admission.php"
+        }
+      ]
+    },
+    {
+      "title": "List of Candidates Provisionally Selected for Ph.D Admission - Aug 2018",
+      "description": "Visit the list of students selected for Ph.D admission",
+      "date": "",
+      "link": [
+        {
+          "text": "View List",
+          "link": "#!pdf/news/phd_aug_2018_selected/Selected Students"
+        }
+      ]
+    },
+    {
+      "title": "Upcoming Campus",
+      "description": "Take a look at the work in progress",
+      "link": [
+        {
+          "text": "Visit Gallery",
+          "link": "#!pdf/news/IIITK_Admission_v3/Upcoming Campus"
+        }
+      ]
+    },
+    {
+      "title": "2018 - Seat Allotment Details",
+      "description": "",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://josaa.nic.in/webinfocms/public/view.aspx?page=46"
+        }
+      ]
+    },
+    {
+      "title": "Faculty Posistions at IIIT Kottayam",
+      "description": "Find out about the available faculty positions at IIIT Kottayam",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "http://www.iiitkottayam.ac.in/faculty_advertisement.php"
+        }
+      ]
+    },
+    {
+      "title": "CFP in a Special Issue - SCPE on IoT Cloud (IIIT Kottayam + TUM - Germany)",
+      "description": "",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/news/JournalSI-CFP-IIITKottayam/IoT Cloud"
+        }
+      ]
+    },
+    {
+      "title": "IIIT Kottayam Recognized as a Scientific and Industrial Research Organization",
+      "description": "IIIT Kottayam has been recognized as a Scientific and Industrial Research Organisation (SIRO) by the Department of Scientific and Industrial Research under the Scheme on Recognition of Scientific and Industrial Research Organisation (SIROs), 1988",
+      "date": "",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/news/IIITK-AcceptanceNotification/Acceptance Notification"
+        }
+      ]
+    },
+    {
+      "title": "BTech Admissions 2018-2019",
+      "description": "Visit the JoSAA site and enroll for admission in IIIT Kottayam",
+      "date": "",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "https://josaa.nic.in/webinfocms/public/view.aspx?page=46",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "Central Sector Interest Subsidy Scheme, 2009",
+      "description": "Central Sector Interest Subsidy Scheme (CSIS), 2009 has been approved for continuation upto 2019-2020. Visit the link for more information.",
+      "date": "",
+      "link": [
+        {
+          "text": "Know More",
+          "link": "#!pdf/news/selection/Subsidy Scheme"
+        }
+      ]
+    },
+    {
+      "title": "Ph.D Admission 2018",
+      "description": "List of selected candidates to appear for the written test/interview has been published. The exam dates are as follows :<ol><li>CSE on 6th July 2018</li><li>ECE and Mathematics on 9th July 2018</li></ol>",
+      "date": "",
+      "link": [
+        {
+          "text": "Candidates for CSE",
+          "link": "#!pdf/news/phd2018_Shortlisted-List-CSE/PhD. CSE Candidates"
+        },
+        {
+          "text": "Candidates for Mathematics",
+          "link": "#!pdf/news/phd2018_Shortlisted-List-Maths/PhD. Maths Candidates"
+        },
+        {
+          "text": "Candidates for ECE",
+          "link": "#!pdf/news/phd2018_Shortlisted-List-ECE/PhD. ECE Candidates"
+        }
+      ]
+    },
+    {
+      "title": "Internship by Students",
+      "description": "List of all students who did internship in various companies/institutions/organizations",
+      "date": "",
+      "link": [
+        {
+          "text": "View List",
+          "link": "#!pdf/news/Internshiplist/Internship List"
+        }
+      ]
+    },
+    {
+      "title": "Education Loan",
+      "description": "Vidya Lakshmi Portal provides single window for students to access information about various loan schemes provided by banks and make applications for educational loans.",
+      "date": "",
+      "link": [
+        {
+          "text": "Visit",
+          "link": "https://www.vidyalakshmi.co.in/Students/",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "Fee for Ph.D Programme 2018",
+      "description": "The tuition Fee is Rs. 20,000 per Semester<br>Hostel & mess charges to be paid for separately",
+      "date": ""
+    },
+    {
+      "title": "IIIT Kottayam at Indian IEEE Newsletter",
+      "description": "Indian Institue of Information Technology Kottayam gets a mention in IEEE Newsletter. Visit the pdf link on page 59 for more information.",
+      "date": "",
+      "link": [
+        {
+          "text": "Visit",
+          "link": "http://ieeecs-madras.managedbiz.com/icnl/18q1/icnl-18q1.pdf",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "Swachh Bharat Summer Internship",
+      "description": "Swachh Bharat Summer Internship is a 100 hour experiential Internship program (between 1st May and 31st July 2018) for college students.",
+      "date": "",
+      "link": [
+        {
+          "text": "Visit",
+          "link": "https://sbsi.mygov.in/",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "Registration for the Odd Semester - 2018",
+      "description": "Registration for the Odd Semester 2018 (Aug-Nov)",
+      "date": "",
+      "status": 0,
+      "link": [
+        {
+          "text": "PDF",
+          "link": "#!pdf/news/sem_registration_2018/Semester Registration"
+        }
+      ]
+    },
+    {
+      "title": "Pay Your Fees",
+      "description": "Pay the fees for the upcoming semester well in advance to avoid any last minute hustle",
+      "date": "",
+      "status": 0,
+      "link": [
+        {
+          "text": "Visit Link",
+          "link": "https://www.onlinesbi.com/prelogin/institutiontypedisplay.htm",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "Visit of the Honourable MoS to Campus",
+      "description": "Minister of State visited the campus",
+      "date": "",
+      "status": 0,
+      "link": [
+        {
+          "text": "View Gallery",
+          "link": "/events"
+        }
+      ]
+    },
+    {
+      "title": "IIIT PPP Act 2017",
+      "description": "\"An Act to declare certain Indian Institutes of Information Technology established under public-private partnership as institutions of national importance, with a view to develop new knowledge in information technology and to provide manpower of global standards for the information technology industry and to provide for certain other matters connected with such institutions or incidental thereto.\"",
+      "date": "",
+      "status": 0,
+      "link": [
+        {
+          "text": "PDF",
+          "link": "#!pdf/news/iiit_ppp_act_2017/IIIT PPP Act"
+        }
+      ]
+    },
+    {
+      "title": "IIIT Bill",
+      "description": "Rajya Sabha passes the Indian Institute of Information Technology Public Private Partnership Bill 2017",
+      "date": "",
+      "status": 0,
+      "link": [
+        {
+          "text": "Visit Link",
+          "link": "http://pib.nic.in/newsite/PrintRelease.aspx?relid=169181",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}

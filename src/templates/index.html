@@ -1,0 +1,187 @@
+{{# if popup }}<div id="autoModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="popup-heading">
+  <div class="modal-content">
+    <button class="close-btn" type="button" aria-label="Close">&times;</button>
+    <h5 id="popup-heading"><a href="{{ popup.link }}">{{ popup.heading }}</a></h5>
+    {{# if popup.image }}<a href="{{ popup.link }}"><img src="{{ popup.image }}" alt="{{ popup.heading }}"></a>{{/ if }}
+  </div>
+</div>{{/ if }}
+
+<!-- programme / partner logos -->
+<div class="col s12 banner-strip">
+  <div class="col s6 m2 banner-inner">
+    {{# each home.banners }}<a href="{{ link }}" target="_blank" rel="noopener">
+      <img src="{{ image }}" alt=""{{{ sizeAttrs }}} style="{{ style }}">
+    </a>{{/ each }}
+  </div>
+</div>
+
+{{# if home.marquee }}<div class="col s12 marquee-wrap">
+  <!-- The <marquee> element is obsolete, so the same back-and-forth motion is
+       done with a CSS animation. Respects prefers-reduced-motion. -->
+  <div class="marquee" role="marquee" aria-live="off">
+    <div class="marquee-track">
+      {{# each home.marquee }}<span class="marquee-item">
+        <span class="marquee-text">{{ text }}</span>
+        {{# if link }}<a href="{{ link }}" class="marquee-link">{{ linkText }}</a>{{/ if }}
+        {{# if badge }}<img width="30" height="30" src="/data/images/info/new_11.gif" alt="New">{{/ if }}
+      </span>{{/ each }}
+    </div>
+  </div>
+</div>{{/ if }}
+
+<!-- Everything below sits in one 80%-wide framed column, as on the original.
+     Inside it the panels float, so the tall welcome text on the left leaves
+     the placement figures and the lab logos stacked down the right side. -->
+<div class="row main-frame">
+
+  <div id="topControl">
+    <div class="slider">
+      <ul class="slides">
+        {{# each slides }}<li class="{{ activeClass }}">
+          {{# if link }}<a href="{{ link }}">{{{ img }}}</a>{{ else }}{{{ img }}}{{/ if }}
+          <div class="caption center-align">
+            {{# if caption }}<div class="content1 center-align">
+              <h5>{{ caption }}</h5>
+            </div>{{/ if }}
+          </div>
+        </li>{{/ each }}
+      </ul>
+
+      <div class="slider-nav flex flex-row flex-center flex-justify">
+        <button type="button" data-slide="prev" aria-label="Previous slide">
+          <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+        </button>
+        <button type="button" data-slide="next" aria-label="Next slide">
+          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- welcome text + placement panel + research labs -->
+  <div class="row section-rule">
+    <div class="col s12 m6">
+      <h5 style="font-size:20px">{{ home.headings.welcome }}</h5>
+      <div class="para justify">{{{ welcome }}}</div>
+    </div>
+
+    <div class="col s12 m6">
+      <h5 style="font-size:20px">
+        {{ home.placement.heading }}
+        {{# if home.placement.new_badge }}<img src="/data/images/info/new1.gif" alt="New" width="40" height="30">{{/ if }}
+      </h5>
+      <img src="{{ home.placement.image }}" alt="Placement statistics" class="placement-image">
+      <p class="placement-note">{{ home.placement.note }}</p>
+    </div>
+
+    <div class="col s12 m6">
+      <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end">
+        <h5 style="flex-grow:1;font-size:20px" class="white-text">Innovative Initiatives of IIITK</h5>
+      </div>
+    </div>
+
+    <!-- four logos per row, matching the original's nested half-width columns -->
+    {{# each initiativeRows }}<div class="col s12 m6">
+      {{# each this }}<div class="col m4 l3 initiative">
+        {{# if link }}<a href="{{ link }}"><img src="{{ image }}" alt="" width="{{ width }}"></a>{{ else }}<img src="{{ image }}" alt="" width="{{ width }}">{{/ if }}
+      </div>{{/ each }}
+    </div>{{/ each }}
+  </div>
+
+  <!-- latest news + events -->
+  <div class="row section-rule">
+    <div class="col s12 m6">
+      <div class="card custom-card-depth border-radius news-card">
+        <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end">
+          <h5 style="flex-grow:1;font-size:20px" class="white-text">Latest News</h5>
+          <h5 style="font-size:18px"><a href="/news" class="white-text" style="font-size:20px">More</a></h5>
+        </div>
+        <div class="card-content custom-news news-scroll">
+          {{# each news }}<div>
+            <a href="{{ link }}" class="link-color">{{ text }}</a>
+            {{# if new }}<img src="/data/images/info/new1.gif" alt="New" height="30" width="40">{{/ if }}
+          </div>{{/ each }}
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6">
+      <div class="card custom-card-depth border-radius events-card">
+        <div class="custom-head institute-blue-bg white-text border-radius-top">
+          <h5 class="white-text" style="font-size:20px">Events</h5>
+        </div>
+
+        <div class="carousel" id="sideEvents">
+          {{# each events }}<div class="carousel-item white-text white{{ activeClass }}">
+            <div class="carousel-image flex flex-center-h flex-end" style="{{ background }}">
+              {{# if link }}<a class="btn-flat" href="{{ link }}" target="_blank" rel="noopener">Visit Gallery</a>{{/ if }}
+            </div>
+            <div style="padding:15px;">
+              <p class="para institute-blue event-title">{{ title }}</p>
+              {{# if description }}<p class="para event-desc">{{ description }}</p>{{/ if }}
+            </div>
+          </div>{{/ each }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- vision + mission -->
+  <div class="row section-rule">
+    <div class="col s12 m6">
+      <h5 style="font-size:20px">{{ home.headings.vision }}</h5>
+      <div class="para justify">{{{ vision }}}</div>
+    </div>
+    <div class="col s12 m6">
+      <h5 style="font-size:20px">{{ home.headings.mission }}</h5>
+      <div class="para justify">{{{ mission }}}</div>
+    </div>
+  </div>
+
+  <!-- faculty + publications: three of each, picked at random per visit -->
+  <div class="row">
+    <div class="col m12 l6">
+      <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end" style="margin-top:8px">
+        <h5 style="flex-grow:2;font-size:20px" class="white-text">Meet the Faculty</h5>
+        <span style="font-size:35px"><a href="/faculty" class="white-text">+</a></span>
+      </div>
+      <div class="flex flex-row flex-justify flex-wrap" id="faculty-pool">
+        {{# each faculty }}<div class="card flex flex-column custom-faculty-card">
+          <div class="card-image">
+            <img src="{{ photo }}" alt="{{ name }}" loading="lazy">
+          </div>
+          <div class="card-content" style="padding:8px">
+            <span class="card-title" style="margin-bottom:0;font-size:20px">{{ name }}</span>
+            <p class="faculty-designation">{{ designation }}</p>
+          </div>
+        </div>{{/ each }}
+      </div>
+    </div>
+
+    <div class="col m12 l6">
+      <div class="card custom-card-depth border-radius publication-card">
+        <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end">
+          <h5 style="flex-grow:2;font-size:20px" class="white-text">Research Publication</h5>
+          <span style="font-size:35px"><a href="/researchPublication" class="white-text">+</a></span>
+        </div>
+        <div class="card-content publication-list" id="publication-pool">
+          {{# each publications }}<div class="publication">
+            <p class="publication-title">{{ title }}</p>
+            <p class="publication-authors">{{# each authors }}<span> - <b>{{ this }}</b></span>{{/ each }}</p>
+            <p class="publication-details">{{ details }}</p>
+          </div>{{/ each }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- virtual tours -->
+  <div class="row tours">
+    {{# each home.tours }}<div class="col-5">
+      <h4 class="tour-title">{{ title }}</h4>
+      <a href="{{ link }}" target="_blank" rel="noopener">
+        <img src="{{ image }}" alt="{{ title }}" class="tour-image" loading="lazy">
+      </a>
+    </div>{{/ each }}
+  </div>
+</div>

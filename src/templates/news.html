@@ -1,0 +1,20 @@
+{{> page-banner }}
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <div class="card custom-card-depth border-radius">
+        <div class="card-content custom-news" style="padding:0">
+          {{# each news }}<div data-searchable="{{ searchable }}">
+            <span>{{ title }}</span>
+            {{# if isNew }}<img src="/data/images/info/new1.gif" alt="New" height="30" width="40">{{/ if }}
+            {{# each links }} <a href="{{ href }}" class="link-color newsLink">{{ text }}</a>{{/ each }}
+          </div>{{/ each }}
+        </div>
+      </div>
+      <blockquote class="error" id="no-results" style="display:none">
+        <br>No matching news found.
+      </blockquote>
+    </div>
+  </div>
+</div>

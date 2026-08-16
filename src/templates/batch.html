@@ -1,0 +1,18 @@
+{{> page-banner }}
+
+<div class="container">
+  {{# each panels }}<div class="tab-panel{{ activeClass }}" data-panel="{{ key }}">
+    <div class="row">
+      <div class="col s12">
+        <h5>{{ label }}</h5>
+        <ol class="name-list">
+          {{# each names }}<li data-searchable="{{ searchable }}">{{ name }}</li>{{/ each }}
+        </ol>
+        {{# if empty }}<blockquote class="error">The list will be published shortly.</blockquote>{{/ if }}
+      </div>
+    </div>
+  </div>{{/ each }}
+  <blockquote class="error" id="no-results" style="display:none">
+    <br>No matching names found.
+  </blockquote>
+</div>

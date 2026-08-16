@@ -1,0 +1,307 @@
+{
+  "$schema": "./_schema/faculty_incharge.json",
+  "_help": [
+    "Faculty In-Charge listing (/FacInCharge)."
+  ],
+  "items": [
+    {
+      "name": "Dr. Shajulin Benedict",
+      "photo": "shajulin.jpg",
+      "designation": [
+        "Faculty In-Charge (R&D and International Affairs)"
+      ],
+      "contact": {
+        "email": "shajulin at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202155"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Dhanyamol M V",
+      "photo": "dhanya.JPG",
+      "designation": [
+        "Faculty In-Charge (Engineering & Estate Department)"
+      ],
+      "contact": {
+        "email": "dhanya at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202162"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Debarati Ganguly",
+      "photo": "Debarati.jpg",
+      "designation": [
+        "Faculty In-Charge (IEEE Student Branch)"
+      ],
+      "contact": {
+        "email": "debarati at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202261"
+        ]
+      }
+    },
+    {
+      "name": "Dr. P. Victer Paul",
+      "photo": "victer.jpeg",
+      "designation": [
+        "Faculty In-Charge (Coding Club and Google Developer Students Club)"
+      ],
+      "contact": {
+        "email": "victerpaul at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202165"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Ragesh G K",
+      "photo": "ragesh.jpeg",
+      "designation": [
+        "Faculty In-Charge (Public Relations & Intellectual Property Rights,Institute Innovation Cell,Gyaan Innovation Lab-IIITK,Certificate Programme)"
+      ],
+      "contact": {
+        "email": "ragesh at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202175"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Mathew.C.D",
+      "photo": "mathew.jpeg",
+      "designation": [
+        "Training & Placement Officer-cum-FIC-Training & Placement Cell"
+      ],
+      "contact": {
+        "email": "mathewcd at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202144"
+        ]
+      }
+    },
+    {
+      "name": "Dr. J. V. Bibal Benifa",
+      "photo": "bibal.jpg",
+      "designation": [
+        "Coordinator/Faculty In Charge (Disciplinary Action Committee)"
+      ],
+      "contact": {
+        "email": "benifa at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202163"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Rubell Marion Lincy G",
+      "photo": "lincy.jpeg",
+      "designation": [
+        "Faculty In-Charge (Students Grievance),Faculty In-Charge(Grievance Cell)"
+      ],
+      "contact": {
+        "email": "lincy at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202152"
+        ]
+      }
+    },
+    {
+      "name": " Dr. Abin Oommen Philip",
+      "photo": "abinphilip.jpg",
+      "designation": [
+        "Faculty In-Charge (PG Academics)"
+      ],
+      "contact": {
+        "email": "abinphilip at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202253"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Panchami V",
+      "photo": "panchami.jpg",
+      "designation": [
+        "Faculty In-Charge (External Consultancy, ACM Student Branch)"
+      ],
+      "contact": {
+        "email": " panchamam036 at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202151"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Suchithra M S",
+      "photo": "suchithra.jpg",
+      "designation": [
+        "Faculty In-Charge (Academics-UG),Faculty In-Charge (Outreach Programs), Presiding Officer (Internal Complaints Committee)"
+      ],
+      "contact": {
+        "email": " suchithra at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202169"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Ananth A",
+      "photo": "ananth.jpeg",
+      "designation": [
+        "Faculty In-Charge (Sports Club)"
+      ],
+      "contact": {
+        "email": " ananth at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202176"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Manu Madhavan",
+      "photo": "manu.JPG",
+      "designation": [
+        "Faculty In-Charge (Library and Technology Enabled Learning Resources(TELR), Faculty In-Charge (NIRF))"
+      ],
+      "contact": {
+        "email": " manum at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202208"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Gayathri G.R.",
+      "photo": "gayathri.jpeg",
+      "designation": [
+        "Faculty In-Charge (Social Media & Branding)"
+      ],
+      "contact": {
+        "email": " gayathri at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202184"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Vengadeswaran S",
+      "photo": "vengadesh.JPG",
+      "designation": [
+        "Faculty In-Charge(Integrated M.Tech Programme,HPC Managing & Allocation, Certificate Programme & MoUs)"
+      ],
+      "contact": {
+        "email": " vengadesh at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202206"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Josit Mariya",
+      "photo": "jositmariya.jpg",
+      "designation": [
+        "Faculty In-Charge(Webservices & Public Relations),Associate Faculty In-Charge (Training & Placement Cell)"
+      ],
+      "contact": {
+        "email": " jositmariya at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202203"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Cinu C Kiliroor",
+      "photo": "cinu.JPG",
+      "designation": [
+        "Faculty In-Charge (AI-ML  Club- ENIGMA) "
+      ],
+      "contact": {
+        "email": " cinu at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202204"
+        ]
+      }
+    },
+    {
+      "name": "Dr.John Paul Martin",
+      "photo": "Johnpaul.JPG",
+      "designation": [
+        "Faculty In-Charge (NIRF),Faculty In-Charge(Mess Committee),Faculty In-Charge(HPC Managing & Allocation) "
+      ],
+      "contact": {
+        "email": "johnpaul at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202202"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Venkatesh S",
+      "photo": "venkatesh.JPG",
+      "designation": [
+        "Faculty In-Charge (Trendles Club)"
+      ],
+      "contact": {
+        "email": "svenkatesh at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202205"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Selvi C",
+      "photo": "selvi.JPG",
+      "designation": [
+        "Faculty In-Charge (Ph.D (Academics & Admissions)),Faculty In-Charge (Technical Club)"
+      ],
+      "contact": {
+        "email": "selvic at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202212"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Nandini J. Warrier",
+      "photo": "nandini.JPG",
+      "designation": [
+        "Faculty In-Charge (Institute Internship)"
+      ],
+      "contact": {
+        "email": "nandinijw at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202209"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Manu Madhavan",
+      "photo": "manu.JPG",
+      "designation": [
+        "Faculty In-Charge (Cultural Club)"
+      ],
+      "contact": {
+        "email": "manum at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202208"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Renjitha T.R",
+      "photo": "renjitha.jpeg",
+      "designation": [
+        "Faculty In-Charge (Mind Quest Club)"
+      ],
+      "contact": {
+        "email": "counsellor at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 (0) 482-2202208"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/faculty.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full name, as it should appear on the card."
+          },
+          "designation": {
+            "type": "string",
+            "description": "Job title. One line, or a list of lines."
+          },
+          "photo": {
+            "type": "string",
+            "description": "Portrait file name, uploaded to public/data/images/."
+          },
+          "area": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Areas of interest, shown as bullet points."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

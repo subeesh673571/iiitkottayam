@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/site.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "title": {
+      "type": "string",
+      "description": "The wording people read."
+    },
+    "description": {
+      "type": "string",
+      "description": "A sentence or two under the heading."
+    },
+    "logo": {
+      "type": "string"
+    },
+    "favicon": {
+      "type": "string"
+    },
+    "brand_lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The wording people read."
+          },
+          "size": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "brand_mobile": {
+      "type": "string"
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "false switches this off completely."
+        },
+        "heading": {
+          "type": "string",
+          "description": "The line of text at the top."
+        },
+        "link": {
+          "type": "string",
+          "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+        },
+        "image": {
+          "type": "string",
+          "description": "Picture, written as /data/images/... (leave the word \"public\" out)."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,523 @@
+{
+  "$schema": "./_schema/recruiters.json",
+  "_help": [
+    "Source: the \"recruiters\" list on the old placement page."
+  ],
+  "items": [
+    {
+      "img": "amazon.png",
+      "company": "Amazon",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "ibm.png",
+      "company": "IBM",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "bosch.jpg",
+      "company": "Bosch",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "nissan.png",
+      "company": "NISSAN",
+      "location": "Thiruvananthapuram, India"
+    },
+    {
+      "img": "TCS.png",
+      "company": "TCS",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "infosys.png",
+      "company": "Infosys",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "nvidia.png",
+      "company": "NVIDIA",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "cognizant.png",
+      "company": "Cognizant",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "deloitte.png",
+      "company": "Deloitte",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "jio.png",
+      "company": "JIO",
+      "location": "India"
+    },
+    {
+      "img": "human resocia.jpg",
+      "company": "Human Resocia Co., Ltd.",
+      "location": "Japan"
+    },
+    {
+      "img": "hp.png",
+      "company": "HP",
+      "location": "California, United States"
+    },
+    {
+      "img": "NIWE.jpg",
+      "company": "NIWE",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "IISc.png",
+      "company": "IISc",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "TMU.png",
+      "company": "Informatics",
+      "location": "TUM, Germany"
+    },
+    {
+      "img": "wipro.png",
+      "company": "Wipro",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "ust.png",
+      "company": "UST Global",
+      "location": "Thiruvananthapuram, India"
+    },
+    {
+      "img": "suntec.jpg",
+      "company": "SUNTEC",
+      "location": "India"
+    },
+    {
+      "img": "ibs.jpg",
+      "company": "IBS",
+      "location": "Thiruvananthapuram, India"
+    },
+    {
+      "img": "sharda.jpg",
+      "company": "Sharda Technologies L.L.C.",
+      "location": "Dubai"
+    },
+    {
+      "img": "infobell it.jpg",
+      "company": "Infobell IT",
+      "location": "Bangalore"
+    },
+    {
+      "img": "CDAC Bangalore.jpg",
+      "company": "CDAC ",
+      "location": "Bangalore"
+    },
+    {
+      "img": "mindtree.png",
+      "company": "Mindtree",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "navigant.JPG",
+      "company": "Navigant",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "experion.png",
+      "company": "ExperionTechnologies",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "LITMUS7.jpg",
+      "company": "LITMUS7",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "sayone.png",
+      "company": "SAYONE",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "yatnam.png",
+      "company": "YATNAM TECHNOLOGIES",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "mphasis.png",
+      "company": "Mphasis",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "gadgeon.png",
+      "company": "Gadgeon",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "sap.png",
+      "company": "SAP Labs",
+      "location": "India"
+    },
+    {
+      "img": "capgemini.jpg",
+      "company": "Capgemini",
+      "location": "India"
+    },
+    {
+      "img": "soti.jpg",
+      "company": "SOTI",
+      "location": "India"
+    },
+    {
+      "img": "addverb.png",
+      "company": "AddverbTechnologies",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "kof.jpeg",
+      "company": "Kofluence",
+      "location": "India"
+    },
+    {
+      "img": "gold.png",
+      "company": "Goldman Sachs",
+      "location": "India"
+    },
+    {
+      "img": "applexus.png",
+      "company": "ApplexusTechnologies",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "publicis.png",
+      "company": "Publicis sapient",
+      "location": "India"
+    },
+    {
+      "img": "anthem.png",
+      "company": "Anthem",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "grab.png",
+      "company": "Grab",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "mitsogo.png",
+      "company": "Mitsogo",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "entrupy.png",
+      "company": "Entrupy",
+      "location": "Pune, India"
+    },
+    {
+      "img": "maq.png",
+      "company": "MAQ Software",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "betsol.png",
+      "company": "BETSOL",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "the solar lab.png",
+      "company": "The Solar Labs",
+      "location": "Noida, India"
+    },
+    {
+      "img": "algomox.png",
+      "company": "Algomox",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "techolution.png",
+      "company": "Techolution",
+      "location": "Telangana, India"
+    },
+    {
+      "img": "medianet.png",
+      "company": "Media.net",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "virtusa.png",
+      "company": "Virtusa",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "accolite.png",
+      "company": "Accolite Digital",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "ignitarium.png",
+      "company": "Ignitarium",
+      "location": "Kochi , India"
+    },
+    {
+      "img": "mckinley.png",
+      "company": "Morgan McKinley",
+      "location": "Puducherry, India"
+    },
+    {
+      "img": "questglobal.png",
+      "company": "Quest Global",
+      "location": "India"
+    },
+    {
+      "img": "tcsninja.png",
+      "company": "TCS",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "surveysparrow.png",
+      "company": "SurveySparrow",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "new genesis.png",
+      "company": "NewGenesisSolutions",
+      "location": "Phoenix, AZ"
+    },
+    {
+      "img": "imanage.png",
+      "company": "iManage",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "intellipat.png",
+      "company": "Intellipaat",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "shipsy.png",
+      "company": "Shipsy",
+      "location": "Haryana, India"
+    },
+    {
+      "img": "m3.png",
+      "company": "Wiley Mthree",
+      "location": "India"
+    },
+    {
+      "img": "husqvarna.png",
+      "company": "Husqvarna",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "capillary.png",
+      "company": "CapillaryTechnologies",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "thrilophilia.png",
+      "company": "Thrillophilia",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "guidehouse.png",
+      "company": "GuidehouseIndiaPvtLTD",
+      "location": "Trivandrum, India"
+    },
+    {
+      "img": "zoho.png",
+      "company": "Zoho Corporation",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "vassar.png",
+      "company": "Vassar Labs",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "byjus.png",
+      "company": "Byjus BDA",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "cogoport.png",
+      "company": "Cogoport",
+      "location": "Mumbai, India"
+    },
+    {
+      "img": "tata elxsi.png",
+      "company": "Tata Elxsi",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "zycus.png",
+      "company": "Zycus Infotech",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "birlasoft.png",
+      "company": "Birlasoft Ltd",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "tcs r&i.png",
+      "company": "TCS R&I",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "itc.png",
+      "company": "ITC Infotech",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "innominds.png",
+      "company": "InnoMindTechnologies",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "wissen.png",
+      "company": "WissenInfotech",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "pw.png",
+      "company": "PHYSICSWALLAH",
+      "location": " India"
+    },
+    {
+      "img": "kinaxis.png",
+      "company": "Kinaxis",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "springml.png",
+      "company": "SpringML",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "zensar.png",
+      "company": "ZensarTechnologies",
+      "location": "Pune, India"
+    },
+    {
+      "img": "pk global.png",
+      "company": "P K Global",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "edvora.png",
+      "company": "Edvora, Inc",
+      "location": "Noida, India"
+    },
+    {
+      "img": "ivy.png",
+      "company": "IvyTechnologies",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "real variable.png",
+      "company": "Real Variable",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "sinergia.png",
+      "company": "Sinergia Labs",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "code nation.png",
+      "company": "CodeNation",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "smiota.png",
+      "company": "Smiota",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "speridian.png",
+      "company": "SperidianTechnologies",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "nest.png",
+      "company": "NeST Digital",
+      "location": "Kochi, India"
+    },
+    {
+      "img": "prolifics.png",
+      "company": "Prolifics,Inc",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "hexaware.png",
+      "company": "HexawareTechnologies",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "intellect.png",
+      "company": "IntellectDesignArena",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "arintra.png",
+      "company": "Arintra",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "brane.png",
+      "company": "Brane",
+      "location": "Hyderabad, India"
+    },
+    {
+      "img": "royal enfield.png",
+      "company": "Royal Enfield",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "tcs digital.png",
+      "company": "TCS Digital",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "indiamart.png",
+      "company": "IndiaMART",
+      "location": "Noida, India"
+    },
+    {
+      "img": "simplilearn.png",
+      "company": "Simplilearn",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "cgi.png",
+      "company": "CGI Inc",
+      "location": "Bangalore, India"
+    },
+    {
+      "img": "acsia.png",
+      "company": "Acsia Technologies",
+      "location": "Trivandrum, India"
+    },
+    {
+      "img": "onebanc.png",
+      "company": "OneBancTechnologies",
+      "location": "Haryana, India"
+    },
+    {
+      "img": "4i.jpg",
+      "company": "4I SOFTWARS",
+      "location": "Chennai, India"
+    },
+    {
+      "img": "CIMB.jpg",
+      "company": "CIMB AI Labs",
+      "location": "Bengaluru, India"
+    },
+    {
+      "img": "ericsson.png",
+      "company": "Ericsson",
+      "location": "India"
+    }
+  ]
+}

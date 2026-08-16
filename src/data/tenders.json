@@ -1,0 +1,650 @@
+{
+  "$schema": "./_schema/tenders.json",
+  "_help": [
+    "Source: the \"tenders\" list on the old tenders page."
+  ],
+  "items": [
+    {
+      "title": "Quotation Notice for Purchase of Library Books",
+      "status": 0,
+      "lastDate": "13-08-2025",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/Purchase of Library Books.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "NOTICE-Hiring of building for IIIT Kottayam",
+      "status": 0,
+      "lastDate": "10-03-2025",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/Advt-hiring of building-hostel-February 2025.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation Notice for Purchase of Library Books",
+      "status": 0,
+      "lastDate": "25-06-2024",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/library 24.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "NOTICE-Hiring of building for IIIT Kottayam",
+      "status": 0,
+      "lastDate": "30-05-2024",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/Notice-Hiring of Building-April 2024.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation Notice for Purchase of Library Books",
+      "status": 0,
+      "lastDate": "26-08-2023",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/tender_lib_book_11_08_2023.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Hiring of Buildings for IIIT Kottayam",
+      "status": 0,
+      "lastDate": "30-06-2023",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/Advt-hiring of building-hostel-2023.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing of New Laboratories at IIIT Kottayam Campus",
+      "status": 0,
+      "lastDate": "26-04-2023",
+      "extendedDate": "",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/nit23lab.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailednit23lab.pdf",
+          "title": "Detailed NIT"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing of Double Bedded Hostel at IIIT Kottayam Campus",
+      "status": 0,
+      "lastDate": "25-04-2023",
+      "extendedDate": "",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/nit23.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailednit23.pdf",
+          "title": "Detailed NIT"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Purchase of Library Books",
+      "status": 0,
+      "lastDate": "10-03-2023",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/tender_lib_book_20_02_2023.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Answer Booklets and Additional Sheets",
+      "status": 0,
+      "lastDate": "05-09-2022",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/answerbooklet_22.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for supplying library books",
+      "status": 0,
+      "lastDate": "14-07-2022",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/librarybook_22.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Notice inviting offers for Hiring of Buildings for IIIT K-2022-23",
+      "status": 0,
+      "lastDate": "20-07-2022",
+      "extendedDate": "",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/notice_building.pdf",
+          "title": "Notice Inviting Tender"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing Double Bedded Hostel at IIIT Kottayam Campus",
+      "status": 0,
+      "lastDate": "29-04-2022",
+      "extendedDate": "",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/nit2223.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailednit2223.pdf",
+          "title": "Detailed NIT"
+        },
+        {
+          "text": "Corrigendum- I",
+          "link": "/data/pdf/corri22.pdf",
+          "title": "Corrigendum- I"
+        }
+      ]
+    },
+    {
+      "title": "Designing, Supplying and Installation of a 200 KLD Inline Pressure Water Treatment System",
+      "status": 0,
+      "lastDate": "03-03-2022",
+      "extendedDate": "10-03-2022",
+      "links": [
+        {
+          "text": "Notice Inviting Quotation",
+          "link": "/data/pdf/NIQ_Pressure.pdf",
+          "title": "Notice Inviting Quotation"
+        },
+        {
+          "text": "Annexure I",
+          "link": "/data/pdf/Annexure I_Pressure.pdf",
+          "title": "Annexure II"
+        },
+        {
+          "text": "Specification Annexure II",
+          "link": "/data/pdf/Annexure II_Pressure.pdf",
+          "title": "Specification Annexure III"
+        },
+        {
+          "text": "Addendum",
+          "link": "/data/pdf/Addendum10.pdf",
+          "title": "Addendum"
+        }
+      ]
+    },
+    {
+      "title": "Supply and Fixing of Desklet handwriting Pad on Existing Chair in Seminar Hall",
+      "status": 0,
+      "lastDate": "18-02-2022",
+      "links": [
+        {
+          "text": "Notice Inviting Quotation",
+          "link": "/data/pdf/NIQ 1 (1).pdf",
+          "title": "Notice Inviting Quotation"
+        },
+        {
+          "text": "Annexure II",
+          "link": "/data/pdf/Annexure II.pdf",
+          "title": "Annexure II"
+        },
+        {
+          "text": "Specification Annexure III",
+          "link": "/data/pdf/Specification Annexure III.pdf",
+          "title": "Specification Annexure III"
+        },
+        {
+          "text": "Annexure IV(Drawing)",
+          "link": "/data/pdf/Annexure IV(Drawing).pdf",
+          "title": "Annexure IV(Drawing)"
+        }
+      ]
+    },
+    {
+      "title": "Kitchen Equipment for Mess block at IIIT Kottayam",
+      "status": 2,
+      "lastDate": "18-12-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/NIQ KITCHEN.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Specification",
+          "link": "/data/pdf/SPECIFICATION.pdf",
+          "title": "Detailed NIT"
+        },
+        {
+          "text": "Drawing",
+          "link": "/data/pdf/DRAWING KITCHEN.pdf",
+          "title": "Drawing"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing of Laboratory Work Table for IIIT Kottayam",
+      "status": 2,
+      "lastDate": "22-12-2021",
+      "extendedDate": "29-12-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/NIQ final.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailed niq.pdf",
+          "title": "Detailed NIT"
+        },
+        {
+          "text": "Drawing",
+          "link": "/data/pdf/LAb work Table.pdf",
+          "title": "Drawing"
+        },
+        {
+          "text": "Addendum",
+          "link": "/data/pdf/addendum worktable.pdf",
+          "title": "Addendum"
+        }
+      ]
+    },
+    {
+      "title": "TENDER FOR PROVIDING TRANSPORT SERVICES",
+      "status": 2,
+      "lastDate": "20-12-2021",
+      "extendedDate": "26-12-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/tendertech bid_app-1.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Technical Bid",
+          "link": "/data/pdf/tendertech bid_app-2-12.pdf",
+          "title": "Technical Bid"
+        },
+        {
+          "text": "Financial Bid",
+          "link": "/data/pdf/tender fin bid_app.pdf",
+          "title": "Financial Bid"
+        },
+        {
+          "text": "Addendum",
+          "link": "/data/pdf/addendum (2).pdf",
+          "title": "Addendum"
+        }
+      ]
+    },
+    {
+      "title": "Supply of Electrical Items",
+      "status": 2,
+      "lastDate": "10-12-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/IMG_0003.pdf",
+          "title": "Notice Inviting Tender"
+        }
+      ]
+    },
+    {
+      "title": "Internal Office Partition Work at Administrative Block",
+      "status": 2,
+      "lastDate": "27-10-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Quotation",
+          "link": "/data/pdf/NIQ-13102021.pdf",
+          "title": "Notice Inviting Quotation"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing Double Bedded Hostel at IIIT Kottayam Campus",
+      "status": 2,
+      "lastDate": "15-05-2021",
+      "extendedDate": "28-05-2021",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/nit_21.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/dnit_21.pdf",
+          "title": "Detailed NIT"
+        },
+        {
+          "text": "Corrigendum- I",
+          "link": "/data/pdf/corri.pdf",
+          "title": "Corrigendum- I"
+        },
+        {
+          "text": "Corrigendum- II",
+          "link": "/data/pdf/corrigendum2.pdf",
+          "title": "Corrigendum- II"
+        },
+        {
+          "text": "Corrigendum- III",
+          "link": "/data/pdf/corrigendum3.pdf",
+          "title": "Corrigendum- III"
+        }
+      ]
+    },
+    {
+      "title": "Quotation Notice for Supplying Library Books",
+      "status": 2,
+      "lastDate": "12-04-2021",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/tender_library_book_2021.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Tender for Group Health Insurance to the students & employees of IIIT Kottayam",
+      "status": 2,
+      "lastDate": "21-12-2020",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/insurance20.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailedinsurance20.pdf",
+          "title": "Detailed NIT"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing Double Bedded Girls Hostel at IIIT Kottayam",
+      "status": 2,
+      "lastDate": "05-08-2020",
+      "links": [
+        {
+          "text": "Notice Inviting Tender",
+          "link": "/data/pdf/nit20.pdf",
+          "title": "Notice Inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/detailednit20.pdf",
+          "title": "Detailed NIT"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Answer Booklet",
+      "status": 2,
+      "lastDate": "27-05-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/retender2_answerbooklet.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Notice Inviting offers for Hiring of buildings for Hostel",
+      "status": 2,
+      "lastDate": "20-05-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/hostel_advt_2020.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Answer Booklet",
+      "status": 2,
+      "lastDate": "02-04-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/retender_answerbooklet.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Procurement of Desktop PCB Milling Machine",
+      "status": 2,
+      "lastDate": "10-03-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/tenderpcb.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for supplying library Books",
+      "status": 2,
+      "lastDate": "31-01-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/libbook.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Answer Booklet and Additional Sheet.",
+      "status": 2,
+      "lastDate": "03-02-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/tenderAnswersheet.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Notice Inviting offers for Hiring of building-Off Campus Centre for IIITK at TVM.",
+      "status": 2,
+      "lastDate": "15-01-2020",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/noticeex.mtech.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Procurement of network rack and rack mount monitor keyboard drawer W/2 console 8 or more(KVM Switch).",
+      "status": 2,
+      "lastDate": "31-10-2019",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/quotationrack.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Answer Booklet and Additional Sheet.",
+      "status": 2,
+      "lastDate": "16-08-2019",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/answersheet.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Notice Inviting offers for Hiring of building for Hostel for IIITK-2019-20.",
+      "status": 2,
+      "lastDate": "15-07-2019",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/hostel.pdf",
+          "title": "Notice Inviting Offers"
+        }
+      ]
+    },
+    {
+      "title": "Quotation notice for Printing of Institute magazine 2019 ",
+      "status": 2,
+      "lastDate": "04-07-2019",
+      "links": [
+        {
+          "text": "Quotation Notice",
+          "link": "/data/pdf/CollegeMagazine.pdf",
+          "title": "Notice inviting Tender"
+        }
+      ]
+    },
+    {
+      "title": "Furnishing Double Bedded Mens Hostel at IIIT Kottayam campus",
+      "status": 2,
+      "lastDate": "27-05-2019",
+      "links": [
+        {
+          "text": "Notice inviting Tender",
+          "link": "/data/pdf/NIT0001.pdf",
+          "title": "Notice inviting Tender"
+        },
+        {
+          "text": "Detailed NIT",
+          "link": "/data/pdf/Detailed_NIT.pdf",
+          "title": "Detailed NIT"
+        },
+        {
+          "text": "Bank Details",
+          "link": "/data/pdf/Bank.pdf",
+          "title": "Bank Details"
+        }
+      ]
+    },
+    {
+      "title": "Tender Notice for Providing Transport Services",
+      "status": 2,
+      "lastDate": "08-10-2018",
+      "links": [
+        {
+          "text": "Tender",
+          "link": "/data/pdf/tender_transport_2018_09_05.pdf",
+          "title": "Kitchen Tender"
+        },
+        {
+          "text": "Addendum",
+          "link": "/data/pdf/tender_addendum_transport_2018_09_05.pdf",
+          "title": "Addendum"
+        }
+      ]
+    },
+    {
+      "title": "Quotation Notice for Purchase of Library Books",
+      "status": 2,
+      "lastDate": "19-01-2018"
+    },
+    {
+      "title": "Supply & Installation of Asterik based IP telephony solution",
+      "status": 2,
+      "lastDate": "16-01-2018"
+    },
+    {
+      "title": "Furnishing of Double Bedded Men's Hostel at IIIT Kottayam permanent campus",
+      "status": 2,
+      "lastDate": "Unknown"
+    },
+    {
+      "title": "Supply of Sports Items",
+      "status": 2,
+      "lastDate": "14-11-2017"
+    },
+    {
+      "title": "Quotation Notice for Purchase of Library Books",
+      "status": 2,
+      "lastDate": "21-08-2017"
+    },
+    {
+      "title": "Supply of Plastic Chairs",
+      "status": 2,
+      "lastDate": "Unknown"
+    },
+    {
+      "title": "Tender Notice for the supply of equipments to Electronics and Digital Labs",
+      "status": 2,
+      "lastDate": "Jan-2017"
+    },
+    {
+      "title": "Quotation Notice for purchase of materials for Lab Networking",
+      "status": 2,
+      "lastDate": "Unknown"
+    },
+    {
+      "title": "Quotation Notice for LCD Projector",
+      "status": 2,
+      "lastDate": "Unknown"
+    },
+    {
+      "title": "Quotation Notice for PA system",
+      "status": 2,
+      "lastDate": "Unknown"
+    },
+    {
+      "title": "Quotation Notice for Furniture",
+      "status": 2,
+      "lastDate": "Unknown"
+    }
+  ]
+}

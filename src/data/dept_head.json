@@ -1,0 +1,65 @@
+{
+  "$schema": "./_schema/dept_head.json",
+  "_help": [
+    "Staff listing for the dept head page.",
+    "Each person: name, designation, optional area (research interests),",
+    "contact (email/phone/room) and photo (file name under /data/images/)."
+  ],
+  "items": [
+    {
+      "h5": "HOD (Electronics & Communication Eng.)",
+      "name": "Dr. Ananth A",
+      "contact": {
+        "email": "ananth at iiitkottayam dot ac.in",
+        "room": "AB 208 / AC 313",
+        "phone": "0482-2202176"
+      },
+      "photo": "ananth.jpeg",
+      "more": {}
+    },
+    {
+      "h5": "HOD(Computer Science & Engineering-1)",
+      "name": "Dr. Christina Terese Joseph",
+      "contact": {
+        "email": "christina at iiitkottayam dot ac.in",
+        "room": "AA 108 / AC 318",
+        "phone": "0482-2202190, 0482-2202173"
+      },
+      "photo": "christina.jpeg",
+      "more": {}
+    },
+    {
+      "h5": "HOD(Computer Science & Engineering-2)",
+      "name": "Dr. Rubell Marion Lincy G",
+      "contact": {
+        "email": "lincy at iiitkottayam dot ac.in",
+        "room": "BC 317 / AB 219",
+        "phone": "0482-2202152"
+      },
+      "photo": "lincy.jpeg",
+      "more": {}
+    },
+    {
+      "h5": "HOD (Computational Science & Humanities)",
+      "name": "Dr. Dhanyamol M V",
+      "contact": {
+        "email": "dhanya at iiitkottayam dot ac.in",
+        "room": "BC 316 / AA 119",
+        "phone": "0482-2202162"
+      },
+      "photo": "dhanya.JPG",
+      "more": {}
+    },
+    {
+      "h5": "HOD (CSE- Cyber Security)",
+      "name": "Dr. Arun Cyril Jose",
+      "contact": {
+        "email": "aruncyril at iiitkottayam dot ac.in",
+        "room": "AA 122",
+        "phone": "0482-2202159"
+      },
+      "photo": "arun.jpg",
+      "more": {}
+    }
+  ]
+}

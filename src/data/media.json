@@ -1,0 +1,1416 @@
+{
+  "$schema": "./_schema/media.json",
+  "_help": [
+    "Source: the \"upcoming\" list on the old media page."
+  ],
+  "items": [
+    {
+      "title": "The Hindu",
+      "description": "To land that job",
+      "photo": {
+        "file": "Land_That_Job.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Jul 05, 2026",
+      "link": [
+        {
+          "text": "Read News-To land that job",
+          "link": "/data/images/media/large/Land_That_Job.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IIIT Kottayam Introduces B.Tech. in Mathematics and Computing",
+      "photo": {
+        "file": "Mathematics_Computing.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Jul 01, 2026",
+      "link": [
+        {
+          "text": "Read News-IIIT Kottayam Introduces B.Tech. in Mathematics and Computing",
+          "link": "/data/images/media/large/Mathematics_Computing.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Internship: A Test Drive",
+      "photo": {
+        "file": "Mathrubhumi_Dr_Mathew.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Mar 23, 2026",
+      "link": [
+        {
+          "text": "Read News-Internship: A Test Drive",
+          "link": "/data/images/media/large/Mathrubhumi_Dr_Mathew.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Unlock Your Tech Career",
+      "photo": {
+        "file": "Unlock_tech_career.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Mar 02, 2026",
+      "link": [
+        {
+          "text": "Read News- Unlock Your Tech Career",
+          "link": "/data/images/media/large/Unlock_tech_career.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Placements in the AI Era",
+      "photo": {
+        "file": "_Manorama_Dr_Mathew_Aricle.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Mar 02, 2026",
+      "link": [
+        {
+          "text": "Read News-Placements in the AI Era",
+          "link": "/data/images/media/large/_Manorama_Dr_Mathew_Aricle.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IIIT Kottayam Team Wins Hackathon Lumoro-26",
+      "photo": {
+        "file": "Hackathon_2026.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Mar 02, 2026",
+      "link": [
+        {
+          "text": "Read News-IIIT Kottayam Team Wins Hackathon Lumoro-26",
+          "link": "/data/images/media/large/Hackathon_2026.png"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Gateway to employment",
+      "photo": {
+        "file": "Gateway_to_employment.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 29, 2025",
+      "link": [
+        {
+          "text": "Read News-Gateway to employment",
+          "link": "/data/images/media/large/Gateway_to_employment.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Non-Tech Careers for Engineers",
+      "photo": {
+        "file": "Non_Tech_Career.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 29, 2025",
+      "link": [
+        {
+          "text": "Read News- Non-Tech Careers for Engineers",
+          "link": "/data/images/media/large/Non_Tech_Career.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Benefits Offered to Students",
+      "photo": {
+        "file": "Benefits_to_Students.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 24, 2025",
+      "link": [
+        {
+          "text": "Read News- Benefits Offered to Students",
+          "link": "/data/images/media/large/Benefits_to_Students.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Apply for E-M.Tech at IIIT Kottayam by the 20th",
+      "photo": {
+        "file": "Apply_for_E_M_Tech.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 16, 2025",
+      "link": [
+        {
+          "text": "Read News- Apply for E-M.Tech at IIIT Kottayam by the 20th",
+          "link": "/data/images/media/large/Apply_for_E_M_Tech.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IIIT Kottayam Launches Integrated M.Tech Programmes",
+      "photo": {
+        "file": "Integrated_M_Tech.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 16, 2025",
+      "link": [
+        {
+          "text": "Read News- IIIT Kottayam Launches Integrated M.Tech Programmes",
+          "link": "/data/images/media/large/Integrated_M_Tech.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "IIIT Kottayam Invites Applications for Ph.D. Programmes",
+      "photo": {
+        "file": "Applications_for_Ph_D.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 05, 2025",
+      "link": [
+        {
+          "text": "Read News- IIIT Kottayam Invites Applications for Ph.D. Programmes",
+          "link": "/data/images/media/large/Applications_for_Ph_D.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Ph.D. Admissions Open for January 2026",
+      "photo": {
+        "file": "Ph_D_Admission_Jan_2026.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 05, 2025",
+      "link": [
+        {
+          "text": "Read News- Ph.D. Admissions Open for January 2026",
+          "link": "/data/images/media/large/Ph_D_Admission_Jan_2026.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Research at IIIT Kottayam",
+      "photo": {
+        "file": "Research_at_IIIT_Kottayam_2025.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 05, 2025",
+      "link": [
+        {
+          "text": "Read News- Research at IIIT Kottayam",
+          "link": "/data/images/media/large/Research_at_IIIT_Kottayam_2025.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IIIT Kottayam: A Centre of Excellence",
+      "photo": {
+        "file": "Centre_of_Excellence.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Jun 23, 2025",
+      "link": [
+        {
+          "text": "Read News- IIIT Kottayam: A Centre of Excellence",
+          "link": "/data/images/media/large/Centre_of_Excellence.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Campus Placement Season Begins",
+      "photo": {
+        "file": "Campus_Placement_Season2025.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Jun 20, 2025",
+      "link": [
+        {
+          "text": "Read News- Campus Placement Season Begins",
+          "link": "/data/images/media/large/Campus_Placement_Season2025.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Protecting Educational Values",
+      "photo": {
+        "file": "Protect_education.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "May 17, 2025",
+      "link": [
+        {
+          "text": "Read News- Protecting Educational Values",
+          "link": "/data/images/media/large/Protect_education.png"
+        }
+      ]
+    },
+    {
+      "title": "The New Indian Express",
+      "description": "The threat of fake scholarships: The growing menace",
+      "photo": {
+        "file": "fake_scholership.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Apr 28, 2025",
+      "link": [
+        {
+          "text": "Read News- The threat of fake scholarships: The growing menace",
+          "link": "/data/images/media/large/fake_scholership.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Two fields receiving the most attractive offers.",
+      "photo": {
+        "file": "GCC.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Feb 11, 2025",
+      "link": [
+        {
+          "text": "Read News- Two fields receiving the most attractive offers",
+          "link": "/data/images/media/large/GCC.png"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "7th Convocation",
+      "photo": {
+        "file": "7thconvocation.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 01, 2025",
+      "link": [
+        {
+          "text": "Read News-7th Convocation ",
+          "link": "/data/images/media/large/7thconvocation.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Online",
+      "description": "AI as a Partner",
+      "photo": {
+        "file": "AI_as_partner.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 10, 2025",
+      "link": [
+        {
+          "text": "Read News- AI as a Partner",
+          "link": "/data/images/media/large/AI_as_partner.png"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Online",
+      "description": "PM-VIKAS",
+      "photo": {
+        "file": "pm-vikas-manoramaonline.JPG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 17, 2025",
+      "link": [
+        {
+          "text": "Read News-PM-VIKAS skill development programme launched at IIIT Kottayam ",
+          "link": "https://www.manoramaonline.com/district-news/kottayam/2025/07/17/pm-vikas-iiit-kottayam-launch.html"
+        }
+      ]
+    },
+    {
+      "title": "Youtube",
+      "description": "PM-VIKAS",
+      "photo": {
+        "file": "pm-vikas-youtube.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 17, 2025",
+      "link": [
+        {
+          "text": "View Video",
+          "link": "https://youtu.be/PArETRJH6b8?si=PlnjrRrKE_x1CBZl"
+        }
+      ]
+    },
+    {
+      "title": "X.com",
+      "description": "PM-VIKAS",
+      "photo": {
+        "file": "pm-vikas_x.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 17, 2025",
+      "link": [
+        {
+          "text": "View Video",
+          "link": "https://x.com/MOMAIndia/status/1945831252613058723?t=tLeKeTZKfaX43esnWOPYCg&s=08"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "PM-VIKAS",
+      "photo": {
+        "file": "pm-vikas-hindu.JPG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 17, 2025",
+      "link": [
+        {
+          "text": "Read News-PM-VIKAS skill development programme launched at IIIT Kottayam ",
+          "link": "https://www.thehindu.com/news/national/kerala/pm-vikas-skill-development-programme-launched-at-iiit-kottayam/article69823431.ece"
+        }
+      ]
+    },
+    {
+      "title": "Deepika Daily",
+      "description": "Visit-Minister George Kurian",
+      "photo": {
+        "file": "ministergeorgekurianvisit.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "April 10, 2025",
+      "link": [
+        {
+          "text": "Read News-One Nation One Election",
+          "link": "/data/images/media/large/minister_george kurian_visit.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Youtube",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "cyber_commando_youtube.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "View Video",
+          "link": "https://youtu.be/OBg0ZXMwbJE?si=88n2ADR6jboJDMrK"
+        }
+      ]
+    },
+    {
+      "title": "The New Indian Express",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "commandos_Istbatch_2025.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "Read News-Ist batch of cyber commandos completes training at IIIT-Kottayam in Kerala",
+          "link": "https://www.newindianexpress.com/states/kerala/2025/Mar/26/first-batch-of-cyber-commandos-completes-training-at-iiit-kottayam-in-kerala"
+        }
+      ]
+    },
+    {
+      "title": " Manorama Online",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "cyber_commando_Istbatch_march26_2025.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "Read News-Ist batch of cyber commandos completes training; set for deployment",
+          "link": "https://www.onmanorama.com/career-and-campus/top-news/2025/03/25/indias-first-cyber-commandos-graduate.html"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "cyber_commando_Istbatch_manoramaonline.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "Read News-First batch of cyber commandos completes training at IIIT-Kottayam",
+          "link": "https://www.manoramaonline.com/district-news/kottayam/2025/03/24/cyber-commando-training-program-first-batch-completes-training.html"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "cyber_commando_hindu_mar26_2025.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "Read News-First batch of cyber commandos completes training at IIIT-Kottayam",
+          "link": "/data/images/media/large/cyber_commando_hindu_mar26_2025.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Deepika Daily",
+      "description": "First batch of cyber commandos completes training at IIIT-Kottayam",
+      "photo": {
+        "file": "cyber_commando_deepika_mar26_2025.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 26, 2025",
+      "link": [
+        {
+          "text": "Read News-First batch of cyber commandos completes training at IIIT-Kottayam",
+          "link": "/data/images/media/large/cyber_commando_deepika_mar26_2025.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Drone news",
+      "photo": {
+        "file": "TheHinduDroneNews-elephant.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 24, 2025",
+      "link": [
+        {
+          "text": "Read News-IIITK develops drones for tranquillizing elephants in distress",
+          "link": "/data/images/media/large/The Hindu Drone News Feb 24 Page 4.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "Drone news",
+      "photo": {
+        "file": "ManoramaDroneNews-Feb23-convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-Ashwin and IIITK join hands; Drone to chase away Elephant",
+          "link": "/data/images/media/large/Manorama Drone News Feb 23.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Cyber Commando Training",
+      "photo": {
+        "file": "3-Mathrubhumi-Feb23-Kottayam-Edition-Page3-convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-Completing first batch of cyber commandos",
+          "link": "/data/images/media/large/3-Mathrubhumi Feb 23  Kottayam Edition Page 3.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "6th Convocation 2025",
+      "photo": {
+        "file": "4-Mathrubhumi-Feb23-Page7-Ernakulam-ed-convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-6th Convocation @IIITK 2025",
+          "link": "/data/images/media/large/4-Mathrubhumi Feb 23 Page7 Ernakulam ed.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Deshabhimani Daily",
+      "description": "6th Convocation 2025",
+      "photo": {
+        "file": "5-Deshahimani-Feb23-Sunday-convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-6th Convocation @IIITK 2025",
+          "link": "/data/images/media/large/5-Deshahimani Feb 23 Sunday Page 12.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "6th Convocation 2025",
+      "photo": {
+        "file": "2-MalayalaManoramafeb23_convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-6th Convocation @IIITK 2025",
+          "link": "/data/images/media/large/2-Malayala Manorama feb 23 Page 3.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The New Indian Express",
+      "description": "6th Convocation 2025",
+      "photo": {
+        "file": "1_TheNewIndianExpressFeb23_convo-6.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 22, 2025",
+      "link": [
+        {
+          "text": "Read News-6th Convocation @IIITK 2025",
+          "link": "/data/images/media/large/1-The New Indian Express Feb 23 Page 2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Cyber Commando Training",
+      "photo": {
+        "file": "cybercommando24.JPG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "September 25, 2024",
+      "link": [
+        {
+          "text": "Read News-Cyber Commando Training Program",
+          "link": "/data/images/media/large/cyber commando mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala manorama Daily",
+      "description": "IEEE SPICES 2024",
+      "photo": {
+        "file": "ieee_spices2024.JPG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "September 20, 2024",
+      "link": [
+        {
+          "text": "Read News-IEEE SPICES 2024",
+          "link": "/data/images/media/large/ieee spices 2024 manorama.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IEEE SPICES 2024",
+      "photo": {
+        "file": "ieeespices_24_mathrubhumi.JPG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "September 20, 2024",
+      "link": [
+        {
+          "text": "Read News-IEEE SPICES 2024",
+          "link": "/data/images/media/large/ieee spices 2024 mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala manorama Daily",
+      "description": "MoU with KAU",
+      "photo": {
+        "file": "mou_kau.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 22, 2024",
+      "link": [
+        {
+          "text": "Read News-MoU with Kerala Agricultural Univeristy",
+          "link": "https://www.manoramaonline.com/district-news/kottayam/2024/07/22/iiit-kottayam-signs-mou-with-agricultural-university.html"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Placement",
+      "photo": {
+        "file": "ToLandThat_Job.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "July 22, 2024",
+      "link": [
+        {
+          "text": "Read News -To Land that Job ",
+          "link": "https://www.thehindu.com/education/how-college-placement-cells-can-help-students-during-times-of-recession/article68413669.ece"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "HumanResocia",
+      "photo": {
+        "file": "human-resocia.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "June 29, 2024",
+      "link": [
+        {
+          "text": "Read News - MoU with Human Resocia/Global IT Talent, Japan",
+          "link": "/data/images/media/large/human-resocia.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Kathakali_AI",
+      "photo": {
+        "file": "kathakali_AI_head.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "May 19, 2024",
+      "link": [
+        {
+          "text": "Read News -The AI guide to Kathakalis nuances ",
+          "link": "/data/images/media/large/kathakali_AI.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "ICITIIT24",
+      "photo": {
+        "file": "mathrubhumi_icitiit24.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 18, 2024",
+      "link": [
+        {
+          "text": "Read News-ICITIIT 2024",
+          "link": "/data/images/media/large/mathrubhumi_icitiit24.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala manorama",
+      "description": "ICITIIT24",
+      "photo": {
+        "file": "manoramaonline_icitiit24.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 18, 2024",
+      "link": [
+        {
+          "text": "Read News-ICITIIT 2024",
+          "link": "https://www.manoramaonline.com/district-news/kottayam/2024/03/16/iee-international-conference.html"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Gateway to Employment",
+      "photo": {
+        "file": "gateWaytoEmployment.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Feb 26, 2024",
+      "link": [
+        {
+          "text": "Read News -Gateway to Employment ",
+          "link": "/data/images/media/large/gateWaytoEmployment.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "iMTech2023",
+      "photo": {
+        "file": "mathrubhumi_imtech2.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 25, 2023",
+      "link": [
+        {
+          "text": "Read News -Integrated MTech@IIITK ",
+          "link": "/data/images/media/large/mathrubhumi_imtech2.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "iMTech2023",
+      "photo": {
+        "file": "mathrubhumi_imtech.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 26, 2023",
+      "link": [
+        {
+          "text": "Read News -Integrated MTech@IIITK ",
+          "link": "/data/images/media/large/mathrubhumi_imtech.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The New Indian Express",
+      "description": "JobOffers2023",
+      "photo": {
+        "file": "theIndianExpress-19-12-23.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 19, 2023",
+      "link": [
+        {
+          "text": "Read News -Job Offers 2023",
+          "link": "/data/images/media/large/theIndianExpress-Dec-19-23.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Convocation2023",
+      "photo": {
+        "file": "convocation2023_theHindu.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 10, 2023",
+      "link": [
+        {
+          "text": "Read News -5th Convocation 2023@IIITK",
+          "link": "https://www.thehindu.com/news/national/kerala/convocation-held-at-iiit-kottayam/article67621801.ece"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Convocation2023",
+      "photo": {
+        "file": "convocation23_mathrubhumi.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Dec 10, 2023",
+      "link": [
+        {
+          "text": "Read News -5th Convocation 2023@IIITK ",
+          "link": "/data/images/media/large/convocation23_mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "MTech",
+      "photo": {
+        "file": "mtech_mathrubhumi.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Nov 16, 2023",
+      "link": [
+        {
+          "text": "Read News - MTech@IIITK ",
+          "link": "/data/images/media/large/mtech_mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Integrated MTech",
+      "photo": {
+        "file": "imtech_hindu.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 21, 2023",
+      "link": [
+        {
+          "text": "Read News - Integrated MTech@IIITK ",
+          "link": "https://www.thehindu.com/news/national/kerala/iiit-kottayam-to-launch-i-mtech-for-working-professionals/article67446165.ece"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Integrated MTech",
+      "photo": {
+        "file": "imtech_mathrubhumi.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 21, 2023",
+      "link": [
+        {
+          "text": "Read News - Integrated MTech@IIITK ",
+          "link": "/data/images/media/large/imtech_mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "Integrated MTech",
+      "photo": {
+        "file": "imtech_manorama.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 21, 2023",
+      "link": [
+        {
+          "text": "Read News - Integrated MTech@IIITK ",
+          "link": "/data/images/media/large/imtech_manorama.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Deshabhimani Daily",
+      "description": "Cyber security conference",
+      "photo": {
+        "file": "cybercrime-deshabhimani.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 8, 2023",
+      "link": [
+        {
+          "text": "Read News ",
+          "link": "/data/images/media/large/cybercrime-deshabhimani.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Times Of India",
+      "description": "Cyber security conference",
+      "photo": {
+        "file": "cybercrime_thetimeofindia.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 7, 2023",
+      "link": [
+        {
+          "text": "Read News - Analysing crime scenes via the Metaverese ",
+          "link": "/data/images/media/large/cybercrime-the times of india.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Cyber security conference",
+      "photo": {
+        "file": "cybercrime-hindu.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Oct 7, 2023",
+      "link": [
+        {
+          "text": "Read News - Recreation of crime scene in metaverse",
+          "link": "/data/images/media/large/cybercrime-hindu.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "iQCCHESS2023",
+      "photo": {
+        "file": "iqcchess2023_mathrubhumi.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Sep 20, 2023",
+      "link": [
+        {
+          "text": "Read News - iQCCHESS 2023 ",
+          "link": "/data/images/media/large/iqcchess2023_mathrubhumi.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "Carrer Guru",
+      "photo": {
+        "file": "malayalamanorama_sep_19_2023.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "Sep 19, 2023",
+      "link": [
+        {
+          "text": "Read News ",
+          "link": "/data/images/media/large/malayalamanorama_sep_19_2023.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Mathrubhumi_Seminar",
+      "photo": {
+        "file": "Mathrubhumi_jun_16_2023.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "June 16, 2023",
+      "link": [
+        {
+          "text": "Read News ",
+          "link": "/data/images/media/large/Mathrubhumi_jun16_2023.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "Mathrubhumi_Disha",
+      "photo": {
+        "file": "Mathrubhumi_jun12.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "June 12, 2023",
+      "link": [
+        {
+          "text": "Read News ",
+          "link": "/data/images/media/large/Mathrubhumi_12_Jun_2023.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "MoU-IIITK and RRII",
+      "photo": {
+        "file": "mou-iiitk_rrii.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "March 16, 2023",
+      "link": [
+        {
+          "text": "Read News - MoU between IIIT Kottayam and RRII",
+          "link": "https://www.manoramaonline.com/district-news/kottayam/2023/03/16/mou-iit-kottayam-and-rrii.html"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "IEEE CONFERENCE 2023",
+      "photo": {
+        "file": "conference_hindu.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 12, 2023",
+      "link": [
+        {
+          "text": "Read News - IEEE CONFERENCE 2023",
+          "link": "/data/images/media/large/conference_hindu1.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IEEE CONFERENCE 2023",
+      "photo": {
+        "file": "conference_mathrubhumi.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 11, 2023",
+      "link": [
+        {
+          "text": "Read News - IEEE CONFERENCE 2023",
+          "link": "/data/images/media/large/conference_mathrubhumi1.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "IIIT-Kottayam records big rise in placement offers",
+      "photo": {
+        "file": "15.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "September 15, 2022",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.thehindu.com/news/national/kerala/iiit-kottayam-records-big-rise-in-placement-offers/article65895216.ece"
+        }
+      ]
+    },
+    {
+      "title": "Facebook",
+      "description": "Smart India Hackathon 2022",
+      "photo": {
+        "file": "hackathon.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "September 1, 2022",
+      "link": [
+        {
+          "text": "Read News - Smart India Hackathon 2022",
+          "link": "/data/images/media/large/16_hackathon.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Deepika Daily",
+      "description": "First 5G learning Centre in Kerala",
+      "photo": {
+        "file": "5g_deepika.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "10 th July 2022",
+      "link": [
+        {
+          "text": "Read News - First 5G learning Centre in Kerala",
+          "link": "/data/images/media/large/5g_deepika.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Hindu Daily",
+      "description": "First 5G learning Centre in Kerala",
+      "photo": {
+        "file": "5g_hindu.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "9 th July 2022",
+      "link": [
+        {
+          "text": "Read News - First 5G learning Centre in Kerala",
+          "link": "/data/images/media/large/5g_hindu.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Malayala Manorama Daily",
+      "description": "First 5G learning Centre in Kerala",
+      "photo": {
+        "file": "5g_manorama.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "9 th July 2022",
+      "link": [
+        {
+          "text": "Read News - First 5G learning Centre in Kerala",
+          "link": "/data/images/media/large/5g_manorama1.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "First 5G learning Centre in Kerala",
+      "photo": {
+        "file": "5g1.jpeg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "9 th July 2022",
+      "link": [
+        {
+          "text": "Read News - First 5G learning Centre in Kerala",
+          "link": "https://www.thehindu.com/news/national/kerala/iiitk-opens-keralas-first-5g-learning-centre/article65619967.ece"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IEEE CONFERENCE",
+      "photo": {
+        "file": "1.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 2020",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.mathrubhumi.com/mobile/careers/features/iiit-kottayam-for-computer-science-related-studies-1.3924413"
+        }
+      ]
+    },
+    {
+      "title": "Mathrubhumi Daily",
+      "description": "IEEE CONFERENCE",
+      "photo": {
+        "file": "2.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "February 2020",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://english.mathrubhumi.com/mobile/education/news/admissions/m-tech-program-for-working-professionals-at-iiit-kottayam-apply-by-july-18-1.5836743"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Republic day celebrations",
+      "photo": {
+        "file": "3.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "January 26 2020",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.thehindu.com/news/national/kerala/iiit-firm-to-distribute-seed-fund-to-start-ups/article37400801.ece/amp/"
+        }
+      ]
+    },
+    {
+      "title": "The Hindu",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "4.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.thehindu.com/news/national/kerala/iiit-kottayam-marks-surge-in-placement-offers/article37860652.ece/amp/  "
+        }
+      ]
+    },
+    {
+      "title": " The Hindu",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "5.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.mathrubhumi.com/mobile/education-malayalam/features/mtech-at-iiitk-apply-now-1.5805884"
+        }
+      ]
+    },
+    {
+      "title": " The Hindu",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "6.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.thehindu.com/news/national/kerala/iiit-kottayam-has-its-own-learning-platform/article32766126.ece/amp/"
+        }
+      ]
+    },
+    {
+      "title": " The Hindu",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "7.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.thehindu.com/news/national/kerala/third-convocation-of-iiit-held/article36289901.ece/amp/"
+        }
+      ]
+    },
+    {
+      "title": " The Hindu",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "8.PNG",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.newindianexpress.com/states/kerala/2018/jul/28/indian-institute-of-information-technology-at-kottayam-gets-atal-incubation-centre-1849617.amp"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "9.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "/data/images/media/large/9.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Twitter",
+      "description": "Dhruva 2019",
+      "photo": {
+        "file": "10.jpg",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "/data/images/media/large/10.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Youtube",
+      "description": "Entrepreneurship and Innovation",
+      "photo": {
+        "file": "11.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "View Video",
+          "link": "https://www.youtube.com/watch?v=tl86n50JJQQ"
+        }
+      ]
+    },
+    {
+      "title": "Youtube",
+      "description": "Artificial Intelligence and Data Science ",
+      "photo": {
+        "file": "12.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "View Video",
+          "link": "https://youtu.be/07FhLUcf-To"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Artificial Intelligence and Data Science ",
+      "photo": {
+        "file": "13.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.manoramaonline.com/education/career-guru/2021/11/23/indian-institute-of-information-technology-kottayam.html"
+        }
+      ]
+    },
+    {
+      "title": "Manorama Daily",
+      "description": "Artificial Intelligence and Data Science ",
+      "photo": {
+        "file": "14.png",
+        "posx": "center",
+        "posy": "center"
+      },
+      "date": "",
+      "link": [
+        {
+          "text": "Read News",
+          "link": "https://www.manoramaonline.com/education/career-guru/2022/01/04/campus-placement-trends-in-2022.html"
+        }
+      ]
+    }
+  ]
+}

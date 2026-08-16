@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/mtech_students.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "b19": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b20": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b21": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b22": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b23": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b24": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "b25": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,34 @@
+<nav class="white header flex flex-row flex-justify" id="myHeader">
+  <div style="overflow:hidden" class="hide-on-med-and-down">
+    <a href="/">
+      <img id="logo-on-small-nav" src="{{ site.logo }}" alt="IIIT Kottayam Logo">
+    </a>
+  </div>
+  <div class="show-on-medium-and-down">
+    <a href="/">
+      <img src="{{ site.logo }}" alt="IIIT Kottayam Logo" class="custom-responsive-image" style="padding-top:5px">
+    </a>
+  </div>
+
+  <div class="nav-wrapper">
+    <ul class="right hide-on-med-and-down">
+      {{# each nav }}<li class="{{ wrapperClass }}">
+        <!-- Kept on one line: any whitespace between the label and the arrow
+             renders as a real space and widens every item enough to wrap. -->
+        <a href="{{ href }}" class="{{ activeClass }}"{{{ haspopup }}}>{{ label }}{{{ arrow }}}</a>
+        {{# if children }}<ul class="dropdown-content">
+          {{# each children }}{{# if divider }}<li class="divider"></li>{{ else }}<li>
+            <a href="{{ link }}">
+              {{ label }}
+              {{# if sub }}<sub>{{ sub }}</sub>{{/ if }}
+            </a>
+          </li>{{/ if }}{{/ each }}
+        </ul>{{/ if }}
+      </li>{{/ each }}
+    </ul>
+
+    <a href="#" class="button-collapse show-on-medium-and-down" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <i class="material-icons institute-text-green notranslate">menu</i>
+    </a>
+  </div>
+</nav>

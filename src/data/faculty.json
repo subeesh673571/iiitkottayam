@@ -1,0 +1,194 @@
+{
+  "$schema": "./_schema/faculty.json",
+  "_help": [
+    "\"Meet the Faculty\" cards on the homepage. Three are shown at random on",
+    "each visit, so order here does not matter.",
+    "photo: path to the portrait, e.g. /data/images/name.jpg",
+    "area:  research interests; the card shows the first three"
+  ],
+  "items": [
+    {
+      "name": "Dr. Shajulin Benedict",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/shajulin.jpg",
+      "area": [
+        "Cloud Computing",
+        "IoT",
+        "Supercomputers",
+        "Parallel Compilers"
+      ]
+    },
+    {
+      "name": "Dr. Bakkyaraj T",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/bakkyaraj.jpg",
+      "area": [
+        "Lie Group Analysis of Nonlinear Differential Equations",
+        "Representation Theory and Invariant Theory",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "Dr. Panchami V",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/panchami.jpg",
+      "area": [
+        "Applied Cryptography",
+        "IoT Security",
+        "Blockchain Technology",
+        "Post-Quantum Cryptography",
+        "Penetration testing and Digital Forensics",
+        "Developing ANDROID Applications"
+      ]
+    },
+    {
+      "name": "Dr. Arun Cyril Jose",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/arun.jpg",
+      "area": [
+        "Smart Home Security",
+        "Device Fingerprinting",
+        "Logical Sensing from a Security Point of View",
+        "Behaviour Prediction from a Security Point of View",
+        "Different Surveillance Techniques",
+        "Security Based Social Engineering",
+        "Completely Anonymous Communication over the Internet"
+      ]
+    },
+    {
+      "name": "Dr. Bibal Benifa",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/bibal.jpg",
+      "area": [
+        "Cloud Computing and security",
+        "Big data analytics",
+        "Image Processing",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Dr. P. Victer Paul",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/victer.jpg",
+      "area": [
+        "Bio-Inspired Optimization",
+        "Computer Networks",
+        "Cloud Computing",
+        "Data Analytics",
+        "Web Technologies"
+      ]
+    },
+    {
+      "name": "Dr. Jayakrushna Sahoo",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/sahoo.jpg",
+      "area": [
+        "Data Mining",
+        "Machine Learning",
+        "Cryptography (Digital Water Marking)"
+      ]
+    },
+    {
+      "name": "Dr. Kala S",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/kala.jpg",
+      "area": [
+        "VLSI and Embedded Systems",
+        "Reconfigurable Architectures",
+        "ASIC Design"
+      ]
+    },
+    {
+      "name": "Dr. Manjith B.C.",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/manjith.jpg",
+      "area": [
+        "Reconfigurable Computing",
+        "Hardware Security",
+        "FPGA"
+      ]
+    },
+    {
+      "name": "Dr. Koppala Guravaiah",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/kgura.jpg",
+      "area": [
+        "Internet of Things (IoT), Wireless Sensor Networks (WSN), MANETs"
+      ]
+    },
+    {
+      "name": "Dr. Ebin Deni Raj",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/ebin.jpg",
+      "area": [
+        "Social Network Analysis",
+        "Big Data Analytics",
+        "Sentimental Analysis",
+        "Social Media Analytics",
+        "Machine Learning",
+        "Data Science",
+        "Social Computing"
+      ]
+    },
+    {
+      "name": "Dr. M. P. Rajan",
+      "designation": "Former Faculty",
+      "photo": "/data/images/ebc6840e76699affa23d9c74f0f20016.jpg",
+      "area": [
+        "Machine Learning",
+        "Data Science Research",
+        "Parameter Identification in PDEs",
+        "Functional Analysis/Numerical Functional Analysis",
+        "Mathematical Finance/Financial Engineering"
+      ]
+    },
+    {
+      "name": "Dr. Sasikumaran Sreedharan",
+      "designation": "Adjunct Faculty",
+      "photo": "/data/images/sasikumaran.jpg",
+      "area": [
+        "Real Time Systems",
+        "Software Quality",
+        "Sensor Networks and Quality",
+        "Education Management"
+      ]
+    },
+    {
+      "name": "Dr. S. Vinaya Kumar",
+      "designation": "Adjunct Faculty",
+      "photo": "/data/images/vinaya.jpg",
+      "area": [
+        "English Language"
+      ]
+    },
+    {
+      "name": "Dr. Antony Palackal",
+      "designation": "Adjunct Faculty",
+      "photo": "/data/images/1C36E2FE5DB85F8FECDC9C0C64700DA1.jpg",
+      "area": [
+        "Sociology of Science and Development",
+        "Social Movements",
+        " Cultural Dynamics and Gender and Society"
+      ]
+    },
+    {
+      "name": "Dr Boddepalli SanthiBhushan",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/bhushan.png",
+      "area": [
+        "Micro/Nano-Electronics",
+        "Device Modelling – Electronic and Energy Devices",
+        "Graphene Supercapacitors"
+      ]
+    },
+    {
+      "name": "Dr Divya Sindhu Lekha",
+      "designation": "Assistant Professor",
+      "photo": "/data/images/divya.png",
+      "area": [
+        "Computer Networks",
+        "Data Analytics"
+      ]
+    }
+  ]
+}

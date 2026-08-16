@@ -1,0 +1,23 @@
+{{> page-banner }}
+
+<div class="container">
+  <div class="row">
+    {{# each jobs }}<div class="col s12" data-searchable="{{ searchable }}">
+      <div class="card custom-card-depth border-radius">
+        <div class="card-content">
+          <p class="job-title">
+            {{ title }}
+            {{# if isNew }}<img src="/data/images/info/new1.gif" alt="New" height="26" width="34">{{/ if }}
+          </p>
+          {{# if description }}<p class="job-desc">{{ description }}</p>{{/ if }}
+          {{# if href }}<span class="para border-radius" id="knowMore">
+            <a href="{{ href }}"{{{ target }}}>Know More</a>
+          </span>{{/ if }}
+        </div>
+      </div>
+    </div>{{/ each }}
+  </div>
+  <blockquote class="error" id="no-results" style="display:none">
+    <br>No matching openings found.
+  </blockquote>
+</div>

@@ -1,0 +1,20 @@
+{{> page-banner }}
+<div class="container">
+  <div class="row flex flex-wrap">
+    {{# each cards }}<div class="col s12 m6 l4" data-searchable="{{ searchable }}">
+      <div class="card custom-card-depth border-radius media-card">
+        {{# if photo }}<div class="media-photo flex flex-center-h flex-end" style="{{ background }}">
+          {{# each links }}<a class="btn-flat" href="{{ href }}" target="_blank" rel="noopener">{{ text }}</a>{{/ each }}
+        </div>{{/ if }}
+        <div class="card-content" style="padding:15px">
+          <p class="para institute-blue media-title">{{ title }}</p>
+          {{# if description }}<p class="para media-desc">{{ description }}</p>{{/ if }}
+          {{# if date }}<p class="media-date">{{ date }}</p>{{/ if }}
+        </div>
+      </div>
+    </div>{{/ each }}
+  </div>
+  <blockquote class="error" id="no-results" style="display:none">
+    <br>{{ emptyMessage }}
+  </blockquote>
+</div>

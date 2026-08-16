@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/footer.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "social": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "icon": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string",
+            "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "The wording people read."
+            },
+            "link": {
+              "type": "string",
+              "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+            },
+            "new": {
+              "type": "boolean",
+              "description": "true shows the animated NEW badge beside this item."
+            },
+            "external": {
+              "type": "boolean",
+              "description": "true opens the link in a new tab."
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "gst": {
+      "type": "string"
+    },
+    "copyright_year": {
+      "type": "string"
+    },
+    "view_count": {
+      "type": "string"
+    },
+    "google_translate": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

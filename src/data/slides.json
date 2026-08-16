@@ -1,0 +1,381 @@
+{
+  "$schema": "./_schema/slides.json",
+  "_help": [
+    "Homepage banner slider. Top entry shows first.",
+    "image:   path under /data/images/home/  (upload the file there first)",
+    "caption: white text shown over the bottom of the image (leave \"\" for none)",
+    "link:    optional; where clicking the slide goes"
+  ],
+  "items": [
+    {
+      "image": "/data/images/home/Chords_2026.png",
+      "caption": "CHORDS 2026, International Conference on Computation and Humanities",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Yoga_Day.PNG",
+      "caption": "International Yoga Day Celebrations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/AICTE-QIP VALEDICTORY Function__.PNG",
+      "caption": "AICTE-QIP VALEDICTORY Function",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/ICITIIT 2026.jpeg",
+      "caption": "SEVENTH International Conference on Innovative Trends in Information Technology, ICITIIT 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/youth_for_democracy_summit2026.jpeg",
+      "caption": "Youth for Democracy Summit 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/drpanchami_fellowship2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/TEDx2026.jpeg",
+      "caption": "TEDx IIIT Kottayam 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Annual Sports Meet Pradhva 4.0.jpeg",
+      "caption": "Annual Sports Meet Pradhva 4.0",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Bavishya.png",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/rj_hari_congrats.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/hackthon_lumora.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/republicday2026.jpeg",
+      "caption": "Republic Day 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/axcia2026.jpeg",
+      "caption": "AXCIA – Annual Cyber Exercise",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/workshop_on_FPGA.PNG",
+      "caption": "Hands-On Workshop on Prototyping using FPGA",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/practical_Python_Workshop.PNG",
+      "caption": "Applied Computer Vision & NLP: A practical Python Workshop",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/4day cyber training.jpeg",
+      "caption": "4-day Cyber Security Incident Response Training Program\"",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Contemporary Robotics.jpeg",
+      "caption": "5-day STTP and FDP entitled \"Contemporary Robotics: Innovations, Trends & Practices\"",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/FUZZYMAT 2026.jpeg",
+      "caption": "FIVE DAYS FDP CUM WORKSHOP FUZZYMAT 2026 MASTERING AMBIGUITY:FUZZY LOGIC APPLICATIONS IN AI, ML, AND DATA SCIENCE",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Graph Neural Network.jpeg",
+      "caption": "Workshop on Graph Neural Network",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Training in AI & Machine.jpeg",
+      "caption": "Data to Intelligence: A Practical Training in AI & Machine Learning",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/fdp_IoT.jpeg",
+      "caption": "From Sensors to Intelligence:A 5 Day Hands-on Workshop on IoT and Predictive Analytics",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/codekalari26.jpeg",
+      "caption": "Code Kalari",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/phd_sheema_madhusudhanan.png",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/phd_ruchirani.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/phd_ansith.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Hackathon_2_0.png",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/vlsid_2026.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Smart India Hackathon 2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/7th_convocation.jpeg",
+      "caption": "7th Convocation",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/vigilance_week_2025.jpeg",
+      "caption": "VIGILANCE AWARENESS WEEK 2025",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/blood_donation_nov2025.jpeg",
+      "caption": "Blood Donation Camp November 2025",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/VandeMataram.jpeg",
+      "caption": "150 Years of Vande Mataram Commemoration",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/International Workshop on Climate Resilience.jpeg",
+      "caption": "International Workshop on Climate Resilience 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/TTTC_workshop.jpeg",
+      "caption": "TTTC Workshop 2026",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/orientation2025.jpeg",
+      "caption": "UG Orientation 2025",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/independenceday2025.jpeg",
+      "caption": "INDEPENDENCE DAY 2025",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/GenAI Exchange Hackathon 2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/HashItUp2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/dvcon2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/fin_shield_hackthon.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/hack_25.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Kotech 25.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/Girlathon 2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/anti-ragging2025.jpeg",
+      "caption": "Anti-Ragging day Observation 2025",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_pm-vikas.jpeg",
+      "caption": "MoU Signing Ceremony PM-VIKAS Scheme",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/spell2025.jpeg",
+      "caption": "4th International Conference on Speech and Language Technologies for Low-resource Languages (SPELLL 2025)",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/cyber_commando_firsbatch_2025.jpeg",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/asean_2025.jpeg",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/ramanujan felloship_dr.reethathomas2025.jpeg",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/hackthon cyber.png",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/TinkHack 2.0_2025.jpeg",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_wellTech.jpeg",
+      "caption": "MoU with Well Tech : An initiative to share resources on academia led industrial labs",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/MOU_with_CyStar.jpeg",
+      "caption": "MOU with CyStar IIT Madras",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/padmashri award-chairperson.jpeg",
+      "caption": "CONGRATULATIONS",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_amala.jpeg",
+      "caption": "MOU with Amala Institute of Medical Sciences",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/MoU with NARIP_Cheruthuruthi.jpeg",
+      "caption": "MoU with National Ayurveda Research Institute for Panchakarma,Cheruthuruthi",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_iist.jpeg",
+      "caption": "MoU with IIST Thiruvananthapuram",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_hr.jpeg",
+      "caption": "MoU with Human Resocia/Global IT Talent, Japan for Student Placements and International Internships",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/mou_rruniversity.JPG",
+      "caption": "MoU with Rashtriya Raksha University, Gandhinagar Gujarat",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/hackthon 2025.jpeg",
+      "caption": "Congratulations",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/placementnews_media.jpeg",
+      "caption": "IIIT Kottayam @ Media",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/cocon23.jpg",
+      "caption": "One of the highlight's of cOcOn 2023 is its innovative project of a crime scene within the metaverse, developed by Gyaan Lab(IIIT Kottayam).",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/diwali24.jpeg",
+      "caption": "Diwali @ IIIT Kottayam",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/iiitmedia.jpg",
+      "caption": "IIIT Kottayam @ Media",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/news paper .jpg",
+      "caption": "IIIT Kottayam @ Media",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_img_new1.jpeg",
+      "caption": "Campus",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_img_new3.jpeg",
+      "caption": "Campus",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_img_new2.jpeg",
+      "caption": "Campus",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_img_new4.jpeg",
+      "caption": "",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_hostel_new1.jpeg",
+      "caption": "Hostel",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/view13.jpg",
+      "caption": "Hostel",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/clg_hostel_new2.jpeg",
+      "caption": "Hostel",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/view4.jpg",
+      "caption": "Campus",
+      "link": ""
+    },
+    {
+      "image": "/data/images/home/view10.jpg",
+      "caption": "",
+      "link": ""
+    }
+  ]
+}

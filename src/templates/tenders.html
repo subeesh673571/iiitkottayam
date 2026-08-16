@@ -1,0 +1,28 @@
+{{> page-banner }}
+
+<div class="container">
+  {{# each panels }}<div class="tab-panel{{ activeClass }}" data-panel="{{ slug }}">
+    <div class="row">
+      <div class="col s12">
+        {{# if empty }}<blockquote class="error"><br>There are no {{ lowerLabel }} at the moment.</blockquote>{{ else }}<div class="table-responsive">
+          <table class="tender-table">
+            <thead>
+              <tr><th>Title</th><th>Last Date</th><th>Documents</th></tr>
+            </thead>
+            <tbody>
+              {{# each rows }}<tr>
+                <td>{{ title }}</td>
+                <td>{{ lastDate }}</td>
+                <td>
+                  {{# each links }}<div>
+                    <a href="{{ href }}" class="link-color" title="{{ title }}" target="_blank" rel="noopener">{{ text }}</a>
+                  </div>{{/ each }}
+                </td>
+              </tr>{{/ each }}
+            </tbody>
+          </table>
+        </div>{{/ if }}
+      </div>
+    </div>
+  </div>{{/ each }}
+</div>

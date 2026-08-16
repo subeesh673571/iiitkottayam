@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/recruiters.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "img": {
+            "type": "string",
+            "description": "Logo file name, uploaded to public/data/images/placement/."
+          },
+          "company": {
+            "type": "string",
+            "description": "Recruiter name."
+          },
+          "location": {
+            "type": "string",
+            "description": "Where the recruiter is based."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

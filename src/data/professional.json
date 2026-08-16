@@ -1,0 +1,106 @@
+{
+  "$schema": "./_schema/professional.json",
+  "_help": [
+    "Staff listing for the professional page.",
+    "Each person: name, designation, optional area (research interests),",
+    "contact (email/phone/room) and photo (file name under /data/images/)."
+  ],
+  "items": [
+    {
+      "name": "Dr. Rani Stanly",
+      "photo": "ranistanly.jpeg",
+      "designation": [
+        "Medical Officer"
+      ],
+      "contact": {
+        "email": "mo1 at iiitkottayam dot ac.in",
+        "room": "BB 203",
+        "phone": [
+          "+91 0482-2202132 "
+        ]
+      }
+    },
+    {
+      "name": "Dr. Radhakrishnan Nair",
+      "photo": "radhakrishnandr.jpeg",
+      "designation": [
+        "Medical Officer"
+      ],
+      "contact": {
+        "email": "mo2 at iiitkottayam dot ac.in",
+        "room": "BB 203",
+        "phone": [
+          "+91 0482-2202132 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Renjitha T.R",
+      "photo": "renjitha.jpeg",
+      "designation": [
+        "Psychologist"
+      ],
+      "contact": {
+        "email": "counsellor at iiitkottayam dot ac.in",
+        "room": "AB 209 D",
+        "phone": [
+          "+91 0482-2202107 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Priya Mol K",
+      "photo": "priya.jpg",
+      "designation": [
+        "Physical Education Instructor"
+      ],
+      "contact": {
+        "email": "pet at iiitkottayam dot ac.in",
+        "room": "BD 405",
+        "phone": [
+          "+91 0482-2202106 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Sumi",
+      "photo": "sumi.jpeg",
+      "designation": [
+        "Staff Nurse"
+      ],
+      "contact": {
+        "email": "nurse at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202105 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Vinduja Vijayan",
+      "photo": "vinduja.jpeg",
+      "designation": [
+        "Staff Nurse"
+      ],
+      "contact": {
+        "email": "nurse at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202105 "
+        ]
+      }
+    },
+    {
+      "name": "Ms. Anjali Girish",
+      "photo": "Psychologist -anjali.jpeg",
+      "designation": [
+        "Psychologist"
+      ],
+      "contact": {
+        "email": "counsellor1 at iiitkottayam dot ac.in",
+        "room": "BB 203",
+        "phone": [
+          "+91 0482-2202240 "
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+/* ==========================================================================
+   IIIT Kottayam — global stylesheet
+
+   Replaces the legacy Materialize 1.x build (141 KB) with only the pieces the
+   site actually uses: the 12-column grid, cards, nav/dropdown, side-nav and
+   slider. Class names are kept identical to the old markup so the visual
+   result matches the original site exactly.
+
+   Breakpoints follow Materialize:  small <=600px | medium 601-992px | large >=993px
+   ========================================================================== */
+
+:root {
+  --green: rgb(56, 178, 71);   /* nav links, accents, active tab underline */
+  --blue: rgb(66, 133, 244);   /* all headings, section header bars */
+  --deep-blue: rgb(8, 55, 97); /* body links */
+  --page-bg: #f7f7f7;
+  --footer-bg: #bfbaba;
+  --rule: #bfbfbf;
+  --dull: rgba(160, 160, 160, 0.2);
+  --font: "Trebuchet MS", Helvetica, sans-serif;
+  --shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- reset ---------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html,
+body { overflow-x: hidden; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--page-bg);
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--blue);
+  font-family: var(--font);
+  font-weight: 400;
+}
+/* Materialize's heading scale, which the interior pages were written against. */
+h1 { font-size: 4.2rem;  line-height: 110%; margin: 2.8rem 0 1.68rem 0; }
+h2 { font-size: 3.56rem; line-height: 110%; margin: 2.3733333333rem 0 1.424rem 0; }
+h3 { font-size: 2.92rem; line-height: 110%; margin: 1.9466666667rem 0 1.168rem 0; }
+h4 { font-size: 2.28rem; line-height: 110%; margin: 1.52rem 0 0.912rem 0; }
+h5 { font-size: 1.64rem; line-height: 110%; margin: 1.0933333333rem 0 0.656rem 0; }
+h6 { font-size: 1.15rem; line-height: 110%; margin: 0.7666666667rem 0 0.46rem 0; }
+
+/* Search box inside the blue page banner */
+#topControl input[type="text"] {
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 10px 10px 0;
+  width: 100%;
+  font-family: var(--font);
+}
+#topControl input[type="text"]::placeholder { color: rgba(255, 255, 255, 0.8); }
+#topControl input[type="text"]:focus { outline: 2px solid rgba(255, 255, 255, 0.6); }
+@media screen and (min-width: 995px) {
+  #topControl input[type="text"] { margin: 0; }
+}
+
+a { text-decoration: none; color: inherit; }
+
+img { border: 0; }
+
+ul { list-style: none; padding: 0; margin: 0; }
+
+/* Scrollbar — matches the original site's grey bar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background-color: #f1f1f1; border: none; }
+::-webkit-scrollbar-thumb { background-color: #888; }
+::-webkit-scrollbar-thumb:hover { background-color: #555; }
+
+/* ---------- grid ---------- */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%; /* the site overrides Materialize's responsive 90/85/70 */
+}
+.container .row { margin-left: -0.75rem; margin-right: -0.75rem; }
+
+.row { margin-left: auto; margin-right: auto; margin-bottom: 20px; }
+.row::after { content: ""; display: table; clear: both; }
+
+.row .col {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  min-height: 1px;
+}
+
+/* small (all widths) */
+.row .col.s1  { width: 8.3333333333%; }
+.row .col.s2  { width: 16.6666666667%; }
+.row .col.s3  { width: 25%; }
+.row .col.s4  { width: 33.3333333333%; }
+.row .col.s5  { width: 41.6666666667%; }
+.row .col.s6  { width: 50%; }
+.row .col.s7  { width: 58.3333333333%; }
+.row .col.s8  { width: 66.6666666667%; }
+.row .col.s9  { width: 75%; }
+.row .col.s10 { width: 83.3333333333%; }
+.row .col.s11 { width: 91.6666666667%; }
+.row .col.s12 { width: 100%; }
+
+@media only screen and (min-width: 601px) {
+  .row .col.m1  { width: 8.3333333333%; }
+  .row .col.m2  { width: 16.6666666667%; }
+  .row .col.m3  { width: 25%; }
+  .row .col.m4  { width: 33.3333333333%; }
+  .row .col.m5  { width: 41.6666666667%; }
+  .row .col.m6  { width: 50%; }
+  .row .col.m7  { width: 58.3333333333%; }
+  .row .col.m8  { width: 66.6666666667%; }
+  .row .col.m9  { width: 75%; }
+  .row .col.m10 { width: 83.3333333333%; }
+  .row .col.m11 { width: 91.6666666667%; }
+  .row .col.m12 { width: 100%; }
+}
+
+@media only screen and (min-width: 993px) {
+  .row .col.l1  { width: 8.3333333333%; }
+  .row .col.l2  { width: 16.6666666667%; }
+  .row .col.l3  { width: 25%; }
+  .row .col.l4  { width: 33.3333333333%; }
+  .row .col.l5  { width: 41.6666666667%; }
+  .row .col.l6  { width: 50%; }
+  .row .col.l7  { width: 58.3333333333%; }
+  .row .col.l8  { width: 66.6666666667%; }
+  .row .col.l9  { width: 75%; }
+  .row .col.l10 { width: 83.3333333333%; }
+  .row .col.l11 { width: 91.6666666667%; }
+  .row .col.l12 { width: 100%; }
+}
+
+/* ---------- visibility helpers ---------- */
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down { display: none !important; }
+}
+@media only screen and (min-width: 993px) {
+  .show-on-medium-and-down { display: none !important; }
+}
+
+.center-align, .center { text-align: center; }
+.right-align { text-align: right; }
+.left-align { text-align: left; }
+.justify { text-align: justify !important; }
+.white { background-color: #fff !important; }
+.white-text { color: #fff !important; }
+.black-text { color: #000 !important; }
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- utility classes carried over from the original ---------- */
+.bg-dull-white { background: #f7f7f7 !important; }
+.border { border-style: solid; border-width: 0; }
+.border-top { border-top-width: 1px !important; }
+.border-bottom { border-bottom-width: 1px !important; }
+.border-all { border-width: 1px !important; }
+.border-dull { border-color: var(--dull); }
+.link-color { color: var(--deep-blue) !important; }
+.border-radius { border-radius: 4px !important; }
+.border-radius-top { border-radius: 4px 4px 0 0; }
+.border-radius-bottom { border-radius: 0 0 4px 4px; }
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-center { align-items: center; }
+.flex-end { align-items: flex-end; }
+.flex-center-h { justify-content: center; }
+.flex-justify { justify-content: space-between; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.custom-card-depth { box-shadow: var(--shadow) !important; }
+.institute-blue-bg { background: var(--blue) !important; }
+.institute-blue { color: var(--blue); }
+.institute-text-green { color: var(--green); }
+.institute-green-bg { background: var(--green); }
+.para { font-family: var(--font); }
+
+/* ---------- card ---------- */
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: var(--shadow);
+}
+.card .card-content { padding: 24px; border-radius: 0 0 2px 2px; }
+.card .card-content p { margin: 0; color: inherit; }
+.card .card-image { position: relative; }
+.card .card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  width: 100%;
+}
+
+/* ---------- masthead ---------- */
+.top-container { padding: 2px 10px 0 10px; }
+
+/* The institute name is filled with a slowly drifting logo texture rather
+   than a flat colour — background-clip:text is what makes that work. */
+.custom-brand-name {
+  color: transparent;
+  background: url(/data/images/main/logo-bg-clipped.png) repeat;
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: masked-animation 40s linear infinite;
+  font-family: "Hind", sans-serif;
+}
+@keyframes masked-animation {
+  0%   { background-position: bottom left; }
+  100% { background-position: top right; }
+}
+.big-head { font-size: 45px; }
+/* Fluid between 18px @300px viewport and 38px @1920px */
+.small-head { font-size: calc(18px + (38 - 18) * ((100vw - 300px) / (1920 - 300))); }
+
+.custom-responsive-image { height: 50px; position: absolute; top: 20px; left: 15px; }
+@media only screen and (min-width: 565px)  { .custom-responsive-image { height: 80px;  top: 10px; left: 10px; } }
+@media only screen and (min-width: 650px)  { .custom-responsive-image { height: 100px; top: 5px;  left: 10px; } }
+@media only screen and (min-width: 900px)  { .custom-responsive-image { height: 120px; top: 5px;  left: 10px; } }
+@media only screen and (min-width: 1920px) { .custom-responsive-image { height: 150px; top: 5px;  left: 10px; } }
+.custom-logo-mobile { height: 54px !important; top: 0 !important; }
+
+@media only screen and (max-width: 565px) {
+  #mobile-head .custom-spacer { display: none; }
+  #mobile-head { align-items: center !important; justify-content: center !important; }
+}
+
+/* ---------- nav ---------- */
+nav {
+  width: 100%;
+  height: 64px;
+  line-height: 60px;
+  z-index: 900;
+  color: var(--green);
+  background-color: #fff;
+  box-shadow: none;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+nav .nav-wrapper { position: relative; height: 100%; }
+nav ul { margin: 0; }
+nav ul li { float: left; padding: 0; transition: background-color 0.3s; }
+nav ul a {
+  display: block;
+  cursor: pointer;
+  margin-right: 8px;
+  padding: 0 4px !important;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  /* The original declares bold and then overrides it with
+     `font-weight:normal !important` — normal is what actually renders. */
+  font-weight: normal;
+  color: var(--green);
+  border-bottom: solid 3px transparent;
+  transition: all 0.3s ease-in;
+}
+nav ul a:hover {
+  border-bottom: solid 3px var(--green);
+  color: var(--green);
+  background: none;
+}
+nav ul.right { float: right; }
+nav i,
+nav i.material-icons { display: block; font-size: 24px; height: 64px; line-height: 64px; }
+nav i.right { float: right; margin-left: 0; margin-right: 1px !important; }
+.activeMenuTab { border-bottom: solid 3px var(--green); color: var(--green); }
+
+/* Nav pins to the top once the masthead scrolls away (see public/js/nav.js). */
+.sticky { position: fixed; top: 0; width: 100%; }
+.sticky + .content { padding-top: 64px; }
+.nav-scrolled { box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+nav .button-collapse { float: right; position: relative; z-index: 1; height: 64px; margin: 0 18px; }
+nav .button-collapse i { height: 64px; line-height: 64px; }
+@media only screen and (min-width: 993px) {
+  nav .button-collapse { display: none; }
+}
+
+/* ---------- dropdown menus ---------- */
+.dropdown-wrapper { position: relative; }
+.dropdown-content {
+  background-color: #fff;
+  margin: 0;
+  min-width: 100px;
+  max-height: 650px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  box-shadow: var(--shadow);
+  /* Hidden until hover/focus; opacity+visibility keeps it keyboard reachable. */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+.dropdown-wrapper:hover > .dropdown-content,
+.dropdown-wrapper:focus-within > .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-content li {
+  clear: both;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  min-height: 50px;
+  line-height: 1.5rem;
+  width: 100%;
+  text-align: left;
+  float: none;
+  white-space: nowrap;
+}
+.dropdown-content li:hover { background-color: #eee; }
+.dropdown-content li.divider { min-height: 0; height: 1px; background-color: var(--dull); }
+.dropdown-content li > a {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px 8px !important;
+  color: var(--green);
+  box-shadow: 1px 3px #c2c9c7;
+  margin-right: 0;
+  border-bottom: none;
+}
+.dropdown-content li > a:hover { border-bottom: none; }
+.dropdown-content sub { font-size: 10px; }
+
+/* ---------- mobile side menu ---------- */
+.side-nav {
+  position: fixed;
+  width: 300px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 60px;
+  background-color: #fff;
+  z-index: 2000;
+  overflow-y: auto;
+  transform: translateX(105%);
+  transition: transform 0.3s ease;
+  box-shadow: var(--shadow);
+}
+.side-nav.open { transform: translateX(0); }
+.side-nav li { float: none; line-height: 48px; }
+.side-nav li > a {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 32px;
+  border-bottom: solid 1px #f1f1f1;
+}
+.side-nav .collapsible-header {
+  cursor: pointer;
+  padding: 0 32px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom: solid 1px #f1f1f1;
+}
+.side-nav .collapsible-header:hover { background: #f1f1f1; }
+.side-nav .collapsible-body { display: none; background-color: #fff; }
+.side-nav .collapsible-body.open { display: block; }
+.side-nav .collapsible-body li a {
+  font-weight: normal;
+  padding: 0 50px;
+  font-size: 14px;
+}
+
+/* Dim the page behind the open menu. */
+.side-nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+.side-nav-overlay.open { opacity: 1; visibility: visible; }
+
+/* ---------- banner slider ---------- */
+#topControl {
+  width: 100%;
+  background-color: var(--blue);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.slider { position: relative; height: 400px; width: 100%; }
+.slider .slides { background-color: #9e9e9e; margin: 0; height: 400px; padding: 0; }
+.slider .slides li {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  transition: opacity 700ms ease;
+}
+.slider .slides li.active { z-index: 2; opacity: 1; }
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  width: 70%;
+}
+/* Caption plate that sits over the bottom of each slide */
+.content1 {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width: 100%;
+  padding: 0;
+}
+.content1 h5 { font-size: 120%; color: #fff; margin: 0; font-weight: bold; }
+
+.slider-nav {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+}
+.slider-nav button {
+  pointer-events: auto;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0 12px;
+  color: #fff;
+  text-shadow: 0 0 8px black;
+  font-size: 40px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider, .slider .slides { height: 240px; }
+  .slider .slides li .caption { top: 5% !important; }
+}
+
+/* ---------- section header bars (blue strip with white title) ---------- */
+.section-head {
+  background: var(--blue);
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-head h5 { font-size: 20px; color: #fff; margin: 0; line-height: 48px; }
+.section-head a { color: #fff; }
+.custom-head { padding: 0.01em 16px; }
+
+/* ==========================================================================
+   Materialize pieces used only by the interior pages.
+
+   The homepage needed none of these, so they were not in the first pass. They
+   are ported verbatim from the original Materialize build, because the legacy
+   page markup was written against them.
+   ========================================================================== */
+
+.z-depth-0 { box-shadow: none !important; }
+
+.divider { height: 1px; overflow: hidden; background-color: #e0e0e0; }
+
+.section { padding-top: 1rem; padding-bottom: 1rem; }
+.section.no-pad { padding: 0; }
+.section.no-pad-bot { padding-bottom: 0; }
+.section.no-pad-top { padding-top: 0; }
+
+@media only screen and (max-width: 600px) {
+  .hide-on-small-only, .hide-on-small-and-down { display: none !important; }
+}
+
+/* card variants and titles */
+.card.small, .card.medium, .card.large { position: relative; }
+.card.small { height: 300px; }
+.card.medium { height: 400px; }
+.card.large { height: 500px; }
+.card.small .card-image,
+.card.medium .card-image,
+.card.large .card-image { max-height: 60%; overflow: hidden; }
+.card.small .card-image + .card-content,
+.card.medium .card-image + .card-content,
+.card.large .card-image + .card-content { max-height: 40%; }
+.card.small .card-content,
+.card.medium .card-content,
+.card.large .card-content { max-height: 100%; overflow: hidden; }
+
+.card .card-title { font-size: 24px; font-weight: 300; }
+.card .card-content .card-title { display: block; line-height: 32px; margin-bottom: 8px; }
+.card .card-content .card-title i { line-height: 32px; }
+.card .card-image .card-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+}
+.card .card-action {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid var(--dull);
+  padding: 16px 24px;
+}
+.card-panel {
+  margin: 0.5rem 0 1rem 0;
+  padding: 24px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: var(--shadow);
+}
+
+/* flat button, used for "Visit Gallery" style links */
+.btn-flat {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-size: 1rem;
+  outline: 0;
+  box-shadow: none;
+  background-color: transparent;
+  color: #343434;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-flat:focus { background-color: rgba(0, 0, 0, 0.1); }
+
+/* list panels */
+.collection {
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+.collection .collection-item {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.collection .collection-item:last-child { border-bottom: none; }
+.collection a.collection-item { display: block; transition: 0.25s; color: var(--deep-blue); }
+.collection a.collection-item:not(.active):hover { background-color: #ddd; }
+.collection.with-header .collection-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 20px;
+}
+.collection.with-header .collection-item { padding-left: 30px; }
+
+.collapsible {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin: 0.5rem 0 1rem 0;
+  box-shadow: var(--shadow);
+  list-style: none;
+  padding: 0;
+}
+
+/* Materialize's zoomable image. The lightbox script is gone, so the image just
+   displays normally — the cursor hint would promise behaviour we do not have. */
+.materialboxed { display: block; position: relative; max-width: 100%; }
+
+/* A table that scrolls sideways on narrow screens instead of squashing. */
+table.responsive-table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+@media only screen and (max-width: 992px) {
+  table.responsive-table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* ---------- staff / people cards ---------- */
+.custom-card-header { padding: 0.01em 16px; font-size: 15px; }
+.custom-card-header h5 { color: #fff; }
+.custom-card-sub-head { padding: 10px 16px; font-size: 15px; }
+.custom-card-stacked { padding: 10px 16px; }
+.custom-card-stacked p { margin: 2px; }
+.custom-image {
+  border-color: #e6ecf0;
+  width: 120px;
+  max-width: 95%;
+  padding: 2px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+.bg-white { background-color: #fff !important; }
+.transparent { background-color: transparent !important; }
+
+.chip {
+  display: inline-block;
+  color: var(--deep-blue);
+  font-size: 16px;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 0 10px 0 0;
+  line-height: 32px;
+}
+.chip .material-icons { float: left; padding-right: 4px; font-size: 24px; line-height: 32px; }
+
+@media only screen and (max-width: 600px) {
+  .valign-wrapper { display: block; }
+  .valign-wrapper div img { margin-top: 5px; }
+}
+.valign-wrapper { display: flex; align-items: center; }
+
+blockquote.error { border-left: none; font-size: 20px; color: #cc0000; }
+
+/* ---------- tab strips (batch years, tender status) ---------- */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs li.tab { flex: 1 1 auto; text-align: center; }
+.tabs li.tab a {
+  display: block;
+  padding: 0 16px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.tabs li.tab a:hover { color: #fff; }
+.tabs li.tab a.active { color: #fff; border-bottom-color: #fff; }
+
+/* Panels toggled by the strip above. */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ---------- news list ---------- */
+.custom-news div { padding: 10px 15px; border-bottom: solid 2px #f1f1f1; }
+.newsLink {
+  width: fit-content;
+  border-radius: 3px;
+  padding: 0.375rem 0.75rem;
+  color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+}
+#showMore, #showLess, #knowMore {
+  padding: 0.375rem 0.75rem;
+  color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #e0e0e0;
+  font-size: 14px;
+  cursor: pointer;
+  background: none;
+  font-family: var(--font);
+}
+
+/* ---------- virtual-tour strip ---------- */
+.col-5 { width: 20%; float: left; box-sizing: border-box; text-align: center; }
+@media only screen and (max-width: 600px) { .col-5 { width: 50%; } }
+
+.container2 { position: relative; width: 100%; max-width: 2400px; }
+.container2 img { width: 100%; height: auto; }
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #555;
+  color: #fff;
+  padding: 3% 9%;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+  text-align: center;
+}
+.container2 .btn:hover { background-color: #fff; color: #000; }
+
+/* ---------- footer ---------- */
+.page-footer { background-color: var(--footer-bg); padding-top: 20px; }
+.page-footer ul li { line-height: 1.9; }
+.footer-copyright { min-height: 50px; }
+.fa {
+  font-size: 25px;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #182c39;
+  border-radius: 51%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 31px;
+  text-decoration: none;
+  transition: all 0.5s;
+  display: inline-block;
+}
+.fa-facebook:hover,  .fa-facebook:focus  { color: #2b55ff; }
+.fa-instagram:hover, .fa-instagram:focus { color: #8a3ab9; }
+.fa-twitter:hover,   .fa-twitter:focus   { color: #00aced; }
+.fa-linkedin:hover,  .fa-linkedin:focus  { color: #00aced; }
+.fa-youtube:hover,   .fa-youtube:focus   { color: #b31217; }
+.fa-bank:hover, .fa-envelope:hover, .fa-phone:hover { color: var(--blue); }
+
+/* The slider arrows reuse .fa but must stay transparent, not white circles. */
+.slider-nav .fa {
+  background: none;
+  border-radius: 0;
+  height: auto;
+  width: auto;
+  padding: 0;
+  line-height: 1;
+}
+
+.count { font-size: 25px; margin: 0; }
+.count_times { color: rgba(255, 255, 255, 0.8); letter-spacing: 2px; margin: 0; }
+
+/* ---------- misc ---------- */
+.text-blink { animation: blink 2s cubic-bezier(0.075, 0.82, 0.165, 1) infinite; }
+@keyframes blink { from { opacity: 0; } to { opacity: 1; } }
+
+.custom-view { background: transparent; }
+
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+
+/* Wide tables scroll inside their own box instead of breaking the page. */
+.table-responsive { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 15px; }
+.table-responsive table { min-width: 700px; }
+
+@media print {
+  nav, .side-nav, .slider-nav, .page-footer { display: none; }
+}
+
+/* ==========================================================================
+   Component styles
+
+   These lived in the <style> block of each component and were scoped by the
+   build tool. They are global here, so two selectors that used to be isolated
+   are now written out explicitly:
+
+     .btn-flat   — the events carousel and the media cards each restyled it
+                   differently; both versions are kept, nested under their own
+                   card so they cannot reach each other.
+     #topControl — the slider added `display:block; margin:0 auto`. Both are
+                   no-ops on the interior-page banner (a full-width block), so
+                   the rule is simply merged in.
+
+   `.banner-link` was declared beside the page banner but only ever used from
+   the Faculty page, so the scoping meant it never applied. It is deliberately
+   left out rather than switched on for the first time here.
+   ========================================================================== */
+
+/* ---------- nav ---------- */
+#logo-on-small-nav {
+  height: 60px;
+  display: none;
+  padding-top: 5px;
+}
+.nav-wrapper {
+  margin-right: 200px;
+  /* Take the space the (hidden) logo slot leaves, so the right-floated menu
+     has the full width and stays on one line. */
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.nav-wrapper > ul.right { white-space: nowrap; }
+
+@media only screen and (max-width: 992px) {
+  .nav-wrapper { margin-right: 0; }
+}
+
+/* ---------- masthead ---------- */
+.masthead-logo {
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  margin-left: 200px;
+}
+/* The text itself is painted by the clipped background image, so the link
+   colour must stay transparent or it would cover the texture. */
+.brand-link {
+  color: transparent;
+  margin-right: 200px;
+}
+
+/* ---------- slider ---------- */
+#topControl { display: block; margin: 0 auto; }
+
+/* ---------- interior page banner ---------- */
+#topControl h4 { margin: 4px 0 !important; }
+@media screen and (min-width: 995px) {
+  #topControl h4 { text-align: left; }
+}
+
+/* ---------- popup ---------- */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  overflow: auto;
+}
+.modal.open { display: flex; }
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  width: 700px;
+  max-width: 90vw;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+/* Right padding keeps the heading clear of the close button. */
+.modal-content h5 { margin: 0 0 12px; padding-right: 32px; font-size: 20px; line-height: 1.4; }
+.modal-content h5 a { color: #0086e6; }
+.modal-content h5 a:hover { text-decoration: underline; }
+.modal-content img { width: 100%; height: auto; display: block; border-radius: 8px; }
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #777;
+  cursor: pointer;
+  line-height: 1;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.close-btn:hover { color: #000; }
+
+@media (max-width: 768px) {
+  .modal-content { width: 95%; max-width: 360px; padding: 12px; }
+  .modal-content h5 { font-size: 18px; }
+  .modal-content img { max-height: 60vh; object-fit: contain; }
+  .close-btn { font-size: 28px; top: 8px; right: 10px; }
+}
+
+/* ---------- scrolling notice ---------- */
+/* `clear` drops the ticker below the floated banner logos above it. */
+.marquee-wrap { margin-right: 200px; margin-left: 200px; clear: both; }
+@media only screen and (max-width: 992px) {
+  .marquee-wrap { margin-right: 0; margin-left: 0; }
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  white-space: nowrap;
+  animation: marquee-alternate 24s linear infinite alternate;
+}
+.marquee-item { display: inline-flex; align-items: center; gap: 0.5rem; }
+.marquee-text { color: red; }
+.marquee-link { color: var(--deep-blue); text-decoration: underline; }
+
+/* How far the track has to travel is measured at runtime, because it
+   depends on the text length and the screen width. */
+@keyframes marquee-alternate {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-1 * var(--marquee-distance, 0px))); }
+}
+
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { height: auto; }
+  .marquee-track {
+    animation: none;
+    white-space: normal;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+/* ---------- homepage ---------- */
+.banner-strip { margin-left: 200px; }
+.banner-inner { margin-right: 200px; }
+@media only screen and (max-width: 992px) {
+  .banner-strip { margin-left: 0; }
+  .banner-inner { margin-right: 0; }
+}
+
+/* The framed column that holds the whole page body. */
+.main-frame {
+  width: 80%;
+  padding-top: 0;
+  margin-bottom: 0;
+  border: 1px solid var(--rule);
+  outline-style: none;
+}
+
+.section-rule { border-bottom: 1px solid var(--rule); }
+
+.placement-image { width: 100%; height: 450px; object-fit: contain; }
+.placement-note { font-size: 14px; text-align: center; }
+
+.initiative { text-align: center; min-height: 110px; }
+.initiative img { max-width: 100%; height: auto; }
+
+.news-card { width: 100%; height: 400px; }
+.news-scroll { overflow-y: auto; padding: 0; height: 350px; font-size: 14px; }
+
+.custom-faculty-card { width: 48%; height: 290px; }
+@media only screen and (min-width: 600px) {
+  .custom-faculty-card { width: 32%; }
+}
+.custom-faculty-card .card-image img { height: 190px; object-fit: cover; }
+.faculty-designation { margin: 0; font-size: 14px; color: rgba(0, 0, 0, 0.6); }
+
+.publication-card { width: 100%; height: 350px; }
+.publication-list { overflow-x: hidden; overflow-y: auto; padding: 0; height: 300px; }
+.publication { border-bottom: solid 2px #f1f1f1; padding: 10px 15px; }
+.publication-title { margin: 0; font-weight: bold; }
+.publication-authors { margin: 0; color: #8c8c8c; font-size: 14px; }
+.publication-details { margin: 0; font-size: 13px; color: rgba(0, 0, 0, 0.6); }
+
+.tours { display: flex; flex-wrap: wrap; }
+.tour-title { font-size: 15px; text-align: center; }
+.tour-image { width: 60%; border: 5px solid #555; }
+
+/* ---------- events carousel (homepage) ---------- */
+.events-card { width: 100%; height: 400px; }
+
+.carousel { position: relative; height: calc(400px - 48px); overflow: hidden; }
+.carousel-item {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+.carousel-item.active { opacity: 1; pointer-events: auto; }
+
+.carousel-image { width: 100%; height: 55%; }
+
+.events-card .btn-flat {
+  z-index: 1000;
+  margin: 0 0 10px 0;
+  border-radius: 3px;
+  color: rgb(101, 99, 98);
+  border: 1px solid rgba(224, 224, 224, 0.52);
+  background: rgba(247, 247, 247, 0.52);
+  padding: 0 1rem;
+  line-height: 36px;
+}
+
+.event-title { font-weight: bold; font-size: 20px; margin: 0; }
+.event-desc { color: rgba(0, 0, 0, 0.87); margin: 0; }
+
+/* ---------- events / @Media cards ---------- */
+.media-card { width: 100%; height: 100%; }
+.media-photo { height: 200px; padding-bottom: 10px; gap: 6px; flex-wrap: wrap; }
+.media-card .btn-flat {
+  border-radius: 3px;
+  color: rgb(101, 99, 98);
+  border: 1px solid rgba(224, 224, 224, 0.52);
+  background: rgba(247, 247, 247, 0.86);
+  padding: 0 1rem;
+  line-height: 32px;
+  font-size: 14px;
+}
+.media-title { font-weight: bold; font-size: 18px; margin: 0; }
+.media-desc { color: rgba(0, 0, 0, 0.87); margin: 4px 0 0; font-size: 15px; }
+.media-date { color: rgba(0, 0, 0, 0.5); margin: 6px 0 0; font-size: 13px; }
+
+/* ---------- student / scholar rolls ---------- */
+.name-list { columns: 2; column-gap: 2rem; padding-left: 1.5rem; }
+.name-list li { break-inside: avoid; padding: 2px 0; }
+@media only screen and (max-width: 600px) {
+  .name-list { columns: 1; }
+}
+
+/* ---------- tenders ---------- */
+.tender-table th, .tender-table td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; }
+.tender-table th { color: var(--blue); text-align: center; }
+.tender-table tr:hover { background-color: #d6eeee; }
+
+/* ---------- news page ---------- */
+.custom-news .newsLink {
+  display: inline-block;
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+/* ---------- career page ---------- */
+.job-title { font-weight: bold; font-size: 17px; margin: 0 0 6px; color: var(--deep-blue); }
+.job-desc { margin: 0 0 10px; color: rgba(0, 0, 0, 0.7); }
+#knowMore a { color: rgba(0, 0, 0, 0.5); }
+
+/* ---------- placement page ---------- */
+.recruiter { display: flex; align-items: center; height: 100%; }
+.recruiter .card-image { max-width: 40%; padding: 8px; }
+/* Written as `.recruiter .recruiterLogo`, not `.recruiterLogo`: the placement
+   page's own <style> block sets `max-width:150px` on that class further down
+   the document, and would otherwise win on source order. The scoped rule this
+   replaces beat it on specificity, and this keeps that. */
+.recruiter .recruiterLogo { max-width: 100%; height: auto; }
+.recruiter .card-stacked { flex: 1; }
+.recruiter .card-content { padding: 10px; }
+.recruiter h6 { margin: 0 0 4px; font-size: 15px; font-weight: bold; }
+.recruiter span { font-size: 13px; color: rgba(0, 0, 0, 0.6); }

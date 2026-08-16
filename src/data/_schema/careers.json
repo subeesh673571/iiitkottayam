@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/careers.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The wording people read."
+          },
+          "status": {
+            "type": "string",
+            "description": "Tenders: 1 = live, 2 = closed, 3 = cancelled. Nothing else is shown. Elsewhere: above 0 shows the NEW badge."
+          },
+          "description": {
+            "type": "string",
+            "description": "A sentence or two under the heading."
+          },
+          "link": {
+            "type": "string",
+            "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+          },
+          "linktype": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

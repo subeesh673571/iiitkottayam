@@ -1,0 +1,305 @@
+{
+  "$schema": "./_schema/nav.json",
+  "_help": [
+    "MAIN MENU",
+    "Each top-level entry needs a `label`. Then either:",
+    "link:     where it goes  (a page path like /placement, a PDF, or a full URL)",
+    "children: a dropdown list, each with its own label + link",
+    "Use `divider: true` for the thin separator line inside a dropdown.",
+    "Reorder by moving blocks up or down. Delete a block to remove that menu item."
+  ],
+  "items": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "Why IIITK",
+      "link": "/whyIIITK"
+    },
+    {
+      "label": "NIRF",
+      "children": [
+        {
+          "label": "2025",
+          "link": "/nirf_home"
+        },
+        {
+          "label": "2026",
+          "link": "/nirf_home"
+        }
+      ]
+    },
+    {
+      "label": "Institute",
+      "link": "/institute",
+      "children": [
+        {
+          "label": "Governance",
+          "link": "/institute"
+        },
+        {
+          "label": "Admission",
+          "link": "/admission"
+        },
+        {
+          "label": "Academics",
+          "link": "/academics"
+        },
+        {
+          "label": "Scholarship",
+          "link": "/scholarship"
+        },
+        {
+          "label": "Educational Loans",
+          "link": "/loan"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "children": [
+        {
+          "label": "B.Tech(CSE)",
+          "link": "/btech_cs_home"
+        },
+        {
+          "label": "B.Tech(ECE)",
+          "link": "/btech_ec_home"
+        },
+        {
+          "label": "B.Tech(Cyber Security)",
+          "link": "/btech_cyber_home"
+        },
+        {
+          "label": "B.Tech(AI & Data Science)",
+          "link": "/btech_ai_home"
+        },
+        {
+          "label": "B.Tech(Mathematics and Computing)",
+          "link": "/btech_MnC_home"
+        },
+        {
+          "label": "e-M.Tech",
+          "link": "https://emtech.iiitkottayam.ac.in/"
+        },
+        {
+          "label": "M.Tech",
+          "sub": "(After B.Tech/MCA/M.Sc)",
+          "link": "https://mtech.iiitkottayam.ac.in"
+        },
+        {
+          "label": "iM.Tech",
+          "sub": "(After 12th Std/Diploma)",
+          "link": "https://imtech.iiitkottayam.ac.in"
+        },
+        {
+          "label": "Dual-Degree",
+          "link": "/data/images/home/Dual-Degree.JPEG"
+        },
+        {
+          "label": "PhD",
+          "link": "https://phd.iiitkottayam.ac.in/"
+        }
+      ]
+    },
+    {
+      "label": "People",
+      "link": "/admin",
+      "children": [
+        {
+          "label": "Administration",
+          "link": "/admin"
+        },
+        {
+          "label": "Head of Department",
+          "link": "/dept_head"
+        },
+        {
+          "label": "Faculty",
+          "link": "/faculty"
+        },
+        {
+          "label": "Technical",
+          "link": "/technical"
+        },
+        {
+          "label": "Professional Support Staff",
+          "link": "/professional"
+        },
+        {
+          "label": "Research Scholars",
+          "link": "/researchScholar"
+        },
+        {
+          "divider": true
+        },
+        {
+          "label": "B.Tech Students",
+          "link": "/students"
+        },
+        {
+          "label": "M.Tech Students",
+          "link": "/executivemtech"
+        },
+        {
+          "label": "iM.Tech Students",
+          "link": "/imtechStudents"
+        },
+        {
+          "label": "e-M.Tech Students",
+          "link": "/emtechStudents"
+        }
+      ]
+    },
+    {
+      "label": "Facilities",
+      "link": "/campus",
+      "children": [
+        {
+          "label": "Hostel",
+          "link": "/campus/hostel"
+        },
+        {
+          "label": "Security",
+          "link": "/campus/security"
+        },
+        {
+          "label": "IIIT Kottayam Campus Network",
+          "link": "/campus/internet"
+        },
+        {
+          "label": "Gymnasium",
+          "link": "/campus/gymnasium"
+        },
+        {
+          "label": "Sports",
+          "link": "/campus/sports"
+        },
+        {
+          "label": "Library",
+          "link": "https://opac.iiitkottayam.ac.in"
+        },
+        {
+          "label": "Bank/ATM",
+          "link": "/campus/atm"
+        },
+        {
+          "label": "Medical Centre",
+          "link": "/campus/medical"
+        },
+        {
+          "label": "Student Co-operative Mess",
+          "link": "/studMess"
+        }
+      ]
+    },
+    {
+      "label": "IIC & Clubs",
+      "link": "/innovations",
+      "children": [
+        {
+          "label": "Innovation Cell",
+          "link": "/innovations"
+        },
+        {
+          "label": "IIIT Kottayam FDP & Webinars",
+          "link": "/fdp_webinar"
+        },
+        {
+          "label": "Gallery",
+          "link": "/events"
+        },
+        {
+          "label": "Cultural Club",
+          "link": "/culturalClub"
+        },
+        {
+          "label": "Technical Club",
+          "link": "/codingClub"
+        },
+        {
+          "label": "Sports Club",
+          "link": "/sportsClub"
+        },
+        {
+          "label": "Trendles Club",
+          "link": "/socialClub"
+        },
+        {
+          "label": "Cyber Security Club",
+          "link": "/cybersecurityClub"
+        },
+        {
+          "label": "Mind Quest",
+          "link": "/mindquest"
+        },
+        {
+          "label": "Magazine",
+          "link": "/magazine"
+        },
+        {
+          "label": "IEEE Student Branch",
+          "link": "/ieee"
+        },
+        {
+          "label": "ACM Student Chapter",
+          "link": "/acm"
+        }
+      ]
+    },
+    {
+      "label": "Research",
+      "link": "/researchPublication",
+      "children": [
+        {
+          "label": "Faculty Research Papers",
+          "link": "/researchPublication"
+        },
+        {
+          "label": "Research Groups",
+          "link": "/researchGroups"
+        },
+        {
+          "label": "UG Student Research Papers",
+          "link": "/studentPublication"
+        },
+        {
+          "label": "Research Project Fundings",
+          "link": "/researchProject"
+        },
+        {
+          "label": "Awards & Recognition",
+          "link": "/awards"
+        },
+        {
+          "label": "International Collaborations",
+          "link": "/collaboration"
+        },
+        {
+          "label": "Research Activities",
+          "link": "/researchActivities"
+        },
+        {
+          "label": "Innovations & Startups",
+          "link": "http://icentre.iiitkottayam.ac.in/"
+        },
+        {
+          "divider": true
+        }
+      ]
+    },
+    {
+      "label": "Placement",
+      "link": "/placement"
+    },
+    {
+      "label": "Recruiters Corner",
+      "link": "/data/pdf/recruiterscorner.pdf"
+    },
+    {
+      "label": "@Media",
+      "link": "/media"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div>{{{ before }}}</div>
+
+{{# each recruiters }}<div class="col s12 m4">
+  <div class="card horizontal recruiter">
+    <div class="card-image valign-wrapper">
+      <img src="/data/images/placement/{{ img }}" class="recruiterLogo" alt="{{ company }}" loading="lazy">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <h6>{{ company }}</h6>
+        <span>{{ location }}</span>
+      </div>
+    </div>
+  </div>
+</div>{{/ each }}
+
+<div>{{{ after }}}</div>

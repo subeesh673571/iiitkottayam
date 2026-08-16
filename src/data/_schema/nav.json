@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/nav.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "The wording shown in the menu."
+          },
+          "link": {
+            "type": "string",
+            "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "description": "The wording shown in the menu."
+                },
+                "link": {
+                  "type": "string",
+                  "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+                },
+                "sub": {
+                  "type": "string"
+                },
+                "divider": {
+                  "type": "boolean",
+                  "description": "true draws the thin separator line inside a drop-down."
+                }
+              },
+              "additionalProperties": false
+            },
+            "description": "The entries of a drop-down under this menu item."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

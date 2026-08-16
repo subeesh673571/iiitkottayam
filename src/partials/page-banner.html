@@ -1,0 +1,13 @@
+<div id="topControl">
+  <div class="container">
+    <div class="row flex flex-center flex-wrap" style="margin-bottom:0">
+      <div class="{{ banner.titleClass }}">
+        <h4 class="center-align white-text">{{ banner.title }}</h4>
+      </div>
+      {{# if banner.search }}<div class="col s12 m12 l5">
+        <input type="text" id="page-search"{{{ banner.placeholderAttr }}} aria-label="{{ banner.ariaLabel }}">
+      </div>{{/ if }}
+      {{{ banner.extra }}}
+    </div>
+  </div>
+</div>

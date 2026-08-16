@@ -1,0 +1,255 @@
+{
+  "$schema": "./_schema/administration.json",
+  "_help": [
+    "Staff listing for the administration page.",
+    "Each person: name, designation, optional area (research interests),",
+    "contact (email/phone/room) and photo (file name under /data/images/)."
+  ],
+  "items": [
+    {
+      "name": "Prof. Prasad Krishna",
+      "photo": "director.jpeg",
+      "designation": [
+        "Director, NIT Calicut",
+        "Director (Addl. charge), IIIT Kottayam"
+      ],
+      "contact": {
+        "email": "director at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202137 (Office)",
+          "+91 0482-2202112 (Office)"
+        ]
+      }
+    },
+    {
+      "name": "Dr. M Radhakrishnan",
+      "photo": "registrar.jpeg",
+      "designation": [
+        "Registrar, IIIT Kottayam",
+        "Former Registrar, IISER-TVM",
+        "Former Dy. Registrar NIT Calicut"
+      ],
+      "contact": {
+        "email": "registrar at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202100"
+        ]
+      }
+    },
+    {
+      "name": "Prof Ashok S",
+      "photo": "Prof.Ashok_S.JPG",
+      "designation": [
+        "Adjunct Professor and Professor In-charge (Academics)",
+        "Former Professor NIT Calicut"
+      ],
+      "contact": {
+        "email": "pic.academics at iiitkottayam dot ac.in",
+        "room": "AC 307",
+        "phone": [
+          "+91 0482-2202133",
+          "+91 0482-2202135(off.)"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Ebin Deni Raj",
+      "photo": "ebin.jpeg",
+      "designation": [
+        "Associate Dean (Academic Affairs) "
+      ],
+      "contact": {
+        "email": "ebindeniraj at iiitkottayam dot ac.in",
+        "room": "AC 308 / AA 117",
+        "phone": [
+          "+91 (0) 482-2202195"
+        ]
+      }
+    },
+    {
+      "name": "Dr Divya Sindhu Lekha",
+      "photo": "divya.JPG",
+      "designation": [
+        "Associate Dean (Academic Affairs-PG) "
+      ],
+      "contact": {
+        "email": "divyaslekha at iiitkottayam dot ac.in",
+        "room": "BD 417 / AA 116",
+        "phone": [
+          "+91 (0) 482-2202161"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Bakkyaraj T",
+      "photo": "bakkyaraj.jpeg",
+      "designation": [
+        "Associate Dean (Hostel Affairs & Student Events) "
+      ],
+      "contact": {
+        "email": "bakkyaraj at iiitkottayam dot ac.in",
+        "room": "AB 212 / AA 118",
+        "phone": [
+          "+91 (0) 482-2202160"
+        ]
+      }
+    },
+    {
+      "name": "Dr. J. V. Bibal Benifa",
+      "photo": "bibal.jpg",
+      "designation": [
+        "Associate Dean (Students Welfare & Career Development Services)"
+      ],
+      "contact": {
+        "email": "benifa at iiitkottayam dot ac.in",
+        "room": "AA 113/AB 216",
+        "phone": [
+          "+91 (0) 482-2202163"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Ragesh G K",
+      "photo": "ragesh.jpeg",
+      "designation": [
+        "Associate Dean (Industrial Relations & Funding)",
+        "Faculty In-Charge (Public Relations & Intellectual Property Rights,Institute Innovation Cell,Gyaan Innovation Lab-IIITK,Certificate Programme)"
+      ],
+      "contact": {
+        "email": "ragesh at iiitkottayam dot ac.in",
+        "room": "CAB 103 B",
+        "phone": [
+          "+91 (0) 482-2202175"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Panchami V",
+      "photo": "panchami.jpg",
+      "designation": [
+        "Associate Dean (Continuing Education, Training and Consultancy)"
+      ],
+      "contact": {
+        "email": "panchamam036 at iiitkottayam dot ac.in",
+        "room": "BD 416 / AB 218",
+        "phone": [
+          "+91 (0) 482-2202151"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Shajulin Benedict",
+      "photo": "shajulin.jpg",
+      "designation": [
+        "Associate Dean (Alumni & International Affairs)"
+      ],
+      "contact": {
+        "email": "shajulin at iiitkottayam dot ac.in",
+        "room": "",
+        "phone": [
+          "+91 (0) 482-2202155"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Ananth A",
+      "photo": "ananth.jpeg",
+      "designation": [
+        "HOD (Electronics & Communication Engineering)"
+      ],
+      "contact": {
+        "email": "ananth at iiitkottayam dot ac.in",
+        "room": "AB 208 / AC 313",
+        "phone": [
+          "+91 (0) 482-2202191",
+          "+91 (0) 482-2202176"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Christina Terese Joseph",
+      "photo": "christina.jpeg",
+      "designation": [
+        "HOD(Computer Science & Engineering-1)"
+      ],
+      "contact": {
+        "email": "christina at iiitkottayam dot ac.in",
+        "room": "AA 108 / AC 318",
+        "phone": [
+          "+91 (0) 482-2202190",
+          "+91 (0) 482-2202173"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Rubell Marion Lincy G",
+      "photo": "lincy.jpeg",
+      "designation": [
+        "HOD(Computer Science & Engineering-2)"
+      ],
+      "contact": {
+        "email": "lincy at iiitkottayam dot ac.in",
+        "room": "BC 317 / AB 219",
+        "phone": [
+          "+91 (0) 482-2202152"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Dhanyamol M V",
+      "photo": "dhanya.JPG",
+      "designation": [
+        "HOD (Computational Science & Humanities)"
+      ],
+      "contact": {
+        "email": "dhanya at iiitkottayam dot ac.in",
+        "room": "BC 316 / AA 119",
+        "phone": [
+          "+91 (0) 482-2202162"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Arun Cyril Jose",
+      "photo": "arun.jpg",
+      "designation": [
+        "HOD (CSE-Cyber Security)"
+      ],
+      "contact": {
+        "email": "aruncyril at iiitkottayam dot ac.in",
+        "room": "AB 213 /AA 122",
+        "phone": [
+          "+91 (0) 482-2202159"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Koppala Guravaiah",
+      "photo": "kgura.jpg",
+      "designation": [
+        "Nodal/Liason Officer (SC/ST/OBC cell)"
+      ],
+      "contact": {
+        "email": "kguravaiah at iiitkottayam dot ac.in",
+        "room": "AA 105",
+        "phone": [
+          "+91 (0) 482-2202171"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Riyasudheen T K",
+      "photo": "riyasudheen.jpg",
+      "designation": [
+        "Institute CVO "
+      ],
+      "contact": {
+        "email": "riyasudheen at iiitkottayam dot ac.in",
+        "room": "BD 412",
+        "phone": [
+          "+91 (0) 482-2202256"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "./_schema/site.json",
+  "_help": [
+    "SITE-WIDE SETTINGS — masthead, logo, popup",
+    "brand_lines  — the three lines of the institute name beside the logo,",
+    "               largest to smallest. `size` is the font size in pixels.",
+    "brand_mobile — shown on narrow screens where the full three lines do not fit.",
+    "popup        — appears a moment after the homepage loads.",
+    "               Set \"enabled\": false to switch it off entirely."
+  ],
+  "title": "IIIT Kottayam",
+  "description": "Indian Institute of Information Technology Kottayam",
+  "logo": "/data/images/main/logo.jpg",
+  "favicon": "/data/images/main/logo-mini.png",
+  "brand_lines": [
+    {
+      "text": "ഇന്ത്യൻ ഇൻസ്റ്റിറ്റ്യൂട്ട് ഓഫ് ഇൻഫർമേഷൻ ടെക്നോളജി കോട്ടയം",
+      "size": 16
+    },
+    {
+      "text": "भारतीय सूचना प्रौद्योगिकी संस्थान कोट्टायम",
+      "size": 28
+    },
+    {
+      "text": "Indian Institute of Information Technology Kottayam",
+      "size": 21.5
+    }
+  ],
+  "brand_mobile": "भारतीय सूचना प्रौद्योगिकी संस्थान कोट्टायम",
+  "popup": {
+    "enabled": true,
+    "heading": "Click Here To Experience Our Beautiful Campus",
+    "link": "https://www.youtube.com/watch?v=jLQ5ZffROXk&list=LL&index=6",
+    "image": "/data/images/home/virtual_tour1.png"
+  }
+}

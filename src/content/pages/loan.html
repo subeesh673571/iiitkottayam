@@ -1,0 +1,518 @@
+<style>
+    .chip{color:rgb(8, 55, 97);font-size:16px;height:50px;padding:10px 20px;margin:0 10px 0 0;}
+    .material-icons{float:left; padding-right:4px; font-size: 24px;line-height: 32px;}
+    :root{
+      --navy:#0B3A63;
+      --navy-deep:#082744;
+      --gold:#B8862E;
+      --gold-soft:#E7D5A8;
+      --cream:#F7F4EC;
+      --paper:#FFFFFF;
+      --line:#E1DCCC;
+      --text:#1F2933;
+      --text-soft:#5B6472;
+    }
+
+    .loans-wrap{
+      background:transparent;
+      padding:48px 0 64px;
+      font-family:'Roboto', sans-serif;
+      color:var(--text);
+    }
+
+    /* ---------- Header ---------- */
+    .loans-header{
+      max-width:920px;
+      margin:0 auto 40px;
+      padding:0 16px;
+    }
+    .loans-eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-family:'Roboto Mono', monospace;
+      font-size:12px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:var(--gold);
+      border:1px solid var(--gold-soft);
+      background:#FFFDF8;
+      padding:5px 12px;
+      border-radius:20px;
+      margin-bottom:14px;
+    }
+    .loans-header h4{
+      font-family:'Roboto Slab', serif;
+      font-weight:700;
+      color:var(--navy-deep);
+      font-size:2.1rem;
+      margin:0 0 14px;
+      letter-spacing:-0.01em;
+    }
+    .loans-header p{
+      font-size:1.02rem;
+      line-height:1.7;
+      color:var(--text-soft);
+      max-width:680px;
+      margin:0;
+    }
+
+    /* ---------- Section label ---------- */
+    .section-label{
+      max-width:1080px;
+      margin:0 auto 18px;
+      padding:0 16px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+    }
+    .section-label span{
+      font-family:'Roboto Slab', serif;
+      font-weight:600;
+      font-size:.82rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      color:var(--navy);
+      white-space:nowrap;
+    }
+    .section-label::after{
+      content:"";
+      flex:1;
+      height:1px;
+      background:var(--line);
+    }
+
+    /* ---------- Card grid ---------- */
+    .bank-grid{
+      max-width:1080px;
+      margin:0 auto 46px;
+      padding:0 16px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:32px;
+    }
+    @media (max-width:760px){
+      .bank-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    /* ---------- Passbook card ---------- */
+    .passbook{
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:4px;
+      position:relative;
+      box-shadow:0 1px 2px rgba(11,58,99,.04);
+      overflow:hidden;
+      transition:box-shadow .2s ease, transform .2s ease;
+    }
+    .passbook:hover{
+      box-shadow:0 10px 24px rgba(11,58,99,.10);
+      transform:translateY(-2px);
+    }
+    /* perforated tear-off edge */
+    .passbook::before{
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0;
+      height:3px;
+      background-image:radial-gradient(circle, var(--cream) 2.4px, transparent 2.6px);
+      background-size:14px 3px;
+      background-position:6px 0;
+    }
+
+    .passbook-head{
+      background:var(--navy);
+      color:#fff;
+      padding:18px 20px 16px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .passbook-head h6{
+      font-family:'Roboto Slab', serif;
+      font-weight:600;
+      font-size:1.12rem;
+      margin:0 0 3px;
+      line-height:1.3;
+    }
+    .passbook-head .tagline{
+      font-size:.78rem;
+      color:#B9CBDD;
+      letter-spacing:.02em;
+    }
+
+    /* seal / stamp badge */
+    .seal{
+      flex-shrink:0;
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:2px solid var(--gold-soft);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:'Roboto Slab', serif;
+      font-weight:700;
+      font-size:1rem;
+      color:var(--gold-soft);
+      transform:rotate(-6deg);
+    }
+
+    .passbook-body{
+      padding:20px 20px 6px;
+    }
+
+    .scheme-link{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      font-size:.88rem;
+      font-weight:500;
+      color:var(--navy);
+      text-decoration:none;
+      border-bottom:1px solid var(--gold);
+      padding-bottom:2px;
+      margin-bottom:16px;
+    }
+    .scheme-link:hover{ color:var(--gold); }
+    .scheme-link .material-icons{
+      font-size:16px;
+    }
+
+    /* contact block */
+    .contact-block{
+      background:#F5F5F5;
+      border:1px dashed var(--line);
+      border-radius:3px;
+      padding:14px 16px;
+      margin:0 0 18px;
+    }
+    .contact-block .contact-title{
+      font-family:'Roboto Mono', monospace;
+      font-size:.68rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      color:var(--gold);
+      margin-bottom:9px;
+    }
+    .contact-row{
+      display:flex;
+      align-items:flex-start;
+      gap:9px;
+      font-size:.85rem;
+      color:var(--text);
+      line-height:1.5;
+      margin-bottom:7px;
+    }
+    .contact-row:last-child{ margin-bottom:0; }
+    .contact-row .material-icons{
+      font-size:17px;
+      color:var(--navy);
+      margin-top:1px;
+      flex-shrink:0;
+    }
+    .contact-row a{
+      color:var(--navy);
+      text-decoration:none;
+      font-family:'Roboto Mono', monospace;
+      font-size:.82rem;
+    }
+    .contact-row a:hover{ text-decoration:underline; }
+    .no-contact{
+      font-size:.82rem;
+      color:var(--text-soft);
+      font-style:italic;
+    }
+
+    /* image gallery inside card */
+    .doc-strip{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      padding:0 20px 20px;
+    }
+    .doc-strip img{
+      width:100%;
+      height:auto;
+      border-radius:3px;
+      border:1px solid var(--line);
+      cursor:zoom-in;
+    }
+
+    /* ---------- Reference documents list ---------- */
+    .doc-list{
+      max-width:1080px;
+      margin:0 auto;
+      padding:0 16px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+      gap:10px;
+    }
+    .doc-list a{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:4px;
+      padding:13px 16px;
+      text-decoration:none;
+      color:var(--text);
+      font-size:.9rem;
+      transition:border-color .15s ease, background .15s ease;
+    }
+    .doc-list a:hover{
+      border-color:var(--gold);
+      background:#FFFDF8;
+    }
+    .doc-list .material-icons{
+      color:var(--navy);
+      font-size:20px;
+    }
+
+    @media (max-width:600px){
+      .loans-header h4{ font-size:1.6rem; }
+    }
+
+    /* ---------- Lightbox ---------- */
+    .loans-lightbox{
+      display:none;
+      position:fixed;
+      inset:0;
+      background:rgba(8,39,68,.92);
+      z-index:9999;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      cursor:zoom-out;
+    }
+    .loans-lightbox.is-open{
+      display:flex;
+    }
+    .loans-lightbox img{
+      max-width:100%;
+      max-height:100%;
+      border-radius:4px;
+      box-shadow:0 20px 60px rgba(0,0,0,.4);
+      cursor:default;
+    }
+    .loans-lightbox-close{
+      position:absolute;
+      top:20px;
+      right:28px;
+      font-size:2.2rem;
+      color:#fff;
+      line-height:1;
+      cursor:pointer;
+      font-family:sans-serif;
+    }
+</style>
+<div id="topControl"></div>
+
+<div class="loans-wrap">
+  <div class="loans-header">
+    
+    <h4>Educational Loans</h4>
+    <p>Students are free to approach any bank for an educational loan. The Institute will issue the required documents upon receipt of a written request from the student. Scheme details and branch contacts for our partner banks are listed below.</p>
+  </div>
+  <div class="bank-grid">
+
+    
+    <div class="passbook">
+      <div class="passbook-head">
+        <div>
+          <h6>State Bank of India</h6>
+          <div class="tagline">State Bank of India Scholar Scheme</div>
+        </div>
+        <div class="seal">SBI</div>
+      </div>
+      <div class="passbook-body">
+        <a class="scheme-link" href="https://sbi.co.in/documents/16012/1557541/27072020_209+Scholar+Institutions.pdf" target="_blank">
+          <span class="material-icons">description</span> View scheme document
+        </a>
+        <div class="contact-block">
+          <div class="contact-title">SBI - Valavoor Branch Contact Details</div>
+          <div class="contact-row">
+            <span class="material-icons">person</span>
+            <span>Branch Manager<br>Valavoor Branch, Kottayam, Kerala – 686635</span>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">call</span>
+            <a href="tel:+914822258508">+91 482 225 8508</a>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">smartphone</span>
+            <a href="tel:+918281799681">+91 82817 99681</a>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">email</span>
+            <a href="mailto:sbi.70539@sbi.co.in">sbi.70539@sbi.co.in</a>
+          </div>
+        </div>
+      </div>
+      <div class="doc-strip">
+        <img  src="/data/images/info/SBI Vidyalaxmi Loans_p1.jpg" alt="SBI loan scheme page 1">
+        <img  src="/data/images/info/SBI Vidyalaxmi Loans _p2.jpg" alt="SBI loan scheme page 2">
+      </div>
+    </div>
+    <div class="passbook">
+      <div class="passbook-head">
+        <div>
+          <h6>Canara Bank</h6>
+          <div class="tagline">Loan Scheme</div>
+        </div>
+        <div class="seal">CB</div>
+      </div>
+      <div class="passbook-body">
+        <div class="contact-block">
+          <div class="contact-title">Canara Bank — Uzhavoor Branch Contact details</div>
+          <div class="contact-row">
+            <span class="material-icons">person</span>
+            <span>Manager<br>Puthiyakunnel Arcade, Opp. Post Office<br>Uzhavoor, Kerala – 686634</span>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">call</span>
+            <a href="tel:+914822240660">04822 240660</a>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">smartphone</span>
+            <a href="tel:+918281991603">+91 82819 91603</a>
+          </div>
+        </div>
+      </div>
+      <div class="doc-strip">
+        <img  src="/data/images/info/Canarabank.jpg" alt="Canara Bank loan scheme">
+      </div>
+    </div>
+    
+    <div class="passbook">
+      <div class="passbook-head">
+        <div>
+          <h6>Union Bank of India</h6>
+          <div class="tagline">Loan Scheme</div>
+        </div>
+        <div class="seal">UBI</div>
+      </div>
+      <div class="passbook-body">
+        <a class="scheme-link" href="/data/pdf/IIIT KOTTAYAM WRITE UP.pdf" target="_blank">
+          <span class="material-icons">description</span> View scheme document
+        </a>
+        <div class="contact-block">
+          <div class="contact-title">UBI — Palai Branch Contact Details</div>
+          <div class="contact-row">
+            <span class="material-icons">person</span>
+            <span>Senior Manager<br>Palai Branch</span>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">call</span>
+            <a href="tel:+914822200288">04822 200288</a>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">smartphone</span>
+            <a href="tel:+917013404542">+91 9895095843</a>
+          </div>
+          <div class="contact-row">
+            <span class="material-icons">email</span>
+            <a href="mailto:ubin0555614@unionbankofindia.bank.in">ubin0555614@unionbankofindia.bank.in</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="doc-strip">
+        <img  src="/data/images/info/unionbank_2025.jpeg" alt="Union Bank loan scheme">
+      </div>
+    </div>
+
+    
+
+    
+    <div class="passbook">
+      <div class="passbook-head">
+        <div>
+          <h6>Punjab National Bank</h6>
+          <div class="tagline">Loan Scheme</div>
+        </div>
+        <div class="seal">PNB</div>
+      </div>
+      <div class="passbook-body">
+        <a class="scheme-link" href="/data/pdf/IIIT4.pdf" target="_blank">
+          <span class="material-icons">description</span> View scheme document
+        </a>
+        <div class="contact-block">
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="passbook">
+      <div class="passbook-head">
+        <div>
+          <h6>Indian Bank</h6>
+          <div class="tagline">Loan Scheme</div>
+        </div>
+        <div class="seal">IB</div>
+      </div>
+      <div class="passbook-body">
+        <a class="scheme-link" href="/data/pdf/indianbank_scholarship.pdf" target="_blank">
+          <span class="material-icons">description</span> View scheme document
+        </a>
+        <div class="contact-block">
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section-label"><span>Reference Documents</span></div>
+  <div class="doc-list">
+    <a href="/data/pdf/canarabnk.pdf" target="_blank">
+      <span class="material-icons">picture_as_pdf</span>MoU between Canara Bank and Ministry of Education
+    </a>
+    <a href="/data/pdf/edu_loan.pdf" target="_blank">
+      <span class="material-icons">picture_as_pdf</span> Ministry of Finance — Office Memorandum on IIIT education loans
+    </a>
+  </div>
+
+</div>
+
+<div id="loans-lightbox" class="loans-lightbox" role="dialog" aria-hidden="true">
+  <span class="loans-lightbox-close" aria-label="Close">&times;</span>
+  <img id="loans-lightbox-img" src="" alt="">
+</div>
+
+<script>
+  (function(){
+    var overlay = document.getElementById('loans-lightbox');
+    var overlayImg = document.getElementById('loans-lightbox-img');
+    var closeBtn = overlay.querySelector('.loans-lightbox-close');
+
+    function openLightbox(src, alt){
+      overlayImg.src = src;
+      overlayImg.alt = alt || '';
+      overlay.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox(){
+      overlay.classList.remove('is-open');
+      document.body.style.overflow = '';
+      overlayImg.src = '';
+    }
+
+    document.querySelectorAll('.doc-strip img').forEach(function(img){
+      img.addEventListener('click', function(){
+        openLightbox(img.getAttribute('src'), img.getAttribute('alt'));
+      });
+    });
+
+    overlay.addEventListener('click', closeLightbox);
+    closeBtn.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') closeLightbox();
+    });
+  })();
+</script>

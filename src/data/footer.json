@@ -1,0 +1,190 @@
+{
+  "$schema": "./_schema/footer.json",
+  "_help": [
+    "FOOTER",
+    "`social`  — the round icon buttons at the top of the footer.",
+    "`icon` must be a Font Awesome name: twitter, facebook, linkedin,",
+    "youtube, instagram.",
+    "`columns` — the four link columns. Each link may set `new: true` to show the",
+    "animated NEW badge, or `bold: true` for plain bold text.",
+    "`gst`     — the GST line at the bottom of the last column.",
+    "`view_count` — the old site fed this number from countapi.xyz, a free",
+    "               service that has since shut down, so the live site has been",
+    "               showing a fixed figure for a while. Edit it by hand, or ask a",
+    "               developer to wire in real analytics.",
+    "`google_translate` — Google's translate dropdown in the bottom-right corner.",
+    "               Set to false to drop it (that also removes the only external",
+    "               script on the page)."
+  ],
+  "social": [
+    {
+      "icon": "twitter",
+      "link": "https://twitter.com/IIITKKottayam"
+    },
+    {
+      "icon": "facebook",
+      "link": "https://www.facebook.com/IIITKottayamofficial/"
+    },
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/iiit-kottayam"
+    },
+    {
+      "icon": "youtube",
+      "link": "https://www.youtube.com/channel/UC3jrKDXjl7_c5bld5x8C1vw"
+    }
+  ],
+  "columns": [
+    [
+      {
+        "text": "LMS (IIIT Kottayam)",
+        "link": "/lmsredirect",
+        "new": true
+      },
+      {
+        "text": "Placement",
+        "link": "/placement"
+      },
+      {
+        "text": "Site Map",
+        "link": "/sitemap"
+      },
+      {
+        "text": "Events",
+        "link": "/events"
+      },
+      {
+        "text": "Gallery",
+        "link": "https://drive.google.com/drive/folders/1DY5DYKzb2yzneYGRcmefoTStB0E9JfUu?usp=sharing"
+      },
+      {
+        "text": "English @ Ease/Psychological Tips",
+        "link": "https://docs.google.com/document/d/1doyb4eyxv5uo7JZMw4dbKtU_trv8oAU-rnf-EmobaYI/edit?usp=share_link"
+      }
+    ],
+    [
+      {
+        "text": "Matlab for IIIT Kottayam",
+        "link": "https://www.mathworks.com/academia/tah-portal/indian-institute-of-information-technology-kottayam-31453279.html"
+      },
+      {
+        "text": "Tenders",
+        "link": "/tenders"
+      },
+      {
+        "text": "Career",
+        "link": "/career"
+      },
+      {
+        "text": "ACM",
+        "link": "/acm"
+      },
+      {
+        "text": "Contact",
+        "link": "/contact"
+      },
+      {
+        "text": "Internal Directory",
+        "link": "https://drive.google.com/file/d/1ZWPnGnomsmGgfPSbtqZuOUgp6pHrkVyj/view?usp=sharing",
+        "external": true
+      },
+      {
+        "text": "Institute Email ",
+        "link": "https://accounts.google.com/"
+      },
+      {
+        "text": "Forms to Download(Internal)",
+        "link": "https://docs.google.com/document/d/1brMRJlg-ehzWS4kNCb6WQIxwx3S9tvj8skfLUs9f8IU/edit?usp=drive_link"
+      }
+    ],
+    [
+      {
+        "text": "Pay Your Fees Online",
+        "link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
+        "external": true
+      },
+      {
+        "text": "Gymnasium",
+        "link": "/campus/gymnasium"
+      },
+      {
+        "text": "IEEE",
+        "link": "/ieee"
+      },
+      {
+        "text": "Hostel",
+        "link": "/campus/hostel"
+      },
+      {
+        "text": "Internet",
+        "link": "/campus/internet"
+      },
+      {
+        "text": "Sports and Yoga",
+        "link": "/campus/sports"
+      },
+      {
+        "text": "Group Mail ID's",
+        "link": "https://docs.google.com/document/d/1g64N6BUUN_lLy6E9tRtyugtBcy1uCL1C/edit?usp=share_link&ouid=103053165573494839436&rtpof=true&sd=true",
+        "external": true
+      },
+      {
+        "text": "IEM",
+        "link": "/iem"
+      },
+      {
+        "text": "Staff ERP (Leave)",
+        "link": "https://erpemp.iiitkottayam.ac.in/"
+      }
+    ],
+    [
+      {
+        "text": "RTI",
+        "link": "/rti"
+      },
+      {
+        "text": "National Scholarship Portal",
+        "link": "/nationalScholarship",
+        "external": true
+      },
+      {
+        "text": "Internal Complaints Committee",
+        "link": "/internal_complaints_committee"
+      },
+      {
+        "text": "Grievance Redressal Committee",
+        "link": "/data/pdf/Grievance Redressal Committee.pdf"
+      },
+      {
+        "text": "Disciplinary Action Committee",
+        "link": "/data/pdf/OM-Disciplinary Action Committee-revised-Jan2024.pdf"
+      },
+      {
+        "text": "SC/ST/OBC cell",
+        "link": "/data/pdf/OM-formation of SC-ST-OBC Cell-Jan2024.pdf",
+        "external": true
+      },
+      {
+        "text": "CVO",
+        "link": "/data/pdf/cvo_new.pdf",
+        "external": true
+      },
+      {
+        "text": "Anti-Ragging",
+        "link": "/antiragging"
+      },
+      {
+        "text": "Educational Verification",
+        "link": "/data/pdf/Educational_Verification.pdf"
+      },
+      {
+        "text": "Reach IIIT Kottayam",
+        "link": "/reach"
+      }
+    ]
+  ],
+  "gst": "GST NO: 32AAAAI9154L1ZJ",
+  "copyright_year": "2026",
+  "view_count": "84000",
+  "google_translate": true
+}

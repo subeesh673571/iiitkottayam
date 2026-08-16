@@ -1,0 +1,15 @@
+{
+  "name": "iiitk-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node build/serve.mjs",
+    "dev": "node build/serve.mjs",
+    "check": "node scripts/check-content.mjs",
+    "build": "npm run check && node build.mjs",
+    "preview": "node build/serve.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "./_schema/careers.json",
+  "_help": [
+    "Source: the \"jobs\" list on the old career page."
+  ],
+  "items": [
+    {
+      "title": "Advertisement for Faculty Recruitment (Assistant Professor Gr-II)  Advt. No. IIITK/01/12/2025/2324  Dated 21.11.2025 ",
+      "status": "0",
+      "description": "Last Date : 22/12/2025,5.00PM",
+      "link": "https://recruitf.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Recruitment Notification for Non-Teaching Staff  Advt. No. IIITK/01/12/2025/2323  Dated 21.11.2025 ",
+      "status": "0",
+      "description": "Last Date : 22/12/2025,5.00PM",
+      "link": "https://recruitstaff.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Recruitment of Contract Faculty - Computer Science & Engineering dated 17.10.2025 ",
+      "status": "0",
+      "description": "Last Date : 17/10/2025,5.00PM",
+      "link": "data/pdf/Advt-2025-2-Contract_Faculty-CSE.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Empanelment / Recruitment of Technician(On Contract) Last date:- 17/09/2025, 5.00 PM ",
+      "status": "0",
+      "description": "Last Date : 17/09/2025,5.00PM",
+      "link": "data/pdf/Advt-Technician-Sept2025.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Empanelment  of Psychologist(On Contract)Walk-in-Interview on 16/09/2025 ",
+      "status": "0",
+      "description": "",
+      "link": "data/pdf/Advt-Psychologist-Sept2025.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Recruitment for the post of Mess Manager (On Contract) ",
+      "status": "0",
+      "description": "Last Date : 06/10/2025,5.00PM",
+      "link": "data/pdf/Advt-Mess Manager-Sept2025.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Online applications are invited for the  Faculty position in Mathematics ",
+      "status": "0",
+      "description": "Last Date : 27/11/2023,5.00PM",
+      "link": "https://recruitf.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Online applications are invited for the  Faculty positions ",
+      "status": "0",
+      "description": "Last Date : 25/10/2023,5.00PM",
+      "link": "https://recruitf.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Non-teaching staff recruitment process- advertisement No. IIITK/01/12/2022-23/371 dated 21/12/2022",
+      "status": "0",
+      "link": "data/pdf/notification_process.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Application for Junior Research Fellow (JRF)",
+      "status": "0",
+      "description": "Last date:- 14/02/2023",
+      "link": "data/pdf/JRF-advt.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Recruitment Notification for Non-Teaching Staff",
+      "status": "0",
+      "description": "Last date:- 11/01/2023,11.59 PM",
+      "link": "https://recruitstaff.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview",
+      "status": "0",
+      "description": "Last date:- 14/10/2022,5.00PM",
+      "link": "data/pdf/advt_adhoc.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Recruitment of Chief Innovation Officer-cum-In-charge, Certificate Programme",
+      "status": "0",
+      "description": "Walk in Interview on 25/07/2022",
+      "link": "data/pdf/cio_icp.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview",
+      "status": "0",
+      "description": "Walk in Interview on 22/06/2022",
+      "link": "data/pdf/adhoc_22.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "A walk in interview for the post of psychologist (on contract)",
+      "status": "0",
+      "description": "Date and Time : 22nd December 2021 at 09.30 am",
+      "link": "data/pdf/recru_ psycholigst-noti.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Empanelment / Recruitment of Technical Assistants / Junior Superintendent on contract.",
+      "status": "0",
+      "description": "Last date:- 10/12/2021, 5.00PM",
+      "link": "https://recruitstaff.iiitkottayam.ac.in/",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Online Interview",
+      "status": "0",
+      "description": "Online Interview on 23/12/2020",
+      "link": "data/pdf/fachr2021.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview",
+      "status": "0",
+      "description": "Walk in Interview on 19/12/2019",
+      "link": "#!pdf/home/mathsfaculty/Walk in Interview",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview",
+      "status": "0",
+      "description": "Walk in Interview on 04/12/2019",
+      "link": "data/pdf/adhoc1.pdf",
+      "linktype": 1
+    },
+    {
+      "title": "Walk in Interview",
+      "status": "0",
+      "description": "Technical Assistant-Walk in Interview on 25/09/2019",
+      "link": "#!pdf/home/technical1/Walk in Interview",
+      "linktype": 1
+    },
+    {
+      "title": "Adhoc Faculty - Walk in Interview",
+      "status": "0",
+      "description": "Walk in Interview on 05/09/2019",
+      "link": "#!pdf/home/Adhocfaculty1/Walk in Interview",
+      "linktype": 1
+    },
+    {
+      "title": "Faculty Recruitment - 2019 Online application",
+      "status": "0",
+      "description": "Online applications are invited to the faculty positions",
+      "link": "/facr2019/",
+      "linktype": 1
+    },
+    {
+      "title": "Walk in Interview ",
+      "status": "0",
+      "description": "Walk-in Interview for Industrial Experts at AIC-IIITKottayam Foundation (Sec.8 Company) on 12 June 2019",
+      "link": "#!pdf/home/aic/Walk in Interview",
+      "linktype": 1
+    },
+    {
+      "title": "Walk in Interview on 25/01/2019",
+      "status": "0",
+      "description": "Technical Asst ( on contract ) and and Library information Asst. ( Trainee) ",
+      "link": "#!pdf/home/Walk in Interview5/Walk in Interview",
+      "linktype": 1
+    },
+    {
+      "title": "Walk in Interview",
+      "status": "0",
+      "description": " full time or part time)\" ",
+      "link": "#!pdf/home/Walk in Interview4/Walk in Interview",
+      "linktype": 1
+    }
+  ]
+}

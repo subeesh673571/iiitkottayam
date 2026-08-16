@@ -1,0 +1,170 @@
+{
+  "$schema": "./_schema/home.json",
+  "_help": [
+    "HOMEPAGE — everything except the slider, news, events, faculty and",
+    "publications, which have their own files in this folder.",
+    "banners     — the programme / partner logo strip across the very top.",
+    "marquee     — the red scrolling notice. Each item is one piece of the",
+    "              ticker; `link` and `badge` are optional. Delete every item to",
+    "              hide the ticker completely.",
+    "placement   — the \"Placement Details\" panel.",
+    "initiatives — the \"Innovative Initiatives of IIITK\" logo grid. Four logos",
+    "              per row. Leave `link` out for a logo that is not clickable.",
+    "tours       — the virtual tour strip at the bottom of the page.",
+    "headings    — the titles above the three prose blocks. The wording of the",
+    "              blocks themselves is in src/content/home/."
+  ],
+  "headings": {
+    "welcome": "IIIT Kottayam Welcomes You",
+    "vision": "Vision",
+    "mission": "Mission"
+  },
+  "banners": [
+    {
+      "image": "/data/convo6.png",
+      "link": "https://www.youtube.com/live/DAMa2Lw8qo4",
+      "align": "left",
+      "max_height": 60
+    },
+    {
+      "image": "/data/g1.gif",
+      "link": "https://gyaan.iiitkottayam.ac.in/",
+      "width": 170,
+      "height": 55
+    },
+    {
+      "image": "/data/Certificate Programmes.gif",
+      "link": "https://satcentre.iiitkottayam.ac.in/",
+      "width": 170,
+      "height": 55
+    },
+    {
+      "image": "/data/imtech.gif",
+      "link": "https://imtech.iiitkottayam.ac.in/",
+      "width": 170,
+      "height": 55
+    },
+    {
+      "image": "/data/e-M.Tech.gif",
+      "link": "http://emtech.iiitkottayam.ac.in/",
+      "width": 170,
+      "height": 55
+    }
+  ],
+  "marquee": [
+    {
+      "text": "UG Admission 2026 Updates",
+      "link_text": "Click Here",
+      "link": "/admission26",
+      "badge": true
+    },
+    {
+      "text": "The Institute will remain functional on 16th August (Sunday) to facilitate UG Admissions 2026."
+    },
+    {
+      "text": "The Orientation Programme (UG 2026) is scheduled to be held on 20/08/2026.",
+      "badge": true
+    }
+  ],
+  "placement": {
+    "heading": "Placement Details",
+    "new_badge": true,
+    "image": "/data/images/placement/placement_statistics24-26.png",
+    "note": "* Source of Information:-As informed by IIIT Kottayam students placement committee"
+  },
+  "initiatives": [
+    {
+      "image": "/data/images/main/nlogo.png",
+      "link": "http://icentre.iiitkottayam.ac.in/",
+      "width": 150
+    },
+    {
+      "image": "/data/images/main/logo-Gyaan Lab.png",
+      "link": "https://gyaan.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/logo-msme.jpg",
+      "link": "https://msme.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/clabslogo.png",
+      "link": "http://cyberlabs.iiitkottayam.ac.in/",
+      "width": 60
+    },
+    {
+      "image": "/data/images/main/logo-i2cs.png",
+      "link": "http://i2cs.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/LogoQuDAIS Lab.png",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/logo-FACTS-H Lab.jpeg",
+      "link": "https://factsh.iiitkottayam.ac.in/home"
+    },
+    {
+      "image": "/data/images/main/LogoRootLab.png",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/logo_clc.png",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/Logo_ngc.png",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/LogoSwing.png",
+      "link": "https://swing.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/LogoMORAL.PNG",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/LogoBioGen_Lab.jpeg",
+      "link": "https://biomirg.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/LogoNetwork-science.png",
+      "link": "https://netsci.iiitkottayam.ac.in/"
+    },
+    {
+      "image": "/data/images/main/SherlockLablogo.png",
+      "link": ""
+    },
+    {
+      "image": "/data/images/main/logo_createlab.jpeg",
+      "link": "https://create.iiitkottayam.ac.in/"
+    }
+  ],
+  "tours": [
+    {
+      "title": "IIIT Kottayam - Virtual Tour-I",
+      "image": "/data/images/home/virtual_tour1_2026.gif",
+      "link": "https://www.youtube.com/watch?v=jLQ5ZffROXk&list=LL&index=6&themeRefresh=1"
+    },
+    {
+      "title": "IIIT Kottayam - Virtual Tour-II",
+      "image": "/data/images/home/virtual_tour1_img.jpeg",
+      "link": "https://youtube.com/embed/UREZ8Nn_rBc"
+    },
+    {
+      "title": "IIIT Kottayam - Virtual Tour-III",
+      "image": "/data/images/home/college.jpg",
+      "link": "https://www.youtube.com/embed/kI9UgW6pKGg?rel=0&hd=1"
+    },
+    {
+      "title": "IIIT Kottayam - Virtual Tour-IV",
+      "image": "/data/images/home/iiitkview1.jpg",
+      "link": "https://www.youtube.com/embed/pmqLRh6PuSU"
+    },
+    {
+      "title": "IIIT Kottayam - Virtual Tour-V",
+      "image": "/data/images/home/longview111.jpg",
+      "link": "https://www.youtube.com/embed/rnz8JMLWyGA"
+    }
+  ]
+}

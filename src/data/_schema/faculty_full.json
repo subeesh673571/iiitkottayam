@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "src/data/faculty_full.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "_help": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes for whoever edits this file. Ignored when the site is built."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full name, as it should appear on the card."
+          },
+          "additionalcharge": {
+            "type": "string"
+          },
+          "additionalcharge1": {
+            "type": "string"
+          },
+          "keypoint": {
+            "type": "string"
+          },
+          "designation": {
+            "type": "string",
+            "description": "Job title. One line, or a list of lines."
+          },
+          "area": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Areas of interest, shown as bullet points."
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": "string",
+                "description": "Written as \"name at iiitkottayam dot ac.in\" so spam robots cannot collect it."
+              },
+              "room": {
+                "type": "string",
+                "description": "Room number, e.g. AC 301."
+              },
+              "phone": {
+                "type": "string",
+                "description": "One number, or a list of them."
+              }
+            },
+            "additionalProperties": false,
+            "description": "Phone, room and email shown at the bottom of the card."
+          },
+          "photo": {
+            "type": "string",
+            "description": "Portrait file name, uploaded to public/data/images/."
+          },
+          "more": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "The wording people read."
+              },
+              "link": {
+                "type": "string",
+                "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+              },
+              "title": {
+                "type": "string",
+                "description": "The wording people read."
+              }
+            },
+            "additionalProperties": false
+          },
+          "page": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "The wording people read."
+              },
+              "link": {
+                "type": "string",
+                "description": "Where it goes: a page path like /placement, a file like /data/pdf/x.pdf, or a full https:// address."
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+<div class="side-nav-overlay" id="side-nav-overlay"></div>
+
+<ul id="slide-out" class="side-nav">
+  {{# each nav }}{{# if children }}<li>
+    <div class="collapsible-header" role="button" tabindex="0">{{ label }}</div>
+    <div class="collapsible-body">
+      <ul>
+        {{# each childLinks }}<li><a href="{{ link }}">{{ label }}</a></li>{{/ each }}
+      </ul>
+    </div>
+  </li>{{ else }}<li><a href="{{ link }}">{{ label }}</a></li>{{/ if }}{{/ each }}
+</ul>

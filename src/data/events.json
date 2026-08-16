@@ -1,0 +1,48 @@
+{
+  "$schema": "./_schema/events.json",
+  "_help": [
+    "\"Events\" carousel on the homepage — rotates automatically every 4 seconds.",
+    "image:       background photo under /data/images/events/",
+    "link:        the \"Visit Gallery\" button target",
+    "title:       bold blue line",
+    "description: grey line underneath (may be left as \"\")"
+  ],
+  "items": [
+    {
+      "image": "/data/images/events/icitiit25.jpg",
+      "link": "https://photos.app.goo.gl/RnTqrDNQDYSNefQy9",
+      "title": "ICITIIT 2025",
+      "description": "International Conference on Innovative Trends in Information Technology (ICITIIT25)"
+    },
+    {
+      "image": "/data/images/events/yogaday_2026.png",
+      "link": "https://photos.app.goo.gl/fsDWxsnq4Zk5uuDGA",
+      "title": "Yoga Day 2026",
+      "description": "IIIT Kottayam Observes International Yoga Day"
+    },
+    {
+      "image": "/data/images/events/fdp24-ece.JPG",
+      "link": "https://photos.app.goo.gl/zKuQquBco1erGrif8",
+      "title": "Faculty Development Programme 2024(ECE)",
+      "description": ""
+    },
+    {
+      "image": "/data/images/events/fdp24-csy.JPG",
+      "link": "https://photos.app.goo.gl/QmSmbcxQ3syPFx3a6",
+      "title": "Faculty Development Programme 2024(CSY)",
+      "description": ""
+    },
+    {
+      "image": "/data/images/events/fdp24-cse.JPG",
+      "link": "https://photos.app.goo.gl/gN2uDzZVERxj1mu67",
+      "title": "Faculty Development Programme 2024(CSE)",
+      "description": ""
+    },
+    {
+      "image": "/data/images/events/fdp24-csh.JPG",
+      "link": "https://photos.app.goo.gl/SiSmSxxZS5ddsc5w8",
+      "title": "Faculty Development Programme 2024(CSH)",
+      "description": ""
+    }
+  ]
+}

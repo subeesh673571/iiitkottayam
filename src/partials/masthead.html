@@ -1,0 +1,25 @@
+<!-- Wide screens: logo plus the institute name in Malayalam, Hindi and English -->
+<div class="top-container white hide-on-med-and-down">
+  <div class="flex flex-justify flex-end">
+    <a href="/">
+      <img src="{{ site.logo }}" alt="IIIT Kottayam Logo" class="masthead-logo">
+    </a>
+    <div class="custom-spacer"></div>
+    <div class="flex flex-column flex-end">
+      <br>
+      {{# each site.brand_lines }}<span class="custom-brand-name big-head notranslate" style="margin:0;font-size:{{ size }}px">
+        <a href="/" class="brand-link">{{ text }}</a>
+      </span>{{/ each }}
+    </div>
+  </div>
+</div>
+
+<!-- Narrow screens: just the Hindi line, the logo moves into the nav bar -->
+<div class="top-container white show-on-medium-and-down">
+  <div class="flex flex-justify flex-end" id="mobile-head">
+    <div class="custom-spacer"></div>
+    <span class="custom-brand-name small-head truncate notranslate" style="margin:0">
+      <a href="/" class="brand-link">{{ site.brand_mobile }}</a>
+    </span>
+  </div>
+</div>

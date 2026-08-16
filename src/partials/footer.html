@@ -1,0 +1,51 @@
+<footer class="page-footer black-text border border-top border-dull">
+  <div class="container">
+    <div class="row center-align">
+      <div class="col s12">
+        {{# each footer.social }}<a href="{{ link }}" target="_blank" rel="noopener" aria-label="{{ icon }}">
+          <i class="fa fa-{{ icon }}" aria-hidden="true"></i>
+        </a>{{/ each }}
+      </div>
+    </div>
+
+    <div class="row">
+      {{# each footer.columns }}<div class="col s6 m3">
+        <ul>
+          {{# each links }}<li>
+            <a href="{{ link }}" class="black-text"{{{ target }}}>{{ text }}</a>
+            {{# if new }}<img width="30" height="30" src="/data/images/info/new1.gif" alt="New">{{/ if }}
+          </li>{{/ each }}
+          {{# if gst }}<li><b>{{ gst }}</b></li>{{/ if }}
+        </ul>
+      </div>{{/ each }}
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="row" style="width:100%">
+      <div class="col s12 center-align black-text">
+        <br>&copy; {{ site.title }} {{ footer.copyright_year }}<br>{{ site.description }}
+        <p>This page was viewed</p>
+        <h1 class="count">{{ footer.view_count }}</h1>
+        <p class="count_times">times</p>
+      </div>
+      <div class="col s12"><br></div>
+      {{# if footer.google_translate }}<div class="col s12 right-align">
+        <div id="google_translate_element"></div>
+      </div>{{/ if }}
+    </div>
+  </div>
+</footer>
+
+{{# if footer.google_translate }}<script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          'google_translate_element'
+        );
+      }
+    </script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>{{/ if }}

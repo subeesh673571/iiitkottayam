@@ -1,0 +1,477 @@
+{
+  "$schema": "./_schema/faculty_pages.json",
+  "_help": [
+    "Individual faculty profile pages, served at /faculty/<slug>.",
+    "The page body for each is src/content/faculty/<slug>.html"
+  ],
+  "items": [
+    {
+      "slug": "abinphilip",
+      "title": "Dr. Abin Oommen Philip"
+    },
+    {
+      "slug": "akarshkn",
+      "title": "Dr. Akarsh K Nair| IIIT Kottayam"
+    },
+    {
+      "slug": "alkha",
+      "title": "Dr. Alkha Mohan| IIIT Kottayam"
+    },
+    {
+      "slug": "amit",
+      "title": "Dr. Amit Kumar Roy"
+    },
+    {
+      "slug": "anandhum",
+      "title": "Dr. Anandhu Mohan| IIIT Kottayam"
+    },
+    {
+      "slug": "ananth",
+      "title": "Dr Ananth A"
+    },
+    {
+      "slug": "angelthomas",
+      "title": "Dr. Angel Thomas| IIIT Kottayam"
+    },
+    {
+      "slug": "anitha",
+      "title": "Ms. Anitha Ambat| IIIT Kottayam"
+    },
+    {
+      "slug": "annamalai",
+      "title": "Dr. ANNAMALAI| IIIT Kottayam"
+    },
+    {
+      "slug": "anoopb",
+      "title": "Dr Anoop B N"
+    },
+    {
+      "slug": "ansiths",
+      "title": "Dr. Ansith S| IIIT Kottayam"
+    },
+    {
+      "slug": "anumaria",
+      "title": "Dr. Anu Maria Sebastian| IIIT Kottayam"
+    },
+    {
+      "slug": "arun",
+      "title": "Dr. Arun Cyril Jose"
+    },
+    {
+      "slug": "asha",
+      "title": "Dr. Asha Sebastian"
+    },
+    {
+      "slug": "athirab",
+      "title": "Dr. Athira B| IIIT Kottayam"
+    },
+    {
+      "slug": "avinash",
+      "title": "Dr. Avinash Kumar Mittal"
+    },
+    {
+      "slug": "bakky",
+      "title": "Dr. Bakkyaraj Thangarasu"
+    },
+    {
+      "slug": "bala",
+      "title": "Dr. Balasubramanian P"
+    },
+    {
+      "slug": "balu",
+      "title": "Dr. A. Balu"
+    },
+    {
+      "slug": "bhanu",
+      "title": "Dr. Bhanu Chander"
+    },
+    {
+      "slug": "bhushan",
+      "title": "Dr. Boddepalli SanthiBhushan| IIIT Kottayam"
+    },
+    {
+      "slug": "bibal",
+      "title": "Dr. Bibal Benifa"
+    },
+    {
+      "slug": "bini",
+      "title": "Dr. Bini A. A."
+    },
+    {
+      "slug": "binum",
+      "title": "Dr. Binu M| IIIT Kottayam"
+    },
+    {
+      "slug": "chakradhar",
+      "title": "Dr. Chakradhar Padamutham| IIIT Kottayam"
+    },
+    {
+      "slug": "chavhan",
+      "title": "Dr. Suresh Chavhan"
+    },
+    {
+      "slug": "christina",
+      "title": "Dr. Christina Terese Joseph"
+    },
+    {
+      "slug": "cinu",
+      "title": "Dr. Cinu C Kiliroor"
+    },
+    {
+      "slug": "damu",
+      "title": "Dr. Damodar Reddy G"
+    },
+    {
+      "slug": "debarati",
+      "title": "Dr. Debarati Ganguly| IIIT Kottayam"
+    },
+    {
+      "slug": "deepak",
+      "title": "Dr. Deepak Jose| IIIT Kottayam"
+    },
+    {
+      "slug": "della",
+      "title": "Dr. Della Thomas"
+    },
+    {
+      "slug": "dhakshayani",
+      "title": "Dr. Dhakshayani J| IIIT Kottayam"
+    },
+    {
+      "slug": "dhanya",
+      "title": "Dr. Dhanyamol M V"
+    },
+    {
+      "slug": "divya",
+      "title": "Dr. Divya Sindhu Lekha| IIIT Kottayam"
+    },
+    {
+      "slug": "ebin",
+      "title": "Dr. Ebin Deni Raj"
+    },
+    {
+      "slug": "emy",
+      "title": "Dr. Emy Mariam George| IIIT Kottayam"
+    },
+    {
+      "slug": "fasilaka",
+      "title": "Dr. Fasila K A| IIIT Kottayam"
+    },
+    {
+      "slug": "gayathri",
+      "title": "Dr. Gayathri G.R."
+    },
+    {
+      "slug": "gayathrivarma",
+      "title": "Dr. Gayathri Varma| IIIT Kottayam"
+    },
+    {
+      "slug": "goutam",
+      "title": "Dr.Goutam Mali"
+    },
+    {
+      "slug": "jaiganesh",
+      "title": "Dr.S.Jai Ganesh| IIIT Kottayam"
+    },
+    {
+      "slug": "jaisooraj",
+      "title": "Dr. Jaisooraj J| IIIT Kottayam"
+    },
+    {
+      "slug": "jalaja",
+      "title": "Dr. JALAJA M J| IIIT Kottayam"
+    },
+    {
+      "slug": "jeenathomas",
+      "title": "Dr. Jeena Thomas| IIIT Kottayam"
+    },
+    {
+      "slug": "jishamj",
+      "title": "Dr. Jisha Mariyam John| IIIT Kottayam"
+    },
+    {
+      "slug": "jobin",
+      "title": "Dr.JOBIN JOSE"
+    },
+    {
+      "slug": "jobish",
+      "title": "Dr. Jobish John"
+    },
+    {
+      "slug": "john",
+      "title": "Dr. John Paul Martin"
+    },
+    {
+      "slug": "jositmariya",
+      "title": "Dr. Josit Mariya"
+    },
+    {
+      "slug": "kala",
+      "title": "Dr. Kala S"
+    },
+    {
+      "slug": "kanand",
+      "title": "Dr. Konjengbam Anand"
+    },
+    {
+      "slug": "kanchanlata",
+      "title": "Dr. Kanchan Lata Kashyap| IIIT Kottayam"
+    },
+    {
+      "slug": "keshab",
+      "title": "Dr. Keshab Nath"
+    },
+    {
+      "slug": "kgura",
+      "title": "Dr. Koppala Guravaiah"
+    },
+    {
+      "slug": "krishnendhu",
+      "title": "Dr. Krishnendhu S P| IIIT Kottayam"
+    },
+    {
+      "slug": "kumaresan",
+      "title": "Dr. Kumaresan G| IIIT Kottayam"
+    },
+    {
+      "slug": "lakshmins",
+      "title": "Dr. Lakshmi N S| IIIT Kottayam"
+    },
+    {
+      "slug": "lavanya",
+      "title": "Dr. Lavanya Settipalli"
+    },
+    {
+      "slug": "leenamary",
+      "title": "Dr. Leena Mary"
+    },
+    {
+      "slug": "lekshmi",
+      "title": "Dr. Lekshmi B.G"
+    },
+    {
+      "slug": "lidiya",
+      "title": "Dr. Lidiya Lilly Thampi"
+    },
+    {
+      "slug": "lincy",
+      "title": "Dr. Rubell Marion Lincy G"
+    },
+    {
+      "slug": "mahima",
+      "title": "Dr. Mahima Mary Mathews| IIIT Kottayam"
+    },
+    {
+      "slug": "mani",
+      "title": "Mr. Manikandan V.M."
+    },
+    {
+      "slug": "manjith",
+      "title": "Dr. Manjjith B.C"
+    },
+    {
+      "slug": "manu",
+      "title": "Dr. Manu Madhavan"
+    },
+    {
+      "slug": "mathewcd",
+      "title": "Dr. Mathew.C.D| IIIT Kottayam"
+    },
+    {
+      "slug": "mathewjoseph",
+      "title": "Dr. Mathew Joseph| IIIT Kottayam"
+    },
+    {
+      "slug": "mgopal",
+      "title": "Dr. Maisagalla Gopal| IIIT Kottayam"
+    },
+    {
+      "slug": "milind",
+      "title": "Dr. Milind Thomas Themalil"
+    },
+    {
+      "slug": "minupillai",
+      "title": "Dr. Minu A Pillai"
+    },
+    {
+      "slug": "mirothali",
+      "title": "Dr. Mirothali Chand C| IIIT Kottayam"
+    },
+    {
+      "slug": "mirza",
+      "title": "Dr. Mirza Ghalib| IIIT Kottayam"
+    },
+    {
+      "slug": "murugan",
+      "title": "Dr. Murugan D"
+    },
+    {
+      "slug": "nandini",
+      "title": "Dr. Nandini J.Warrier"
+    },
+    {
+      "slug": "narendrakumar",
+      "title": "Dr. Gangireddy Narendra Kumar Reddy"
+    },
+    {
+      "slug": "nayanapg",
+      "title": "Dr. Nayana P G| IIIT Kottayam"
+    },
+    {
+      "slug": "nilotpal",
+      "title": "Dr. Nilotpal Chakraborty"
+    },
+    {
+      "slug": "nisha",
+      "title": "Dr. Nisha J S| IIIT Kottayam"
+    },
+    {
+      "slug": "oswald",
+      "title": "Dr. Oswald C"
+    },
+    {
+      "slug": "panchami",
+      "title": "Dr. Panchami V"
+    },
+    {
+      "slug": "prajeesh",
+      "title": "Dr. A V Prajeesh| IIIT Kottayam"
+    },
+    {
+      "slug": "priyadharshini",
+      "title": "Dr. Priyadharshini S| IIIT Kottayam"
+    },
+    {
+      "slug": "ragesh",
+      "title": "Dr. Ragesh G K"
+    },
+    {
+      "slug": "rajesh",
+      "title": "Dr. Rajesh G"
+    },
+    {
+      "slug": "ranjithabraham",
+      "title": "Dr. Ranjit Abraham"
+    },
+    {
+      "slug": "raviajmeera",
+      "title": "Dr. Ravi Ajmeera| IIIT Kottayam"
+    },
+    {
+      "slug": "reethathomas",
+      "title": "Dr. Reetha Thomas| IIIT Kottayam"
+    },
+    {
+      "slug": "renjith",
+      "title": "Dr. Renjith P"
+    },
+    {
+      "slug": "renudaniel",
+      "title": "Dr. Renu Mary Daniel| IIIT Kottayam"
+    },
+    {
+      "slug": "resmi",
+      "title": "Dr. Resmi Ramachandran Pillai"
+    },
+    {
+      "slug": "riyasudheen",
+      "title": "Dr. Riyasudheen T K| IIIT Kottayam"
+    },
+    {
+      "slug": "rosebell",
+      "title": "Dr. Rosebell Paul| IIIT Kottayam"
+    },
+    {
+      "slug": "sahoo",
+      "title": "Dr. Jayakrushna Sahoo"
+    },
+    {
+      "slug": "sairaj",
+      "title": "Dr. R. Tharaniya Sairaj| IIIT Kottayam"
+    },
+    {
+      "slug": "samson",
+      "title": "Dr. Samson Anosh Babu P"
+    },
+    {
+      "slug": "santhos",
+      "title": "Dr Santhos Kumar"
+    },
+    {
+      "slug": "sara",
+      "title": "Dr. Sara Renjit| IIIT Kottayam"
+    },
+    {
+      "slug": "selvi",
+      "title": "Dr Selvi C"
+    },
+    {
+      "slug": "silambarasan",
+      "title": "Dr. E. Silambarasan"
+    },
+    {
+      "slug": "sivaiah",
+      "title": "Dr. Sivaiah Bellamkonda"
+    },
+    {
+      "slug": "sreeja",
+      "title": "Dr. Sreeja M U| IIIT Kottayam"
+    },
+    {
+      "slug": "sreelakshmy",
+      "title": "Dr. Sreelakshmy I J| IIIT Kottayam"
+    },
+    {
+      "slug": "sridhar",
+      "title": "Dr. Sridhar Raj S| IIIT Kottayam"
+    },
+    {
+      "slug": "suchithra",
+      "title": "Dr. Suchithra M S"
+    },
+    {
+      "slug": "sugirtha",
+      "title": "Dr. T. Sugirtha"
+    },
+    {
+      "slug": "sujamol",
+      "title": "Dr. Sujamol S| IIIT Kottayam"
+    },
+    {
+      "slug": "suriyapriya",
+      "title": "Dr.K. Suriyapriya"
+    },
+    {
+      "slug": "susheel",
+      "title": "Dr. Susheel Kumar Joshi"
+    },
+    {
+      "slug": "sushitha",
+      "title": "Dr. Sushitha Susan Joseph| IIIT Kottayam"
+    },
+    {
+      "slug": "sweety",
+      "title": "Dr.Sweeti Sah"
+    },
+    {
+      "slug": "syamala",
+      "title": "Dr. SYAMALA S| IIIT Kottayam"
+    },
+    {
+      "slug": "vengadeswaran",
+      "title": "Dr. Vengadeswaran S"
+    },
+    {
+      "slug": "venkatesh",
+      "title": "Dr. Venkatesh S"
+    },
+    {
+      "slug": "victer",
+      "title": "Dr. P. Victer Paul"
+    },
+    {
+      "slug": "vineeth",
+      "title": "Dr.Vineeth Palliyembil| IIIT Kottayam"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ pageTitle }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}">
+
+    <!-- Icon and text fonts are served from this server, so the page makes no
+         third-party requests and still renders if Google is unreachable. -->
+    <link rel="stylesheet" href="/fonts/roboto/roboto-hindi.css">
+    <link rel="stylesheet" href="/fonts/material-icons.css">
+    <link rel="stylesheet" href="/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/site.css">
+  </head>
+
+  <body>
+    {{> masthead }}
+    {{> nav }}
+    {{> sidenav }}
+
+    <div class="custom-view content">{{{ body }}}</div>
+
+    {{> footer }}
+
+    {{# each scripts }}<script src="/js/{{ this }}" defer></script>
+    {{/ each }}
+  </body>
+</html>

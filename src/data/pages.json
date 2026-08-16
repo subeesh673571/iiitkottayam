@@ -1,0 +1,308 @@
+{
+  "$schema": "./_schema/pages.json",
+  "_help": [
+    "Titles for the interior pages. The page body for each one is the matching",
+    "file in src/content/pages/<slug>.html — edit that for the content, and edit",
+    "the title here (it shows in the browser tab).",
+    "",
+    "Removing an entry here removes the page from the site."
+  ],
+  "items": [
+    {
+      "slug": "academics",
+      "title": "Academics"
+    },
+    {
+      "slug": "acm",
+      "title": "About ACM"
+    },
+    {
+      "slug": "admission",
+      "title": "Admission"
+    },
+    {
+      "slug": "admission19",
+      "title": "Admission 2019 [CSAB Special Round]"
+    },
+    {
+      "slug": "admission20",
+      "title": "Admission 2020 [JoSAA/CSAB]"
+    },
+    {
+      "slug": "admission21",
+      "title": "Admissions 2021 [JoSAA/CSAB]"
+    },
+    {
+      "slug": "admission22",
+      "title": "Admission 2022 [JoSAA/CSAB]"
+    },
+    {
+      "slug": "admission23",
+      "title": "Admission 2023 [JoSAA/CSAB]"
+    },
+    {
+      "slug": "admission24",
+      "title": "Admission 2024 [JoSAA/CSAB]"
+    },
+    {
+      "slug": "admission25",
+      "title": "UG Admission 2025"
+    },
+    {
+      "slug": "admission25copy",
+      "title": "UG Admission 2025"
+    },
+    {
+      "slug": "admission26",
+      "title": "UG Admission 2026"
+    },
+    {
+      "slug": "antiragging",
+      "title": "Anti Ragging"
+    },
+    {
+      "slug": "awards",
+      "title": "Awards & Recognitions"
+    },
+    {
+      "slug": "btech_ai_home",
+      "title": "Btech Ai Home"
+    },
+    {
+      "slug": "btech_cs_home",
+      "title": "B.Tech in Computer Science and Engineering"
+    },
+    {
+      "slug": "btech_cyber_home",
+      "title": "B.Tech in Computer Science And Engineering With Specialisation in Cyber Security"
+    },
+    {
+      "slug": "btech_ec_home",
+      "title": "B.Tech in Electronics and Communication Engineering"
+    },
+    {
+      "slug": "btech_MnC_home",
+      "title": "B.Tech. in Mathematics and Computing"
+    },
+    {
+      "slug": "codingClub",
+      "title": "Beta Labs"
+    },
+    {
+      "slug": "collaboration",
+      "title": "International Collaborative Activities"
+    },
+    {
+      "slug": "contact",
+      "title": "Reach IIIT Kottayam"
+    },
+    {
+      "slug": "contest",
+      "title": "Winner of ACM-ICPC Asia Chennai Regional Contest 2019"
+    },
+    {
+      "slug": "convocation_2025",
+      "title": "7th Convocation 2025"
+    },
+    {
+      "slug": "culturalClub",
+      "title": "Wildbeats"
+    },
+    {
+      "slug": "cybersecurityClub",
+      "title": "Cyber Security Club"
+    },
+    {
+      "slug": "fdp",
+      "title": "IIIT Kottayam Faculty Development Programmes/Workshops/Webinar"
+    },
+    {
+      "slug": "fdp_webinar",
+      "title": "Faculty Development Programmes/Workshops/Webinars"
+    },
+    {
+      "slug": "IDY",
+      "title": "International Yoga Day"
+    },
+    {
+      "slug": "idy2019",
+      "title": "International Yoga Day Pledge"
+    },
+    {
+      "slug": "idy2020",
+      "title": "International Yoga Day"
+    },
+    {
+      "slug": "ieee",
+      "title": "About IEEE"
+    },
+    {
+      "slug": "iem",
+      "title": "Independent External Monitors"
+    },
+    {
+      "slug": "innovations",
+      "title": "Institute Innovation Cell (IIC)"
+    },
+    {
+      "slug": "institute",
+      "title": "Governance"
+    },
+    {
+      "slug": "instituteInternship",
+      "title": "Institute Internship 2024"
+    },
+    {
+      "slug": "internal_complaints_committee",
+      "title": "Internal Complaints Committee"
+    },
+    {
+      "slug": "jrf_advt",
+      "title": "Advertisement for the post of Junior Research Fellow (JRF) in Sponsored Project"
+    },
+    {
+      "slug": "lmsredirect",
+      "title": "LMS Links"
+    },
+    {
+      "slug": "loan",
+      "title": "Educational Loans"
+    },
+    {
+      "slug": "magazine",
+      "title": "Magazine"
+    },
+    {
+      "slug": "messageDisplay",
+      "title": "Page Under Construction..."
+    },
+    {
+      "slug": "mindquest",
+      "title": "MIND QUEST"
+    },
+    {
+      "slug": "mou",
+      "title": "Industry Academic Collaboration\nbetween Technolodge, Kakkor P.O, Piravom, Ernakulam"
+    },
+    {
+      "slug": "mou1",
+      "title": "Mou1"
+    },
+    {
+      "slug": "mtech_cyber",
+      "title": "Mtech Cyber"
+    },
+    {
+      "slug": "mtech_home",
+      "title": "Mtech Home"
+    },
+    {
+      "slug": "mtech20aug",
+      "title": "Shortlisted Candidates-M.Tech Admission(2020 August)"
+    },
+    {
+      "slug": "mtech20final",
+      "title": "The following is the selected candidates for M.Tech Admission(2020 August)"
+    },
+    {
+      "slug": "mtech21final",
+      "title": "List of eligible candidates for online exam/interview- M.Tech. January-2021"
+    },
+    {
+      "slug": "mtech21selected",
+      "title": "The following is the selected candidates for M.Tech Admission January-2021"
+    },
+    {
+      "slug": "mtechspot",
+      "title": "Provisional selection list for M.Tech Spot Admission(August-2020 )"
+    },
+    {
+      "slug": "nationalScholarship",
+      "title": "National Scholarship"
+    },
+    {
+      "slug": "nirf_home",
+      "title": "NIRF Reports"
+    },
+    {
+      "slug": "phd_home",
+      "title": "Doctor of Philosophy (PhD)"
+    },
+    {
+      "slug": "phd2021info",
+      "title": "Information Related To PhD Admission 2021"
+    },
+    {
+      "slug": "phd20select",
+      "title": "Selected List for PhD Admission(2020-August)"
+    },
+    {
+      "slug": "phdII",
+      "title": "List of candidate selected for the IInd round interview against the PhD admission 2020"
+    },
+    {
+      "slug": "reach",
+      "title": "Reaching IIIT Kottayam Permanent Campus"
+    },
+    {
+      "slug": "recruitment_staff_2025",
+      "title": "Recruitment Staff 2025"
+    },
+    {
+      "slug": "Research",
+      "title": "International Yoga Day"
+    },
+    {
+      "slug": "researchActivities",
+      "title": "Research and Training Events"
+    },
+    {
+      "slug": "researchGroups",
+      "title": "Research Groups"
+    },
+    {
+      "slug": "researchProject",
+      "title": "Funding for Research Projects"
+    },
+    {
+      "slug": "researchPublication",
+      "title": "FACULTY RESEARCH PUBLICATIONS"
+    },
+    {
+      "slug": "rti",
+      "title": "RTI"
+    },
+    {
+      "slug": "scholarship",
+      "title": "Scholarship"
+    },
+    {
+      "slug": "sitemap",
+      "title": "Site Map"
+    },
+    {
+      "slug": "socialClub",
+      "title": "Trendles Club"
+    },
+    {
+      "slug": "sportsClub",
+      "title": "Sports Club"
+    },
+    {
+      "slug": "studentPublication",
+      "title": "B.Tech Student’s Research Contributions"
+    },
+    {
+      "slug": "studMess",
+      "title": "Student Co-operative Mess"
+    },
+    {
+      "slug": "webinar",
+      "title": "Webinar Series-2020"
+    },
+    {
+      "slug": "whyIIITK",
+      "title": "Academic Excellence"
+    }
+  ]
+}

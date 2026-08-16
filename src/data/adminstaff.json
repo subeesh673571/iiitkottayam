@@ -1,0 +1,179 @@
+{
+  "$schema": "./_schema/adminstaff.json",
+  "_help": [
+    "Staff listing for the adminstaff page.",
+    "Each person: name, designation, optional area (research interests),",
+    "contact (email/phone/room) and photo (file name under /data/images/)."
+  ],
+  "items": [
+    {
+      "name": "Mr. Manoj Kumar S",
+      "photo": "Manoj Kumar S-DR.jpeg",
+      "designation": [
+        "Deputy Registrar(Gen. Admin.)"
+      ],
+      "contact": {
+        "email": "dr_ga at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202200"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Malini R",
+      "photo": "malini.jpeg",
+      "designation": [
+        "Assistant Registrar(Accounts & Finance)"
+      ],
+      "contact": {
+        "email": "ar_fa at iiitkottayam dot ac.in/jao@iiitkottayam.ac.in",
+        "phone": [
+          "+91 0482-2202100"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Binu S",
+      "photo": "Binu. S.jpg",
+      "designation": [
+        "Assistant Registrar(Gen. Admin./Acad. Affairs)"
+      ],
+      "contact": {
+        "email": "ar_ga at iiitkottayam dot ac.in/ar_academics@iiitkottayam.ac.in",
+        "phone": [
+          "+91 0482-2202101/31"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Sumangali K R",
+      "photo": "sumangaly.jpeg",
+      "designation": [
+        "Administrative Officer (Academics)"
+      ],
+      "contact": {
+        "email": "jsacademics at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202135"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Aneetta P Joseph",
+      "photo": "4fbd0d7e682ba5b7bef920b5f03c1754.jpg",
+      "designation": [
+        "Junior Assistant(General Admin)"
+      ],
+      "contact": {
+        "email": "aneettapjoseph at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202136"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Reshma Sharafudeen",
+      "photo": "reshmasharf1.jpg",
+      "designation": [
+        "Junior Assistant(General Admin)"
+      ],
+      "contact": {
+        "email": "reshmasharaf at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202134"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Vysakh Ashok",
+      "photo": "VysakhAshok.JPEG",
+      "designation": [
+        "Junior Assistant(General Admin)"
+      ],
+      "contact": {
+        "email": "vysakh at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202138"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Sandhya B",
+      "photo": "Sandhya B.jpg",
+      "designation": [
+        "Junior Assistant(PG Academics)"
+      ],
+      "contact": {
+        "email": "sandhyab at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202140"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Vishnupriya G",
+      "photo": "Vishnu Priya G .jpg",
+      "designation": [
+        "Junior Assistant(Accounts & Finance)"
+      ],
+      "contact": {
+        "email": "vishnupriya at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202103"
+        ]
+      }
+    },
+    {
+      "name": "Ms. Bhagyalekshmi H",
+      "photo": "bhagyalakshmiH.jpg",
+      "designation": [
+        "Junior Assistant(Accounts & Finance)"
+      ],
+      "contact": {
+        "email": "bhagyalekshmih at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202102"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Sumith A T",
+      "photo": "Sumith A T.jpg",
+      "designation": [
+        "Junior Superintendent (Library)"
+      ],
+      "contact": {
+        "email": "sumithat at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202104"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Aravindan S",
+      "photo": "so.jpg",
+      "designation": [
+        "Security Officer"
+      ],
+      "contact": {
+        "email": "so at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202110/2109"
+        ]
+      }
+    },
+    {
+      "name": "Mr. Padmakumar T V",
+      "photo": "hostel manager.jpg",
+      "designation": [
+        "Hostel Manager"
+      ],
+      "contact": {
+        "email": "hostel_manager at iiitkottayam dot ac.in",
+        "phone": [
+          "+91 0482-2202148/6295662931"
+        ]
+      }
+    }
+  ]
+}
