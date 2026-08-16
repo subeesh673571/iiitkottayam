@@ -7,9 +7,6 @@ Everything you will normally do — posting a notice, adding a staff member,
 swapping a PDF, putting up a new banner — is editing a **JSON** file and saving
 it. There is no programming involved.
 
-> The same handbook is also a web page, which is easier to read and to send to
-> someone: <https://claude.ai/code/artifact/72f3e8f2-2ba2-4d35-adc1-7ea95a4b9bfc>
-> Its source is `doc/handbook.html`. If you change one, change the other.
 
 ---
 

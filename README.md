@@ -13,7 +13,6 @@ Two companion documents:
   route map, data layer, styling system, verification tooling and gotchas.
 - **[../doc/handbook.html](../doc/handbook.html)** — EDITING.md as a web page,
   for handing to someone who will not open a repository. Published at
-  <https://claude.ai/code/artifact/72f3e8f2-2ba2-4d35-adc1-7ea95a4b9bfc>;
   see [../doc/README.md](../doc/README.md). Keep it in step with EDITING.md.
 
 

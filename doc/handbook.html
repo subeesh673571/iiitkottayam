@@ -1,0 +1,911 @@
+<title>IIIT Kottayam Site Handbook</title>
+
+<style>
+  /* ---------------------------------------------------------------- tokens */
+  :root {
+    --ground: #f7f8fa;
+    --surface: #ffffff;
+    --sunken: #eef1f5;
+    --ink: #12212f;
+    --muted: #5a6b7a;
+    --rule: #dbe2ea;
+    --green: #2f7d3d;
+    --blue: #2b6cb8;
+    --amber: #9a6512;
+    --amber-bg: #fdf6e7;
+    --red: #b3382a;
+    --red-bg: #fdf0ee;
+    --green-bg: #eef7ef;
+    --on-green: #ffffff;
+
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+    --measure: 68ch;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0e1620;
+      --surface: #16212e;
+      --sunken: #1d2b3a;
+      --ink: #e6edf3;
+      --muted: #9aabba;
+      --rule: #2a3a4b;
+      --green: #5fc873;
+      --blue: #7fb3ee;
+      --amber: #dda94a;
+      --amber-bg: #2a2313;
+      --red: #ec8175;
+      --red-bg: #2c1a18;
+      --green-bg: #14261a;
+      --on-green: #0e1620;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #0e1620;
+    --surface: #16212e;
+    --sunken: #1d2b3a;
+    --ink: #e6edf3;
+    --muted: #9aabba;
+    --rule: #2a3a4b;
+    --green: #5fc873;
+    --blue: #7fb3ee;
+    --amber: #dda94a;
+    --amber-bg: #2a2313;
+    --red: #ec8175;
+    --red-bg: #2c1a18;
+    --green-bg: #14261a;
+    --on-green: #0e1620;
+  }
+
+  /* ----------------------------------------------------------------- base */
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .ui { font-family: var(--sans); text-wrap: balance; }
+
+  h1 {
+    font-size: clamp(1.9rem, 1.3rem + 2.2vw, 2.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.021em;
+    font-weight: 640;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.42rem;
+    letter-spacing: -0.014em;
+    font-weight: 620;
+    margin: 3.25rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  h3 {
+    font-size: 1.06rem;
+    letter-spacing: -0.006em;
+    font-weight: 620;
+    margin: 2.25rem 0 0;
+  }
+  p { margin: 0.85rem 0 0; }
+  a { color: var(--blue); text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  strong { font-weight: 680; }
+
+  code {
+    font-family: var(--mono);
+    font-size: 0.875em;
+    background: var(--sunken);
+    padding: 0.12em 0.38em;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+  }
+  pre {
+    font-family: var(--mono);
+    background: var(--sunken);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    margin: 1rem 0 0;
+    overflow-x: auto;
+    font-size: 0.875rem;
+    line-height: 1.55;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+
+  /* --------------------------------------------------------------- layout */
+  .page {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1.5rem 6rem;
+  }
+
+  header.masthead {
+    padding: 3.5rem 0 2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 0.76rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 620;
+    color: var(--green);
+    margin: 0 0 0.7rem;
+  }
+  .standfirst {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: var(--measure);
+    margin-top: 0.9rem;
+  }
+
+  .shell {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 3.5rem;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .shell { grid-template-columns: 1fr; gap: 0; }
+    nav.toc { position: static; margin-top: 2rem; }
+  }
+
+  nav.toc {
+    position: sticky;
+    top: 2rem;
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    padding-top: 3rem;
+  }
+  nav.toc p {
+    margin: 0 0 0.6rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 620;
+    color: var(--muted);
+  }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.44rem; }
+  nav.toc a { color: var(--muted); text-decoration: none; display: block; }
+  nav.toc a:hover { color: var(--ink); }
+
+  main { min-width: 0; max-width: var(--measure); }
+
+  /* ------------------------------------------------------------ callouts */
+  .note {
+    margin: 1.5rem 0 0;
+    padding: 1rem 1.15rem;
+    border-radius: 8px;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+  }
+  .note > :first-child { margin-top: 0; }
+  .note.safe { background: var(--green-bg); border-color: color-mix(in srgb, var(--green) 34%, transparent); }
+  .note.warn { background: var(--amber-bg); border-color: color-mix(in srgb, var(--amber) 40%, transparent); }
+  .note.stop { background: var(--red-bg); border-color: color-mix(in srgb, var(--red) 36%, transparent); }
+  .note .label {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 660;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+  .note.safe .label { color: var(--green); }
+  .note.warn .label { color: var(--amber); }
+  .note.stop .label { color: var(--red); }
+
+  /* --------------------------------------------------------------- tables */
+  .scroll { overflow-x: auto; margin: 1.15rem 0 0; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.85rem 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    font-weight: 640;
+    font-size: 0.74rem;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom-color: var(--ink);
+  }
+  td:first-child { padding-right: 1.5rem; }
+  table code { white-space: nowrap; }
+  .num { font-variant-numeric: tabular-nums; text-align: center; width: 4.5rem; padding-right: 0.85rem; }
+
+  /* ------------------------------------------------------------ commands */
+  .commands { display: grid; gap: 0.7rem; margin: 1.35rem 0 0; }
+  .cmd {
+    display: grid;
+    grid-template-columns: minmax(0, auto) minmax(0, 1fr);
+    gap: 0.35rem 1.1rem;
+    align-items: baseline;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--green);
+    border-radius: 7px;
+    padding: 0.8rem 1rem;
+  }
+  .cmd b {
+    font-family: var(--mono);
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .cmd span { font-size: 0.94rem; color: var(--muted); }
+  @media (max-width: 560px) {
+    .cmd { grid-template-columns: 1fr; }
+  }
+
+  /* --------------------------------------------------------------- steps */
+  ol.steps { counter-reset: step; list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 1rem; }
+  ol.steps > li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 2.4rem;
+    /* grid items default to min-width:auto, so a wide code block inside a
+       step would otherwise stretch the whole page sideways */
+    min-width: 0;
+  }
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0.06em;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 50%;
+    background: var(--green);
+    color: var(--on-green);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 640;
+    display: grid;
+    place-items: center;
+    font-variant-numeric: tabular-nums;
+  }
+  ol.steps > li > :first-child { margin-top: 0; }
+
+  ul { margin: 0.85rem 0 0; padding-left: 1.15rem; }
+  li { margin: 0.3rem 0; }
+
+  .lede { color: var(--muted); }
+
+  footer.end {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+  html { scroll-behavior: smooth; }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Website upkeep</p>
+    <h1>Looking after the IIIT&nbsp;Kottayam website</h1>
+    <p class="standfirst">
+      Everything you will normally do — posting a notice, adding a staff member,
+      swapping a PDF, putting up a new banner — is editing a JSON file and
+      saving it. There is no programming involved.
+    </p>
+  </header>
+
+  <div class="shell">
+
+    <nav class="toc" aria-label="Contents">
+      <p>Contents</p>
+      <ol>
+        <li><a href="#reassuring">What you can break</a></li>
+        <li><a href="#setup">Setting up, once</a></li>
+        <li><a href="#commands">The three commands</a></li>
+        <li><a href="#where">Where things live</a></li>
+        <li><a href="#shape">What a file looks like</a></li>
+        <li><a href="#rules">Four rules</a></li>
+        <li><a href="#jobs">How to do a job</a></li>
+        <li><a href="#wrong">When it goes wrong</a></li>
+        <li><a href="#glossary">Glossary</a></li>
+      </ol>
+    </nav>
+
+    <main>
+
+      <h2 id="reassuring">First, the reassuring part</h2>
+
+      <div class="note safe">
+        <span class="label">You cannot break the live website from here</span>
+        <p>
+          The website people visit is a <em>copy</em>. The files on this computer
+          are the original. Changing a file here does nothing to the live site
+          until someone deliberately uploads the new version. Until then you can
+          experiment freely.
+        </p>
+      </div>
+
+      <p>
+        <strong>The computer checks your work before anything is published.</strong>
+        If you make a typing mistake, a check runs automatically and refuses to
+        publish, telling you which file and which line to look at. A mistake
+        means “try again”, not “the website is down”.
+      </p>
+
+      <p>
+        <strong>Your editor checks it too, as you type.</strong> Every list on the
+        site comes with a description of the fields it is allowed to contain, so
+        VS Code completes field names for you, explains what each one does when
+        you hover over it, and underlines a mistake in red the moment you make
+        it — long before you run anything.
+      </p>
+
+      <div class="note warn">
+        <span class="label">The one thing worth pausing over</span>
+        <p>
+          Deleting files from the <code>public</code> folder. That is where every
+          photo and PDF the website has ever used is stored. Adding is always
+          safe; deleting is the thing to think twice about.
+        </p>
+      </div>
+
+      <h2 id="setup">Setting up, once</h2>
+      <p class="lede">
+        Two free programs. Install them once and never think about them again.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <p><strong>Node.js</strong> — go to <a href="https://nodejs.org/">nodejs.org</a>
+          and download the version marked <strong>LTS</strong>. Install it,
+          accepting all the default options.</p>
+        </li>
+        <li>
+          <p><strong>Visual Studio Code</strong> —
+          <a href="https://code.visualstudio.com/">code.visualstudio.com</a>.
+          Any text editor works, but this one understands the site's files and
+          catches your mistakes as you type. That is worth a lot.</p>
+        </li>
+        <li>
+          <p>Open the <code>site</code> folder in VS Code:
+          <em>File → Open Folder</em>.</p>
+        </li>
+      </ol>
+
+      <div class="note safe">
+        <span class="label">There is nothing to install</span>
+        <p>
+          The website is built with nothing but Node.js itself — no add-ons, no
+          downloads, no waiting. If you used the older version of this handbook,
+          the <code>npm install</code> step is gone and is no longer needed.
+        </p>
+      </div>
+
+      <h2 id="commands">The three commands</h2>
+      <p class="lede">
+        These are the only commands you need. Type them in the terminal, in the
+        <code>site</code> folder. In VS Code, <em>Terminal → New Terminal</em>
+        opens one in the right place already.
+      </p>
+
+      <div class="commands">
+        <div class="cmd"><b>npm start</b><span>See the website on your own computer</span></div>
+        <div class="cmd"><b>npm run check</b><span>Check your files for mistakes</span></div>
+        <div class="cmd"><b>npm run build</b><span>Prepare the finished website for uploading</span></div>
+      </div>
+
+      <h3>Seeing your changes</h3>
+      <p>
+        Run <code>npm start</code> and wait for it to print a web address —
+        <code>http://localhost:4321</code>. Open that in your browser. This is
+        the website running on your own computer; nobody else can see it.
+      </p>
+      <p>
+        Leave that terminal open while you work. Every time you save a file the
+        site rebuilds itself in about half a second — refresh the page in the
+        browser to see it. When you are finished, click the terminal and press
+        <strong>Ctrl+C</strong> to stop.
+      </p>
+
+      <h3>Checking your work</h3>
+      <p>
+        <code>npm run check</code> reads every content file and tells you about
+        two kinds of problem.
+      </p>
+
+      <div class="note stop">
+        <span class="label">✗ Must fix</span>
+        <p>
+          A file has a typing mistake, and the website cannot be built until it
+          is corrected. The message names the file, the line and the character,
+          and says what the mistake actually is.
+        </p>
+      </div>
+
+      <div class="note warn">
+        <span class="label">! Worth a look</span>
+        <p>
+          Something points at a photo or PDF that is not there. The website still
+          works; that one link just will not open. Some of these were already
+          missing on the old website, so they may need to be requested from the
+          office rather than fixed here.
+        </p>
+      </div>
+
+      <h3>Publishing</h3>
+      <p>
+        <code>npm run build</code> runs the check first and stops if there is
+        anything that must be fixed. When it succeeds it creates a folder called
+        <code>dist</code> — that folder <em>is</em> the website. Hand it to
+        whoever manages the server, or ask them to run <code>deploy.sh</code>.
+      </p>
+
+      <h2 id="where">Where everything lives</h2>
+      <p class="lede">
+        Two folders matter. Everything else you can ignore.
+      </p>
+
+      <h3><code>src/data</code> — the lists</h3>
+      <p>
+        Files ending in <code>.json</code>. These hold anything that appears as a
+        list: menus, news, staff, tenders, events.
+      </p>
+
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr><th>What you want to change</th><th>File</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>The menu across the top</td><td><code>nav.json</code></td></tr>
+            <tr><td>The footer links at the bottom</td><td><code>footer.json</code></td></tr>
+            <tr><td>Logo, popup, institute name</td><td><code>site.json</code></td></tr>
+            <tr><td>Homepage banner slideshow</td><td><code>slides.json</code></td></tr>
+            <tr><td>Homepage — scrolling red notice, lab logos, virtual tours</td><td><code>home.json</code></td></tr>
+            <tr><td>“Latest News” box on the homepage</td><td><code>news.json</code></td></tr>
+            <tr><td>“Meet the Faculty” panel on the homepage</td><td><code>faculty.json</code></td></tr>
+            <tr><td>“Research Publication” panel on the homepage</td><td><code>publications.json</code></td></tr>
+            <tr><td>The full News page</td><td><code>news_full.json</code></td></tr>
+            <tr><td>Events box on the homepage</td><td><code>events.json</code></td></tr>
+            <tr><td>The full Events page</td><td><code>events_full.json</code></td></tr>
+            <tr><td>Faculty</td><td><code>faculty_full.json</code></td></tr>
+            <tr><td>Administration</td><td><code>administration.json</code></td></tr>
+            <tr><td>Administrative Staff</td><td><code>adminstaff.json</code></td></tr>
+            <tr><td>Head of Department</td><td><code>dept_head.json</code></td></tr>
+            <tr><td>Technical Staff</td><td><code>technical.json</code></td></tr>
+            <tr><td>Professional Support Staff</td><td><code>professional.json</code></td></tr>
+            <tr><td>Faculty In-Charge</td><td><code>faculty_incharge.json</code></td></tr>
+            <tr><td>B.Tech students</td><td><code>btech_students.json</code></td></tr>
+            <tr><td>M.Tech / iM.Tech / e-M.Tech students</td><td><code>mtech_students.json</code>, <code>imtech_students.json</code>, <code>emtech_students.json</code></td></tr>
+            <tr><td>Research Scholars</td><td><code>research_scholars.json</code></td></tr>
+            <tr><td>Tenders</td><td><code>tenders.json</code></td></tr>
+            <tr><td>Career / job openings</td><td><code>careers.json</code></td></tr>
+            <tr><td>Recruiters on the Placement page</td><td><code>recruiters.json</code></td></tr>
+            <tr><td>Press coverage (@Media)</td><td><code>media.json</code></td></tr>
+            <tr><td>Titles of the ordinary pages</td><td><code>pages.json</code></td></tr>
+            <tr><td>Titles of the staff profile pages</td><td><code>faculty_pages.json</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Ignore the <code>_schema</code> folder inside <code>src/data</code>. That
+        is what tells VS Code how to help you. It is generated, and there is
+        nothing in it to edit.
+      </p>
+
+      <h3><code>src/content</code> — the written pages</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Folder</th><th>Holds</th></tr></thead>
+          <tbody>
+            <tr><td><code>content/home/</code></td><td>The Welcome, Vision and Mission paragraphs</td></tr>
+            <tr><td><code>content/pages/</code></td><td>The wording of ordinary pages — RTI, Academics, Scholarship…</td></tr>
+            <tr><td><code>content/faculty/</code></td><td>Each staff member's own profile page</td></tr>
+            <tr><td><code>content/campus/</code></td><td>The Hostel, Sports, Medical and other facilities tabs</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3><code>public/data</code> — photos and PDFs</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Put this here</th><th>Folder</th></tr></thead>
+          <tbody>
+            <tr><td>Notices, results, tender documents (PDF)</td><td><code>public/data/pdf/</code></td></tr>
+            <tr><td>Homepage and slideshow pictures</td><td><code>public/data/images/home/</code></td></tr>
+            <tr><td>Event photos</td><td><code>public/data/images/events/</code></td></tr>
+            <tr><td>Staff portraits</td><td><code>public/data/images/</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="shape">What a data file looks like</h2>
+      <p class="lede">
+        Every file in <code>src/data</code> has the same three parts.
+      </p>
+
+      <pre><code>{
+  "$schema": "./_schema/news.json",
+  "_help": [
+    "Newest item at the top.",
+    "new: true shows the animated NEW badge"
+  ],
+  "items": [
+    { "text": "UG Admission 2026 Updates", "link": "/admission26", "new": true },
+    { "text": "Convocation notice", "link": "/data/pdf/convo.pdf", "new": false }
+  ]
+}</code></pre>
+
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Part</th><th>What to do with it</th></tr></thead>
+          <tbody>
+            <tr><td><code>$schema</code></td><td>Leave it alone. It is what makes VS Code help you.</td></tr>
+            <tr><td><code>_help</code></td><td>Notes to yourself. Read them; the website ignores them. Add to them freely.</td></tr>
+            <tr><td><code>items</code></td><td>The actual content. This is what you edit.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        A few files hold settings rather than a list — <code>site.json</code>,
+        <code>home.json</code>, <code>footer.json</code> — and those have named
+        sections instead of <code>items</code>. The <code>_help</code> at the top
+        of each one explains its sections.
+      </p>
+
+      <h2 id="rules">Four rules that prevent almost every mistake</h2>
+
+      <h3>1. Copy an existing entry, then change it</h3>
+      <p>
+        Never type a new one from scratch. The shape is then always right.
+      </p>
+
+      <h3>2. Commas between entries, never after the last one</h3>
+      <p>
+        This is the single most common mistake, and the one the check catches
+        most often.
+      </p>
+      <pre><code>"items": [
+  { "text": "First" },      ← comma, because another entry follows
+  { "text": "Second" }      ← NO comma, because this is the last one
+]</code></pre>
+
+      <h3>3. Every piece of text goes in double quotes</h3>
+      <p>
+        <code>"like this"</code>. Numbers (<code>170</code>) and the words
+        <code>true</code> and <code>false</code> do not.
+      </p>
+
+      <h3>4. If the text itself contains a double quote, put a backslash before it</h3>
+      <pre><code>"text": "The \"Gyaan\" laboratory"</code></pre>
+
+      <div class="note safe">
+        <span class="label">All four are caught for you</span>
+        <p>
+          VS Code underlines every one of these in red as you type, and
+          <code>npm run check</code> catches them before anything is published.
+          You do not have to spot them yourself.
+        </p>
+      </div>
+
+      <h2 id="jobs">How to do the common jobs</h2>
+
+      <h3>Post a news item</h3>
+      <p>
+        Open <code>src/data/news_full.json</code> for the News page, or
+        <code>src/data/news.json</code> for the box on the homepage.
+        <strong>The newest item goes at the top of <code>items</code>.</strong>
+        Copy an entry and edit it:
+      </p>
+      <pre><code>{
+  "text": "Notice regarding the December examination timetable",
+  "link": "/data/pdf/exam-timetable-dec.pdf",
+  "new": true
+}</code></pre>
+      <ul>
+        <li><code>text</code> — the headline people click</li>
+        <li><code>link</code> — the PDF you uploaded, or a page such as <code>/placement</code></li>
+        <li><code>new</code> — <code>true</code> shows the animated <strong>NEW</strong> badge, <code>false</code> hides it</li>
+      </ul>
+      <p>
+        To remove an item, delete it from its opening <code>{</code> to its
+        closing <code>}</code>, then check the commas between what remains.
+      </p>
+
+      <h3>Add a photo or a PDF</h3>
+      <ol class="steps">
+        <li>
+          <p>Put the file in the right folder — see the table above. PDFs go in
+          <code>public/data/pdf/</code>.</p>
+        </li>
+        <li>
+          <p>Refer to it starting with <code>/data/</code>, and
+          <strong>leave out the word <code>public</code></strong>.</p>
+          <pre><code>saved at   public/data/pdf/notice.pdf
+written as         "/data/pdf/notice.pdf"</code></pre>
+        </li>
+      </ol>
+      <p>
+        <strong>Use names without spaces</strong> — <code>exam-timetable.pdf</code>,
+        not <code>exam timetable.pdf</code>. Both work, but names without spaces
+        cause far fewer headaches later. Capital letters matter:
+        <code>Notice.pdf</code> and <code>notice.pdf</code> are different files.
+      </p>
+
+      <h3>Add or update a staff member</h3>
+      <p>
+        Open the right file from the table — <code>faculty_full.json</code> for
+        teaching staff. Copy an existing person and edit:
+      </p>
+      <pre><code>{
+  "name": "Dr. Example Name",
+  "designation": "Assistant Professor",
+  "photo": "example.jpg",
+  "area": ["Machine Learning", "Computer Vision"],
+  "contact": {
+    "email": "example at iiitkottayam dot ac.in",
+    "phone": "0482-2202100",
+    "room": "AC 301"
+  }
+}</code></pre>
+      <p>
+        Upload the portrait to <code>public/data/images/</code> first. Here
+        <code>photo</code> is just the file name, with no folder in front of it.
+      </p>
+      <div class="note">
+        <span class="label">Keep the email style</span>
+        <p>
+          Addresses are written as
+          <code>name at iiitkottayam dot ac.in</code> on purpose — it is how the
+          site stops spam robots collecting them.
+        </p>
+      </div>
+      <p>To remove someone, delete their whole entry, from <code>{</code> to <code>}</code>.</p>
+
+      <h3>Change the homepage slideshow</h3>
+      <p>Open <code>src/data/slides.json</code>. The top entry appears first.</p>
+      <pre><code>{
+  "image": "/data/images/home/convocation-2027.jpg",
+  "caption": "8th Convocation",
+  "link": ""
+}</code></pre>
+      <p>
+        Use a <strong>wide</strong> picture, roughly 1150 × 400 pixels. A tall
+        photo will be cropped top and bottom. Leave <code>"caption": ""</code>
+        for a slide with no text over it, and <code>"link": ""</code> if clicking
+        it should do nothing.
+      </p>
+
+      <h3>Update a tender</h3>
+      <p>
+        Open <code>src/data/tenders.json</code>. The <code>status</code> number
+        decides which tab it shows under.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th class="num">status</th><th>Appears under</th></tr></thead>
+          <tbody>
+            <tr><td class="num"><code>1</code></td><td>Live Tenders</td></tr>
+            <tr><td class="num"><code>2</code></td><td>Closed Tenders</td></tr>
+            <tr><td class="num"><code>3</code></td><td>Cancelled Tenders</td></tr>
+            <tr><td class="num"><code>0</code></td><td>Nowhere at all</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <span class="label">15 tenders are currently invisible</span>
+        <p>
+          They carry <code>"status": 0</code>, which shows nowhere. The old
+          website behaved the same way, so this is not new — but if one of those
+          should be visible, change its number to 1, 2 or 3.
+        </p>
+      </div>
+
+      <h3>Add a new student batch</h3>
+      <p>
+        Open the matching students file. Each batch is a short key followed by
+        the names. Copy the newest block and change the key:
+      </p>
+      <pre><code>"b27": [
+  "First Student",
+  "Second Student"
+]</code></pre>
+      <p>
+        The tab label is worked out from the key, so <code>b27</code> becomes
+        “2027 Batch” automatically.
+      </p>
+
+      <h3>Change the scrolling red notice</h3>
+      <p>
+        Open <code>src/data/home.json</code> and find the <code>"marquee"</code>
+        section. To remove the scrolling notice entirely, leave it empty:
+        <code>"marquee": []</code>.
+      </p>
+
+      <h3>Change the popup that appears on arrival</h3>
+      <p>
+        Open <code>src/data/site.json</code>, find <code>"popup"</code>, and
+        change one word to switch it off:
+      </p>
+      <pre><code>"popup": {
+  "enabled": false
+}</code></pre>
+
+      <h3>Change a menu item</h3>
+      <p>
+        Open <code>src/data/nav.json</code>. Each entry has a <code>label</code>
+        (what people see) and either a <code>link</code> or a list of
+        <code>children</code> for a drop-down. To reorder the menu, move a whole
+        entry up or down inside <code>items</code>.
+      </p>
+
+      <h3>Change the wording on an ordinary page</h3>
+      <p>
+        Pages such as RTI and Academics are files in
+        <code>src/content/pages/</code>, named after the page — <code>/rti</code>
+        is <code>src/content/pages/rti.html</code>. These contain tags in angle
+        brackets. <strong>Change the words, leave the tags alone:</strong>
+      </p>
+      <pre><code>&lt;li&gt;&lt;a href="/data/pdf/PIO-IIITK.pdf"&gt;Public Information Officer&lt;/a&gt;&lt;/li&gt;</code></pre>
+      <p>
+        Here you would change <code>Public Information Officer</code>, which is
+        what people read, or <code>/data/pdf/PIO-IIITK.pdf</code>, which is the
+        file it opens. Leave <code>&lt;li&gt;</code>, <code>&lt;a href=</code>
+        and <code>&lt;/a&gt;</code> exactly as they are.
+      </p>
+      <p>
+        To change the title shown in the browser tab, edit
+        <code>pages.json</code>.
+      </p>
+
+      <h3>Change the Welcome, Vision or Mission text</h3>
+      <p>
+        Open the matching file in <code>src/content/home/</code>. Each paragraph
+        is wrapped in <code>&lt;p&gt;…&lt;/p&gt;</code> and each bullet point in
+        <code>&lt;li&gt;…&lt;/li&gt;</code>. Change the words between the tags and
+        leave the tags themselves alone.
+      </p>
+      <p>
+        The headings above them — “Vision”, “Mission” — are in
+        <code>src/data/home.json</code>, under <code>"headings"</code>.
+      </p>
+
+      <h2 id="wrong">When something goes wrong</h2>
+      <p class="lede">
+        Run <code>npm run check</code>. It names the file, the line and the
+        character. These are the messages you are most likely to see.
+      </p>
+
+      <div class="scroll">
+        <table>
+          <thead><tr><th>The message says</th><th>What it means</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><code>Expected ':' after property name</code></td>
+              <td>A field name is missing the colon after it. It should read <code>"name": "value"</code>.</td>
+            </tr>
+            <tr>
+              <td><code>Expected ',' or '}'</code></td>
+              <td>A comma is missing between two entries.</td>
+            </tr>
+            <tr>
+              <td><code>Expected double-quoted property name</code></td>
+              <td>Usually a comma left after the <em>last</em> entry in a list. The last one must not have one.</td>
+            </tr>
+            <tr>
+              <td><code>Unterminated string</code></td>
+              <td>A piece of text was opened with a <code>"</code> and never closed.</td>
+            </tr>
+            <tr>
+              <td><code>Unexpected end of JSON input</code></td>
+              <td>A bracket or brace was opened and never closed. Look at the end of the file.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>A photo does not appear</h3>
+      <p>Check three things:</p>
+      <ul>
+        <li>the file really is in <code>public/data/images/</code></li>
+        <li>the spelling matches exactly, including capital letters</li>
+        <li>there is no stray space inside the quotes</li>
+      </ul>
+
+      <h3>A field name has a red squiggle under it</h3>
+      <p>
+        That field is not one this file supports — usually a spelling slip,
+        <code>titel</code> for <code>title</code>. Hover over it to see what is
+        expected.
+      </p>
+
+      <h3>The page looks completely wrong</h3>
+      <p>
+        You have probably deleted a tag by accident in one of the
+        <code>.html</code> files. Undo your changes (Ctrl+Z) until it looks right
+        again.
+      </p>
+
+      <div class="note safe">
+        <span class="label">If you are truly stuck</span>
+        <p>
+          Close the file without saving. Nothing you have done can reach the live
+          website, so abandoning an edit is always safe.
+        </p>
+      </div>
+
+      <h2 id="glossary">A small glossary</h2>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Word</th><th>What it means here</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Terminal</strong> / command prompt</td><td>The window where you type the three commands</td></tr>
+            <tr><td><strong>JSON</strong></td><td>The kind of file the lists are kept in — the ones ending <code>.json</code></td></tr>
+            <tr><td><strong>HTML</strong></td><td>The kind of file page wording is kept in — angle-bracket tags</td></tr>
+            <tr><td><strong>Schema</strong></td><td>The hidden file that teaches VS Code which fields a data file may have</td></tr>
+            <tr><td><strong>Build</strong></td><td>Turning your text files into the finished website</td></tr>
+            <tr><td><strong>Deploy</strong> / publish</td><td>Uploading the finished website to the server</td></tr>
+            <tr><td><code>dist</code> <strong>folder</strong></td><td>The finished website, created by <code>npm run build</code></td></tr>
+            <tr><td><code>public</code> <strong>folder</strong></td><td>Where every photo and PDF is stored</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="developer">Handing over to a developer</h2>
+      <p class="lede">
+        Some things are deliberately not in this handbook because they need
+        someone technical. For any of these, <code>README.md</code> in the
+        <code>site</code> folder is written for them.
+      </p>
+      <ul>
+        <li>adding a completely new kind of page</li>
+        <li>changing colours, fonts or layout</li>
+        <li>adding a brand new field to a data file — the schema has to learn about it</li>
+        <li>uploading the finished site to the server for the first time</li>
+        <li>the list of files that were already missing from the old website</li>
+      </ul>
+
+      <footer class="end">
+        <p>
+          IIIT Kottayam website — content handbook. The technical companions are
+          <code>README.md</code> (overview and architecture) and
+          <code>DEVELOPMENT.md</code> (the full reference), both in the
+          <code>site</code> folder.
+        </p>
+      </footer>
+
+    </main>
+  </div>
+</div>
